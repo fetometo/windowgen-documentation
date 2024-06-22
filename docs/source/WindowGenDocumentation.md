@@ -138,9 +138,9 @@ parameters, follow these steps:
 
 The generator is divided into the following sections:
 
-  -----------------------------------------------------------------------
+
   **Profile**        Choose from 5 build-in profiles.
-  ------------------ ----------------------------------------------------
+
   **Size**           Adjust the size of your window.
 
   **Window           Customize window features such as centering, sash
@@ -162,7 +162,7 @@ The generator is divided into the following sections:
                      impost.
 
   **Materials**      Assign window materials.
-  -----------------------------------------------------------------------
+
 
 # PARAMETERS
 
@@ -367,17 +367,17 @@ the WindowGen Modifier):
 
 ![](media/image1.png){width="6.5in" height="2.0972222222222223in"}
 
-  -----------------------------------------------------------------------
+
   **UVMaps:** The window includes necessary UVMaps, although there may be
   rotation issues at certain widths due to limitations in controlling UV
   unwrapping in geometry nodes.
-  -----------------------------------------------------------------------
+
   **Spacer Material:** If you wish to change the spacer material, it\'s
   recommended to adjust the existing material to your needs, as it
   contains a custom bump map for a realistic look and helps to reduce
   extra geometry for the spacer.
 
-  -----------------------------------------------------------------------
+
 
 # CUSTOMIZATION
 
@@ -453,16 +453,15 @@ Currently in the work and will be delivered with the next update:
     ![](media/image13.png){width="3.937007874015748in"
     height="3.937007874015748in"}
 
-  -----------------------------------------------------------------------
+
   If you have ideas for new functionalities you\'d like to see
   implemented or specific requirements tailored to your project, please
   don\'t hesitate to reach out to us. We value your feedback and are
   committed to enhancing WindowGen to better suit your needs. Contact us
   to discuss your suggestions or requirements further. We\'re here to
   help! i@mshevchenko.ru
-  -----------------------------------------------------------------------
 
-  -----------------------------------------------------------------------
+
 
 # RELEASES
 
