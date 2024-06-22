@@ -1,10 +1,4 @@
-**WindowGen**
-
-version 1.2
-
-Made by Mikhail Shevchenko
-
-i@mshevchenko.ru
+# WindowGen Documentation
 
 Welcome to WindowGen
 
