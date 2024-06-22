@@ -1,6 +1,3 @@
-![Горизонтальная линия](media/image19.png){width="6.5in"
-height="6.944444444444445e-2in"}
-
 **WindowGen**
 
 version 1.2
