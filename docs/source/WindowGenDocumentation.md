@@ -95,24 +95,25 @@ Supported Blender versions: 3.6+
 
 To incorporate a generator into your Blender scene, follow these steps:
 
-1.  Click on \"File\" in the top left corner.
+1.  Click on "File" in the top left corner.
 
-2.  Select \"Append...\".\
-    ![](media/image23.png)
+2.  Select "Append...".\
+    <img src="media/image23.png" width="213" height="236" />
 
 3.  Navigate to the folder where you saved the .blend file containing
     the generator and double-click on it.
 
 4.  Within the file, navigate to the Collection folder.\
-    ![](media/image7.png)
+    <img src="media/image7.png" width="213" height="179" />
 
-5.  Select \"!GENERATOR (Append Me)\" and click \"Append\" in the bottom
-    right corner.![](media/image25.png)
+5.  Select "!GENERATOR (Append Me)" and click "Append" in the bottom
+    right corner. <img src="media/image25.png" width="468" height="280" />
+
 Your scene should now reflect the changes made by appending the
 generator:\
-![](media/image10.png)
+<img src="media/image10.png" width="468" height="247" />
 
-You can easily disable the \"PROFILES\" and \"FURNITURE\" collections as
+You can easily disable the "PROFILES" and "FURNITURE" collections as
 they include the modeled geometry that is used in the generator such as
 PVC profiles and furniture.
 
@@ -123,40 +124,76 @@ PVC profiles and furniture.
 The generator utilizes the geometry nodes modifier. To adjust
 parameters, follow these steps:
 
-1.  Select the \"!Generator\" object.
+1.  Select the "!Generator" object.
 
 2.  Click on the wrench icon (Modifier Properties) on the right-hand
     side.\
-    ![](media/image22.png)
+    <img src="media/image22.png" width="213" height="224" />
 
 ## Generator structure
 
 The generator is divided into the following sections:
 
 
-  **Profile**        Choose from 5 build-in profiles.
-
-  **Size**           Adjust the size of your window.
-
-  **Window           Customize window features such as centering, sash
-  parameters**       disabling, and instance realization.
-
-  **Rotation         Modify sash rotation.
-  settings**         
-
-  **Handle           Choose handle type, position, and rotation.
-  settings**         
-
-  **Glazing          Select between double or triple glazing.
-  settings**         
-
-  **Impost           Control the presence and attributes of the impost.
-  settings**         
-
-  **Stulp settings** Configure settings for two-sash windows without
-                     impost.
-
-  **Materials**      Assign window materials.
+<div dir="ltr" style="margin-left:0pt;" align="left"><table style="border:none;border-collapse:collapse;">
+<colgroup><col width="165"><col width="469"></colgroup><tbody>
+<tr style="height:18.75pt">
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Profile</span></p>
+</td>
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Choose from 5 build-in profiles.</span></p>
+</td>
+</tr>
+<tr style="height:0pt">
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Size</span></p>
+</td>
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Adjust the size of your window.</span></p>
+</td>
+</tr>
+<tr style="height:0pt">
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Window parameters</span></p>
+</td>
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Customize window features such as centering, sash disabling, and instance realization.</span></p>
+</td>
+</tr>
+<tr style="height:0pt">
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Rotation settings</span></p>
+</td>
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Modify sash rotation.</span></p>
+</td>
+</tr>
+<tr style="height:0pt">
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Handle settings</span></p>
+</td>
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Choose handle, position, and rotation.</span></p>
+</td>
+</tr>
+<tr style="height:0pt">
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Glazing settings</span></p>
+</td>
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Select between double or triple glazing.</span></p>
+</td>
+</tr>
+<tr style="height:0pt">
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Impost settings</span></p>
+</td>
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Control the presence and attributes of the impost.</span></p>
+</td>
+</tr>
+<tr style="height:0pt">
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Stulp settings</span></p>
+</td>
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Configure settings for two-sash windows without impost.</span></p>
+</td>
+</tr>
+<tr style="height:0pt">
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Materials</span></p>
+</td>
+<td style="vertical-align:top;background-color:#f1f3f4;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;"><p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:'Proxima Nova',sans-serif;color:#353744;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Assign window materials.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 
 # PARAMETERS
@@ -167,9 +204,9 @@ This section features a single parameter **Profiles** (it was called
 **System** in previous versions), which allows you to choose a window
 profile. For that select profile from 0 to 4:
 
-![](media/image32.gif)
+<img src="media/image32.gif" width="320" height="320" />
 
-*Note that custom profiles aren\'t currently supported due to
+*Note that custom profiles aren't currently supported due to
 dependencies on specific parameters for hinges, handles, and striker
 plates. Feel free to contact us for specific profile requests.*
 
@@ -189,19 +226,19 @@ frame-only window, and realizing instances.
 
 Positions the window in the center of the geometry bounding box.
 
-![](media/image2.gif)
+<img src="media/image2.gif" width="320" height="320" />
 
 ### **Frame Only**
 
 Disables sashes, leaving only the frame with glass.
 
-![](media/image5.gif)
+<img src="media/image5.gif" width="320" height="320" />
 
 ### **Realize instances**
 
 Converts instances into real geometry.
 
-![](media/image17.gif)
+<img src="media/image17.gif" width="320" height="320" />
 
 ## Rotation Settings
 
@@ -242,7 +279,7 @@ This section includes parameters for handle type, height, and rotation.
 ### **Handle**
 
 Choose from different handle types or add a custom handle. More on that
-[[here]{.underline}](#how-to-add-custom-handle).![](media/image14.gif)
+[[here]{.underline}](#how-to-add-custom-handle).<img src="media/image14.gif" width="320" height="320" />
 
 ### **Custom Handle Height**
 
@@ -251,8 +288,7 @@ Allows to set the height position of the handle manually.
 ### **Handle Height**
 
 Active when the **Custom Handle Height** is turned on. Adjust the
-handle\'s height.![](media/image28.gif)
-
+handle's height.<img src="media/image28.gif" width="320" height="320" />
 ### **Handle Rotation**
 
 Sets the rotation of the handle. When the **Impost** is activated, it
@@ -270,7 +306,7 @@ This section allows you to choose between double or triple glazing.
 ### **Glazing**
 
 Choose between double glazed (0) and triple glazed (1)
-windows:![](media/image27.gif)
+windows:<img src="media/image27.gif" width="320" height="320" />
 
 ## Impost Settings
 
@@ -281,27 +317,28 @@ window frame) and sashes.
 
 Activate or deactivate the impost.
 
-![](media/image29.gif)
+<img src="media/image29.gif" width="320" height="320" />
 
 ### **Left/Right Sash**
 
 Switch between left and right sashes. Only active when **1/2 Sashes** is
 off.
 
-![](media/image6.gif)
+<img src="media/image6.gif" width="320" height="320" />
+
 ###  
 
 ### **1/2 Sashes**
 
 Switch between 1 or 2 sashes:
 
-![](media/image15.gif)
+<img src="media/image15.gif" width="320" height="320" />
 
 ### **Middle Section**
 
 Activate distance between 2 sashes:
 
-![](media/image33.gif)
+<img src="media/image33.gif" width="320" height="320" />
 
 ###  
 
@@ -309,13 +346,15 @@ Activate distance between 2 sashes:
 
 Automatically calculate even space for sashes and impost frame:
 
-![](media/image18.gif)
+<img src="media/image18.gif" width="320" height="320" />
+
 ### **Impost Frame Width**
 
 Sets the width of the impost frame (**Impost Centered** must be **turned
 off**). This both works for 1 and 2 sashes window:
 
-![](media/image20.gif)
+<img src="media/image20.gif" width="320" height="320" />
+
 ##  
 
 ## Stulp Settings
@@ -326,13 +365,13 @@ This section includes parameters for two-sash windows without an impost.
 
 Activate two-sash window without an impost:
 
-![](media/image3.gif)
+<img src="media/image3.gif" width="320" height="320" />
 
 ### **Right/Left**
 
 Switch between right or left leading sash:
 
-![](media/image12.gif)
+<img src="media/image12.gif" width="320" height="320" />
 
 ## Materials
 
@@ -342,19 +381,17 @@ For the materials work correctly for Mapping choose **UV Map** node and
 select UVMap (in some cases **Realize Instances** must be turned on in
 the WindowGen Modifier):
 
-![](media/image1.png)
+<img src="media/image1.png" width="468" height="151" />
 
 
   **UVMaps:** The window includes necessary UVMaps, although there may be
   rotation issues at certain widths due to limitations in controlling UV
   unwrapping in geometry nodes.
 
-  **Spacer Material:** If you wish to change the spacer material, it\'s
+  **Spacer Material:** If you wish to change the spacer material, it's
   recommended to adjust the existing material to your needs, as it
   contains a custom bump map for a realistic look and helps to reduce
   extra geometry for the spacer.
-
-
 
 # CUSTOMIZATION
 
@@ -362,23 +399,23 @@ the WindowGen Modifier):
 
 To add custom handle, follow these steps:
 
-1.  Temporarily disable Generator in the viewport. Activate \"HANDLES\"
-    collection inside \"FURNITURE\" collection:
+1.  Temporarily disable Generator in the viewport. Activate "HANDLES"
+    collection inside "FURNITURE" collection:
 
-> ![](media/image9.gif)
+> <img src="media/image9.gif" width="320" height="320" />
 
-2.  Import your custom handle to the \"HANDLES\" collection.\
+2.  Import your custom handle to the "HANDLES" collection.\
     *Note that your custom handle must be comparable in sizes to the
     other handles in the collection*:\
-    ![](media/image26.gif)
+    <img src="media/image26.gif" width="320" height="320" />
 
 3.  Position your handle to the World Origin:\
-    ![](media/image31.gif)
+    <img src="media/image31.gif" width="320" height="320" />
 
 4.  Navigate to the Right orthographic view, for that press 3 on your
-    Numpad or press \~ on your keyboard and choose **Right**, as it is
+    Numpad or press ~ on your keyboard and choose **Right**, as it is
     shown below:\
-    ![](media/image30.gif)\
+    <img src="media/image30.gif" width="320" height="320" />\
     *Note that your handle must be oriented the same way as it is
     oriented in the example above. **Press Ctrl+A to apply Scale and
     Rotation**.*
@@ -388,13 +425,13 @@ To add custom handle, follow these steps:
     appropriately set. Adhering to these guidelines is crucial for
     preventing clipping issues with window geometry and ensuring the
     correct rotation of the handle.\
-    ![](media/image8.png)
+    <img src="media/image8.png" width="320" height="320" />
 
 6.  In cases where your handle and its base are joined into a single
     geometry, it is essential to separate them. This separation allows
     for independent rotation of the handle while ensuring that the base
     remains firmly attached to the sash:\
-    ![](media/image24.gif)
+    <img src="media/image24.gif" width="320" height="320" />
 
 7.  Unhide the Generator and select it.
 
@@ -402,11 +439,11 @@ To add custom handle, follow these steps:
 
 9.  Select **Handle Switch** node (it is located on the blue underlay)
     and press Tab to add your handle:\
-    ![](media/image11.gif)
+    <img src="media/image11.gif" width="320" height="320" />
 
 10. Change one of the current handles and its base to your custom
     handle:\
-    ![](media/image16.gif)}
+    <img src="media/image16.gif" width="320" height="320" />
 
 #  
 
@@ -415,16 +452,17 @@ To add custom handle, follow these steps:
 Currently in the work and will be delivered with the next update:
 
 -   Transom Window:\
-    ![](media/image4.png)
+    <img src="media/image4.png" width="283" height="244" />
 
 -   Window Lites:\
-    ![](media/image13.png)
+    <img src="media/image13.png" width="283" height="283" />
 
-  If you have ideas for new functionalities you\'d like to see
+
+  If you have ideas for new functionalities you'd like to see
   implemented or specific requirements tailored to your project, please
-  don\'t hesitate to reach out to us. We value your feedback and are
+  don't hesitate to reach out to us. We value your feedback and are
   committed to enhancing WindowGen to better suit your needs. Contact us
-  to discuss your suggestions or requirements further. We\'re here to
+  to discuss your suggestions or requirements further. We're here to
   help! i@mshevchenko.ru
 
 
