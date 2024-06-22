@@ -8,84 +8,84 @@ the generator, future plans on development and updates.
 
 Supported Blender versions: 3.6+
 
-[**STARTING UP 3**](#starting-up)
+[**STARTING UP**](#starting-up)
 
 > [How to add a generator to your scene
 > 3](#how-to-add-a-generator-to-your-scene)
 
-[**WORKING WITH THE GENERATOR 5**](#working-with-the-generator)
+[**WORKING WITH THE GENERATOR**](#working-with-the-generator)
 
-> [How to change parameters 5](#how-to-change-parameters)
+> [How to change parameters](#how-to-change-parameters)
 >
-> [Generator structure 5](#generator-structure)
+> [Generator structure](#generator-structure)
 
-[**PARAMETERS 6**](#parameters)
+[**PARAMETERS**](#parameters)
 
-> [Profiles 6](#profile)
+> [Profiles](#profile)
 >
-> [Size 6](#size)
+> [Size](#size)
 >
-> [Window Parameters 6](#window-parameters)
+> [Window Parameter](#window-parameters)
 >
-> [Origin in Center 7](#origin-in-center)
+> [Origin in Center](#origin-in-center)
 >
-> [Frame Only 7](#frame-only)
+> [Frame Only](#frame-only)
 >
-> [Realize instances 7](#realize-instances)
+> [Realize instances](#realize-instances)
 >
-> [Rotation Settings 8](#rotation-settings)
+> [Rotation Settings](#rotation-settings)
 >
-> [Turn Rotation 8](#turn-rotation)
+> [Turn Rotation](#turn-rotation)
 >
-> [Tilt Rotation 8](#tilt-rotation)
+> [Tilt Rotation](#tilt-rotation)
 >
-> [Left Turn Rotation 8](#left-turn-rotation)
+> [Left Turn Rotation](#left-turn-rotation)
 >
-> [Left Tilt Rotation 8](#left-tilt-rotation)
+> [Left Tilt Rotation](#left-tilt-rotation)
 >
-> [Handle Settings 9](#handle-settings)
+> [Handle Settings](#handle-settings)
 >
-> [Handle 9](#handle)
+> [Handle](#handle)
 >
-> [Custom Handle Height 9](#custom-handle-height)
+> [Custom Handle Height](#custom-handle-height)
 >
-> [Handle Height 9](#handle-height)
+> [Handle Height](#handle-height)
 >
-> [Handle Rotation 10](#handle-rotation)
+> [Handle Rotation](#handle-rotation)
 >
-> [Left Handle Rotation 10](#left-handle-rotation)
+> [Left Handle Rotation](#left-handle-rotation)
 >
-> [Glazing Settings 10](#glazing-settings)
+> [Glazing Settings](#glazing-settings)
 >
-> [Glazing 10](#glazing)
+> [Glazing](#glazing)
 >
-> [Impost Settings 11](#impost-settings)
+> [Impost Settings](#impost-settings)
 >
-> [Impost 11](#impost)
+> [Impost](#impost)
 >
-> [Left/Right Sash 11](#leftright-sash)
+> [Left/Right Sash](#leftright-sash)
 >
-> [1/2 Sashes 12](#sashes)
+> [1/2 Sashes](#sashes)
 >
-> [Middle Section 12](#middle-section)
+> [Middle Section](#middle-section)
 >
-> [Impost Centered 13](#impost-centered)
+> [Impost Centered](#impost-centered)
 >
-> [Impost Frame Width 13](#impost-frame-width)
+> [Impost Frame Width](#impost-frame-width)
 >
-> [Stulp Settings 14](#stulp-settings)
+> [Stulp Settings](#stulp-settings)
 >
-> [Stulp 14](#stulp)
+> [Stulp](#stulp)
 >
-> [Right/Left 14](#rightleft)
+> [Right/Left](#rightleft)
 >
-> [Materials 15](#materials)
+> [Materials](#materials)
 
-[**CUSTOMIZATION 15**](#customization)
+[**CUSTOMIZATION**](#customization)
 
-> [How to add custom handle 15](#how-to-add-custom-handle)
+> [How to add custom handle](#how-to-add-custom-handle)
 
-[**FUTURE PLANS 20**](#future-plans)
+[**FUTURE PLANS**](#future-plans)
 
 #  
 
