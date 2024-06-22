@@ -98,23 +98,19 @@ To incorporate a generator into your Blender scene, follow these steps:
 1.  Click on \"File\" in the top left corner.
 
 2.  Select \"Append...\".\
-    ![](media/image23.png){width="2.952755905511811in"
-    height="3.2817771216097986in"}
+    ![](media/image23.png)
 
 3.  Navigate to the folder where you saved the .blend file containing
     the generator and double-click on it.
 
 4.  Within the file, navigate to the Collection folder.\
-    ![](media/image7.png){width="2.952755905511811in"
-    height="2.4878543307086614in"}
+    ![](media/image7.png)
 
 5.  Select \"!GENERATOR (Append Me)\" and click \"Append\" in the bottom
-    right corner.![](media/image25.png){width="6.5in"
-    height="3.888888888888889in"}
-
+    right corner.![](media/image25.png)
 Your scene should now reflect the changes made by appending the
 generator:\
-![](media/image10.png){width="6.5in" height="3.4305555555555554in"}
+![](media/image10.png)
 
 You can easily disable the \"PROFILES\" and \"FURNITURE\" collections as
 they include the modeled geometry that is used in the generator such as
@@ -131,8 +127,7 @@ parameters, follow these steps:
 
 2.  Click on the wrench icon (Modifier Properties) on the right-hand
     side.\
-    ![](media/image22.png){width="2.952755905511811in"
-    height="3.117267060367454in"}
+    ![](media/image22.png)
 
 ## Generator structure
 
@@ -172,8 +167,7 @@ This section features a single parameter **Profiles** (it was called
 **System** in previous versions), which allows you to choose a window
 profile. For that select profile from 0 to 4:
 
-![](media/image32.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+![](media/image32.gif)
 
 *Note that custom profiles aren\'t currently supported due to
 dependencies on specific parameters for hinges, handles, and striker
@@ -195,22 +189,19 @@ frame-only window, and realizing instances.
 
 Positions the window in the center of the geometry bounding box.
 
-![](media/image2.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+![](media/image2.gif)
 
 ### **Frame Only**
 
 Disables sashes, leaving only the frame with glass.
 
-![](media/image5.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+![](media/image5.gif)
 
 ### **Realize instances**
 
 Converts instances into real geometry.
 
-![](media/image17.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+![](media/image17.gif)
 
 ## Rotation Settings
 
@@ -251,8 +242,7 @@ This section includes parameters for handle type, height, and rotation.
 ### **Handle**
 
 Choose from different handle types or add a custom handle. More on that
-[[here]{.underline}](#how-to-add-custom-handle).![](media/image14.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+[[here]{.underline}](#how-to-add-custom-handle).![](media/image14.gif)
 
 ### **Custom Handle Height**
 
@@ -261,8 +251,7 @@ Allows to set the height position of the handle manually.
 ### **Handle Height**
 
 Active when the **Custom Handle Height** is turned on. Adjust the
-handle\'s height.![](media/image28.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+handle\'s height.![](media/image28.gif)
 
 ### **Handle Rotation**
 
@@ -281,8 +270,7 @@ This section allows you to choose between double or triple glazing.
 ### **Glazing**
 
 Choose between double glazed (0) and triple glazed (1)
-windows:![](media/image27.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+windows:![](media/image27.gif)
 
 ## Impost Settings
 
@@ -293,32 +281,27 @@ window frame) and sashes.
 
 Activate or deactivate the impost.
 
-![](media/image29.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+![](media/image29.gif)
 
 ### **Left/Right Sash**
 
 Switch between left and right sashes. Only active when **1/2 Sashes** is
 off.
 
-![](media/image6.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
-
+![](media/image6.gif)
 ###  
 
 ### **1/2 Sashes**
 
 Switch between 1 or 2 sashes:
 
-![](media/image15.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+![](media/image15.gif)
 
 ### **Middle Section**
 
 Activate distance between 2 sashes:
 
-![](media/image33.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+![](media/image33.gif)
 
 ###  
 
@@ -326,17 +309,13 @@ height="2.952755905511811in"}
 
 Automatically calculate even space for sashes and impost frame:
 
-![](media/image18.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
-
+![](media/image18.gif)
 ### **Impost Frame Width**
 
 Sets the width of the impost frame (**Impost Centered** must be **turned
 off**). This both works for 1 and 2 sashes window:
 
-![](media/image20.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
-
+![](media/image20.gif)
 ##  
 
 ## Stulp Settings
@@ -347,15 +326,13 @@ This section includes parameters for two-sash windows without an impost.
 
 Activate two-sash window without an impost:
 
-![](media/image3.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+![](media/image3.gif)
 
 ### **Right/Left**
 
 Switch between right or left leading sash:
 
-![](media/image12.gif){width="2.952755905511811in"
-height="2.952755905511811in"}
+![](media/image12.gif)
 
 ## Materials
 
@@ -365,7 +342,7 @@ For the materials work correctly for Mapping choose **UV Map** node and
 select UVMap (in some cases **Realize Instances** must be turned on in
 the WindowGen Modifier):
 
-![](media/image1.png){width="6.5in" height="2.0972222222222223in"}
+![](media/image1.png)
 
 
   **UVMaps:** The window includes necessary UVMaps, although there may be
@@ -388,24 +365,20 @@ To add custom handle, follow these steps:
 1.  Temporarily disable Generator in the viewport. Activate \"HANDLES\"
     collection inside \"FURNITURE\" collection:
 
-> ![](media/image9.gif){width="3.937007874015748in"
-> height="3.937007874015748in"}
+> ![](media/image9.gif)
 
 2.  Import your custom handle to the \"HANDLES\" collection.\
     *Note that your custom handle must be comparable in sizes to the
     other handles in the collection*:\
-    ![](media/image26.gif){width="3.543307086614173in"
-    height="3.543307086614173in"}
+    ![](media/image26.gif)
 
 3.  Position your handle to the World Origin:\
-    ![](media/image31.gif){width="3.543307086614173in"
-    height="3.543307086614173in"}
+    ![](media/image31.gif)
 
 4.  Navigate to the Right orthographic view, for that press 3 on your
     Numpad or press \~ on your keyboard and choose **Right**, as it is
     shown below:\
-    ![](media/image30.gif){width="3.543307086614173in"
-    height="3.543307086614173in"}\
+    ![](media/image30.gif)\
     *Note that your handle must be oriented the same way as it is
     oriented in the example above. **Press Ctrl+A to apply Scale and
     Rotation**.*
@@ -415,15 +388,13 @@ To add custom handle, follow these steps:
     appropriately set. Adhering to these guidelines is crucial for
     preventing clipping issues with window geometry and ensuring the
     correct rotation of the handle.\
-    ![](media/image8.png){width="3.543307086614173in"
-    height="3.543307086614173in"}
+    ![](media/image8.png)
 
 6.  In cases where your handle and its base are joined into a single
     geometry, it is essential to separate them. This separation allows
     for independent rotation of the handle while ensuring that the base
     remains firmly attached to the sash:\
-    ![](media/image24.gif){width="3.543307086614173in"
-    height="3.543307086614173in"}
+    ![](media/image24.gif)
 
 7.  Unhide the Generator and select it.
 
@@ -431,13 +402,11 @@ To add custom handle, follow these steps:
 
 9.  Select **Handle Switch** node (it is located on the blue underlay)
     and press Tab to add your handle:\
-    ![](media/image11.gif){width="3.543307086614173in"
-    height="3.543307086614173in"}
+    ![](media/image11.gif)
 
 10. Change one of the current handles and its base to your custom
     handle:\
-    ![](media/image16.gif){width="4.724409448818897in"
-    height="4.724409448818897in"}
+    ![](media/image16.gif)}
 
 #  
 
@@ -446,13 +415,10 @@ To add custom handle, follow these steps:
 Currently in the work and will be delivered with the next update:
 
 -   Transom Window:\
-    ![](media/image4.png){width="3.937007874015748in"
-    height="3.3858267716535435in"}
+    ![](media/image4.png)
 
 -   Window Lites:\
-    ![](media/image13.png){width="3.937007874015748in"
-    height="3.937007874015748in"}
-
+    ![](media/image13.png)
 
   If you have ideas for new functionalities you\'d like to see
   implemented or specific requirements tailored to your project, please
