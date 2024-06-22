@@ -11,7 +11,7 @@ Supported Blender versions: 3.6+
 [**STARTING UP**](#starting-up)
 
 > [How to add a generator to your scene
-> 3](#how-to-add-a-generator-to-your-scene)
+>](#how-to-add-a-generator-to-your-scene)
 
 [**WORKING WITH THE GENERATOR**](#working-with-the-generator)
 
