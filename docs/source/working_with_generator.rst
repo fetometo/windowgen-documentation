@@ -7,6 +7,7 @@ How to change parameters
 The generator utilizes the geometry nodes modifier. To adjust parameters, follow these steps:
 1. Select the "!Generator" object.
 2. Click on the wrench icon (Modifier Properties) on the right-hand side.
+    
     .. image:: images/02_working_with_generator_modifier_properties.png
         :alt: Modifier Properties
         :width: 213
