@@ -7,11 +7,7 @@ Profile
 This section features a single parameter **Profiles** (it was called **System** in previous versions) which allows you to choose a window profile. For that select profile from 0 to 4:
 
 .. image:: images/03_parameters_profile.gif
-   :target:
-   :width: 320
-   :height: 320
-   :align: center
-
+   :width: 50%
 
 .. note::
     Custom profiles aren't currently supported due to dependencies on specific parameters for hinges, handles, and striker plates. Feel free to contact us for specific profile requests.
@@ -30,10 +26,6 @@ Origin in Center
     Positions the window in the center of the geometry bounding box.
 
     .. image:: images/03_parameters_origin.gif
-        :alt: Origin in Center
-        :width: 320
-        :height: 320
-        :align: center
 
 Frame Only
     Disables sashes leaving only the frame with glass.
