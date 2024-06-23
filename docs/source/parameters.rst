@@ -98,7 +98,7 @@ Impost
     Activate or deactivate the impost.
     
     .. image:: images/03_parameters_impost.gif
-        :width: 50%r
+        :width: 50%
 
 Left/Right Sash
     Switch between left and right sashes. Only active when **1/2 Sashes** is off.
