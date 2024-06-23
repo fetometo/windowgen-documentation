@@ -12,7 +12,7 @@ The generator utilizes the geometry nodes modifier. To adjust parameters, follow
         :alt: Modifier Properties
         :width: 213
         :height: 224
-        :align: left
+        :align: center
 
 Generator structure
 -------------------

@@ -11,7 +11,7 @@ To add a custom handle, follow these steps:
         :alt: Disable Generator
         :width: 320
         :height: 320
-        :align: left
+        :align: center
 
 2. Import your custom handle to the "HANDLES" collection.
     
@@ -21,7 +21,7 @@ To add a custom handle, follow these steps:
                 :alt: Import your Handle
                 :width: 320
                 :height: 320
-                :align: left
+                :align: center
 
 3. Position your handle to the World Origin.
     
@@ -29,7 +29,7 @@ To add a custom handle, follow these steps:
         :alt: Place at World Origin
         :width: 320
         :height: 320
-        :align: left
+        :align: center
 
 4. Navigate to the Right orthographic view (press 3 on your Numpad or press ~ on your keyboard and choose Right).
     
@@ -37,10 +37,10 @@ To add a custom handle, follow these steps:
         :alt: Right View
         :width: 320
         :height: 320
-        :align: left
+        :align: center
 
     .. warning::
-        Ensure your handle is oriented the same way as in the example provided. Press Ctrl+A to apply Scale and Rotation.
+        Ensure your handle is oriented the same way as in the example provided. **Press Ctrl+A to apply Scale and Rotation**.
 
 5. The origin of your handle must be at the beginning of the base geometry. The rotation center of the handle should be appropriately set to prevent clipping issues and ensure correct rotation.
    
@@ -48,7 +48,7 @@ To add a custom handle, follow these steps:
         :alt: Handle Origin
         :width: 320
         :height: 320
-        :align: left
+        :align: center
 
 6. If your handle and its base are joined into a single geometry, separate them to allow independent rotation of the handle while ensuring the base remains attached to the sash.
    
@@ -56,17 +56,17 @@ To add a custom handle, follow these steps:
         :alt: Separate Base
         :width: 320
         :height: 320
-        :align: left
+        :align: center
 
 7. Unhide the Generator and select it.
 8. Navigate to the geometry nodes tab.
-9. Select Handle Switch node (located on the blue underlay) and press Tab to add your handle.
+9. Select **Handle Switch** node (located on the blue underlay) and press Tab to add your handle.
    
     .. image:: images/04_customization_handle_node.gif
         :alt: Handle Switch Node
         :width: 320
         :height: 320
-        :align: left
+        :align: center
 
 10. Change one of the current handles and its base to your custom handle.
    
@@ -74,5 +74,5 @@ To add a custom handle, follow these steps:
         :alt: Change Handle
         :width: 320
         :height: 320
-        :align: left
+        :align: center
 

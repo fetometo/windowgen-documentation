@@ -8,7 +8,7 @@ Currently in the work and will be delivered with the next update 1.2:
         :alt: Transom Window
         :width: 283
         :height: 244
-        :align: left
+        :align: center
 
 - Window Lites
 
@@ -16,7 +16,7 @@ Currently in the work and will be delivered with the next update 1.2:
         :alt: Lites
         :width: 283
         :height: 283
-        :align: left
+        :align: center
 
 
 .. note::
