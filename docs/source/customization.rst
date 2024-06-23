@@ -11,13 +11,12 @@ To add a custom handle, follow these steps:
         :width: 50%
 
 2. Import your custom handle to the "HANDLES" collection.
-    
-    .. note::
-        Note that your custom handle must be comparable in size to the other handles in the collection.
-            
     .. image:: images/04_customization_import.gif
         :width: 50%
 
+    .. important::
+        Your custom handle must be comparable in size to the other handles in the collection.
+            
 3. Position your handle to the World Origin.
     
     .. image:: images/04_customization_worl_origin.gif
@@ -28,7 +27,7 @@ To add a custom handle, follow these steps:
     .. image:: images/04_customization_right_view.gif
         :width: 50%
 
-    .. warning::
+    .. important::
         Ensure your handle is oriented the same way as in the example provided. **Press Ctrl+A to apply Scale and Rotation**.
 
 5. The origin of your handle must be at the beginning of the base geometry. The rotation center of the handle should be appropriately set to prevent clipping issues and ensure correct rotation.
