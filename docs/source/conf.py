@@ -6,8 +6,8 @@ project = 'WindowGen'
 copyright = '2024, Mikhail Shevchenko'
 author = 'Mikhail Shevchenko'
 
-release = '1.2'
-version = '1.2.0'
+release = '1.1'
+version = '1.1.0'
 
 # -- General configuration
 
@@ -35,7 +35,7 @@ source_suffix = {
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'press'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
