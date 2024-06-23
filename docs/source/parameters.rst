@@ -7,7 +7,7 @@ Profile
 This section features a single parameter **Profiles** (it was called **System** in previous versions) which allows you to choose a window profile. For that select profile from 0 to 4:
 
 .. image:: images/03_parameters_profile.gif
-   :alt: Profile
+   :target:
    :width: 320
    :height: 320
    :align: center
