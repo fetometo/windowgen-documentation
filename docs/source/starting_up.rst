@@ -12,7 +12,7 @@ To incorporate a generator into your Blender scene follow these steps:
     .. image:: images/01_starting_up_append.png
         :width: 213
         :height: 236
-        :align: left
+        :align: bottom
 
 3. Navigate to the folder where you saved the .blend file containing the generator and double-click on it.
 4. Within the file, navigate to the Collection folder.
