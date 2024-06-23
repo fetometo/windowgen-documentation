@@ -195,6 +195,7 @@ This section allows you to assign materials to your window.
     
         .. image:: images/03_parameters_materials.png
             :alt: Materials
+            :width: 75%
             :align: center
         
 .. note::
