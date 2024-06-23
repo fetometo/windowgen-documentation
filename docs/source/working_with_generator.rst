@@ -12,7 +12,6 @@ The generator utilizes the geometry nodes modifier. To adjust parameters, follow
 .. image:: images/02_working_with_generator_modifier_properties.png
         :width: 213
         :height: 224
-        :align: center
 
 Generator structure
 -------------------
