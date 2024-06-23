@@ -17,12 +17,30 @@ Generator structure
 -------------------
 
 The generator is divided into the following sections:
-- Profile: Choose from 5 built-in profiles.
-- Size: Adjust the size of your window.
-- Window parameters: Customize window features such as centering sash disabling and instance realization.
-- Rotation settings: Modify sash rotation.
-- Handle settings: Choose handle type, position, and rotation.
-- Glazing settings: Select between double or triple glazing.
-- Impost settings: Control the presence and attributes of the impost.
-- Stulp settings: Configure settings for two-sash windows without impost.
-- Materials: Assign window materials.
+
+Profile
+    Choose from 5 built-in profiles.
+
+Size
+    Adjust the size of your window.
+
+Window parameters
+    Customize window features such as centering sash disabling and instance realization.
+
+Rotation settings
+    Modify sash rotation.
+
+Handle settings
+    Choose handle type, position, and rotation.
+
+Glazing settings
+    Select between double or triple glazing.
+
+Impost settings
+    Control the presence and attributes of the impost.
+
+Stulp settings
+    Configure settings for two-sash windows without impost.
+
+Materials
+    Assign window materials.

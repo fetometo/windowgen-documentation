@@ -5,12 +5,14 @@ How to add a custom handle
 --------------------------
 
 To add a custom handle, follow these steps:
+
 1. Temporarily disable Generator in the viewport. Activate "HANDLES" collection inside "FURNITURE" collection.
     
     .. image:: images/04_customization_disable.gif
         :width: 50%
 
 2. Import your custom handle to the "HANDLES" collection.
+    
     .. image:: images/04_customization_import.gif
         :width: 50%
 
@@ -51,4 +53,3 @@ To add a custom handle, follow these steps:
    
     .. image:: images/04_customization_handle _change.gif
         :width: 50%
-
