@@ -178,6 +178,7 @@ This section allows you to assign materials to your window.
 
 .. warning::
     For the materials to work correctly for Mapping, choose **UV Map** node and select UVMap (in some cases, **Realize Instances** must be turned on in the WindowGen Modifier).
+    
     .. image:: images/03_parameters_materials.png
         :alt: Materials
         :width: 468
