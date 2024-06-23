@@ -155,6 +155,7 @@ Stulp Settings
 This section includes parameters for two-sash windows without an impost.
 
 - Stulp: Activate two-sash window without an impost.
+
     .. image:: images/03_parameters_stulp.gif
         :alt: Stulp
         :width: 320
@@ -162,6 +163,7 @@ This section includes parameters for two-sash windows without an impost.
         :align: left
 
 - Right/Left: Switch between right or left leading sash.
+
     .. image:: images/03_parameters_stulp_right_left.gif
         :alt: Stulp Leading Sash
         :width: 320
@@ -175,6 +177,7 @@ This section allows you to assign materials to your window.
 
 .. warning::
     For the materials to work correctly for Mapping, choose UV Map node and select UVMap (in some cases, Realize Instances must be turned on in the WindowGen Modifier).
+
     .. image:: images/03_parameters_materials.png
         :alt: Materials
         :width: 468
