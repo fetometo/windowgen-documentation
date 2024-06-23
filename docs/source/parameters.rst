@@ -179,12 +179,12 @@ This section allows you to assign materials to your window.
 .. warning::
     For the materials to work correctly for Mapping, choose **UV Map** node and select UVMap (in some cases, **Realize Instances** must be turned on in the WindowGen Modifier).
     
-    .. image:: images/03_parameters_materials.png
-        :alt: Materials
-        :width: 468
-        :height: 151
-        :align: center
-            
+        .. image:: images/03_parameters_materials.png
+            :alt: Materials
+            :width: 468
+            :height: 151
+            :align: center
+        
 .. note::
     - **UVMaps:** The window includes necessary UVMaps, although there may be rotation issues at certain widths due to limitations in controlling UV unwrapping in geometry nodes.
     - **Spacer Material:** If you wish to change the spacer material, it's recommended to adjust the existing material to your needs as it contains a custom bump map for a realistic look and helps to reduce extra geometry for the spacer.
