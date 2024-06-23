@@ -35,7 +35,7 @@ Origin in Center
         :height: 320
         :align: center
 
-- Frame Only
+Frame Only
     Disables sashes leaving only the frame with glass.
  
     .. image:: images/03_parameters_frame.gif
@@ -44,7 +44,7 @@ Origin in Center
         :height: 320
         :align: center
 
-- Realize instances
+Realize instances
     Converts instances into real geometry.
  
     .. image:: images/03_parameters_instances.gif
@@ -58,13 +58,13 @@ Rotation Settings
 
 This section includes parameters for adjusting turn and tilt rotations of the sash.
 
-- Turn Rotation
+Turn Rotation
     Sets the turn angle of the sash.
-- Tilt Rotation
+Tilt Rotation
     Sets the tilt angle of the sash, constrained to the size of the scissors.
-- Left Turn Rotation
+Left Turn Rotation
     Active when the **Impost** is turned on. Sets the turn angle of the left sash.
-- Left Tilt Rotation
+Left Tilt Rotation
     Active when the **Impost** is turned on. Sets the tilt angle of the left sash.
 
 Handle Settings
@@ -72,7 +72,7 @@ Handle Settings
 
 This section includes parameters for handle type, height, and rotation.
 
-- Handle
+Handle
     Choose from different handle types or add a custom handle.
     
     .. image:: images/03_parameters_handle.gif
@@ -81,9 +81,9 @@ This section includes parameters for handle type, height, and rotation.
         :height: 320
         :align: center
 
-- Custom Handle Height
+Custom Handle Height
     Allows setting the height position of the handle manually.
-- Handle Height
+Handle Height
     Active when the Custom Handle Height is turned on. Adjust the handle's height.
     
     .. image:: images/03_parameters_handle_height.gif
@@ -92,9 +92,9 @@ This section includes parameters for handle type, height, and rotation.
         :height: 320
         :align: center
 
-- Handle Rotation
+Handle Rotation
     Sets the rotation of the handle. When the **Impost** is activated, it sets the rotation of the right sash’s handle.
-- Left Handle Rotation
+Left Handle Rotation
     Active when **Impost** is turned on. Sets the rotation of the left sash’s handle.
 
 Glazing Settings
@@ -102,7 +102,7 @@ Glazing Settings
 
 This section allows you to choose between double or triple glazing.
 
-- Glazing
+Glazing
     Choose between double glazed (0) and triple glazed (1) windows.
     
     .. image:: images/03_parameters_glazing.gif
@@ -116,7 +116,7 @@ Impost Settings
 
 This section includes parameters for the impost (vertical post in the window frame) and sashes.
 
-- Impost
+Impost
     Activate or deactivate the impost.
     
     .. image:: images/03_parameters_impost.gif
@@ -125,7 +125,7 @@ This section includes parameters for the impost (vertical post in the window fra
         :height: 320
         :align: center
 
-- Left/Right Sash
+Left/Right Sash
     Switch between left and right sashes. Only active when **1/2 Sashes** is off.
    
     .. image:: images/03_parameters_impost_left_right.gif
@@ -134,7 +134,7 @@ This section includes parameters for the impost (vertical post in the window fra
         :height: 320
         :align: center
 
-- 1/2 Sashes
+1/2 Sashes
     Switch between 1 or 2 sashes.
     
     .. image:: images/03_parameters_impost_one_two.gif
@@ -143,7 +143,7 @@ This section includes parameters for the impost (vertical post in the window fra
         :height: 320
         :align: center
 
-- Middle Section
+Middle Section
     Activate distance between 2 sashes.
     
     .. image:: images/03_parameters_impost_middle.gif
@@ -152,7 +152,7 @@ This section includes parameters for the impost (vertical post in the window fra
         :height: 320
         :align: center
 
-- Impost Centered
+Impost Centered
     Automatically calculate even space for sashes and impost frame.
     
     .. image:: images/03_parameters_impost_centered.gif
@@ -161,7 +161,7 @@ This section includes parameters for the impost (vertical post in the window fra
         :height: 320
         :align: center
 
-- Impost Frame Width
+Impost Frame Width
     Sets the width of the impost frame (**Impost Centered** must be **turned off**). This works for both 1 and 2 sash windows.
     
     .. image:: images/03_parameters_impost_width.gif
@@ -175,7 +175,7 @@ Stulp Settings
 
 This section includes parameters for two-sash windows without an impost.
 
-- Stulp
+Stulp
     Activate two-sash window without an impost.
 
     .. image:: images/03_parameters_stulp.gif
@@ -184,7 +184,7 @@ This section includes parameters for two-sash windows without an impost.
         :height: 320
         :align: center
 
-- Right/Left
+Right/Left
     Switch between right or left leading sash.
 
     .. image:: images/03_parameters_stulp_right_left.gif
