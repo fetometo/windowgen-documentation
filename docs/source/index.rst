@@ -1,9 +1,13 @@
-Welcome to WindowGen's documentation!
-=====================================
+WindowGen Documentation
+========================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   WindowGenDocumentation.md
-
+   starting_up
+   working_with_generator
+   parameters
+   customization
+   future_plans
+   releases
