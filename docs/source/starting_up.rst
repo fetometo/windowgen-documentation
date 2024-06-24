@@ -23,12 +23,10 @@ To incorporate a generator into your Blender scene follow these steps:
 5. Select "!GENERATOR (Append Me)" and click "Append" in the bottom right corner.
 
     .. image:: images/01_starting_up_collection.png
-        :width: 468
-        :height: 280
+        :width: 75%
 
 
 Your scene should now reflect the changes made by appending the generator. You can easily disable the "PROFILES" and "FURNITURE" collections as they include the modeled geometry used in the generator such as PVC profiles and furniture.
     
     .. image:: images/01_starting_up_scene.png
-        :width: 468
-        :height: 247
+        :width: 75%

@@ -7,7 +7,7 @@ Profile
 This section features a single parameter **Profiles** (it was called **System** in previous versions) which allows you to choose a window profile. For that select profile from 0 to 4:
 
 .. image:: images/03_parameters_profile.gif
-   :width: 50%
+   :height: 50%
 
 .. note::
     Custom profiles aren't currently supported due to dependencies on specific parameters for hinges, handles, and striker plates. Feel free to contact us for specific profile requests.
@@ -26,19 +26,19 @@ Origin in Center
     Positions the window in the center of the geometry bounding box.
 
     .. image:: images/03_parameters_origin.gif
-        :width: 50%
+        :height: 50%
 
 Frame Only
     Disables sashes leaving only the frame with glass.
  
     .. image:: images/03_parameters_frame.gif
-        :width: 50%
+        :height: 50%
 
 Realize instances
     Converts instances into real geometry.
  
     .. image:: images/03_parameters_instances.gif
-        :width: 50%
+        :height: 50%
 
 Rotation Settings
 -----------------
@@ -63,7 +63,7 @@ Handle
     Choose from different handle types or add a custom handle.
     
     .. image:: images/03_parameters_handle.gif
-        :width: 50%
+        :height: 50%
 
 Custom Handle Height
     Allows setting the height position of the handle manually.
@@ -71,7 +71,7 @@ Handle Height
     Active when the Custom Handle Height is turned on. Adjust the handle's height.
     
     .. image:: images/03_parameters_handle_height.gif
-        :width: 50%
+        :height: 50%
 
 Handle Rotation
     Sets the rotation of the handle. When the **Impost** is activated, it sets the rotation of the right sash’s handle.
@@ -87,7 +87,7 @@ Glazing
     Choose between double glazed (0) and triple glazed (1) windows.
     
     .. image:: images/03_parameters_glazing.gif
-        :width: 50%
+        :height: 50%
 
 Impost Settings
 ---------------
@@ -98,37 +98,37 @@ Impost
     Activate or deactivate the impost.
     
     .. image:: images/03_parameters_impost.gif
-        :width: 50%
+        :height: 50%
 
 Left/Right Sash
     Switch between left and right sashes. Only active when **1/2 Sashes** is off.
    
     .. image:: images/03_parameters_impost_left_right.gif
-        :width: 50%
+        :height: 50%
 
 1/2 Sashes
     Switch between 1 or 2 sashes.
     
     .. image:: images/03_parameters_impost_one_two.gif
-        :width: 50%
+        :height: 50%
 
 Middle Section
     Activate distance between 2 sashes.
     
     .. image:: images/03_parameters_impost_middle.gif
-        :width: 50%
+        :height: 50%
 
 Impost Centered
     Automatically calculate even space for sashes and impost frame.
     
     .. image:: images/03_parameters_impost_centered.gif
-        :width: 50%
+        :height: 50%
 
 Impost Frame Width
     Sets the width of the impost frame (**Impost Centered** must be **turned off**). This works for both 1 and 2 sash windows.
     
     .. image:: images/03_parameters_impost_width.gif
-        :width: 50%
+        :height: 50%
 
 Stulp Settings
 --------------
@@ -139,13 +139,13 @@ Stulp
     Activate two-sash window without an impost.
 
     .. image:: images/03_parameters_stulp.gif
-        :width: 50%
+        :height: 50%
 
 Right/Left
     Switch between right or left leading sash.
 
     .. image:: images/03_parameters_stulp_right_left.gif
-        :width: 50%
+        :height: 50%
 
 Materials
 ---------
