@@ -1,46 +1,62 @@
-Working With The Generator
-==========================
+Working With WindowGen
+======================
 
-How to change parameters
-------------------------
+How to open add-on
+------------------
 
-The generator utilizes the geometry nodes modifier. To adjust parameters, follow these steps:
+WindowGen is located in the side panel. To open the WindowGen interface, follow these steps:
 
-1. Select the "!Generator" object.
-2. Click on the wrench icon (Modifier Properties) on the right-hand side.
+1. Press "N" on your keyboard to open the side panel.
 
-.. image:: images/02_working_with_generator_modifier_properties.png
-        :width: 213
-        :height: 224
+    .. important::
+        Ensure that your mouse cursor is hovering over the 3D View before pressing "N". This will ensure that you open the correct panel.
 
-Generator structure
--------------------
+2. Click on WindowGen tab.
 
-The generator is divided into the following sections:
+    .. image:: images/01_starting_up_install5.png
+        :width: 75%
 
-Profile
-    Choose from 5 built-in profiles.
+How to append WindowGen to your scene
+-------------------------------------
 
-Size
-    Adjust the size of your window.
+Before adding your first window to the scene, you need to append WindowGen components to your scene:
 
-Window parameters
-    Customize window features such as centering sash disabling and instance realization.
+1. Press the "Append WindowGen" button.
 
-Rotation settings
-    Modify sash rotation.
+    .. image:: images/02_working_with_01append.png
+        :width: 75%  
 
-Handle settings
-    Choose handle type, position, and rotation.
+2. The button will turn blue, indicating that Blender is loading all the necessary components into your scene. This process takes a few seconds.
 
-Glazing settings
-    Select between double or triple glazing.
+    .. image:: images/02_working_with_01loading.png
+        :width: 75%
 
-Impost settings
-    Control the presence and attributes of the impost.
+3. Once all the components are loaded, the button will turn grey, and the text "Successfully Appended!" will appear on the button.
 
-Stulp settings
-    Configure settings for two-sash windows without impost.
+    .. image:: images/02_working_with_01success.png
+        :width: 75%
 
-Materials
-    Assign window materials.
+How to add new window to the scene
+----------------------------------
+
+1. Expand "Window Type and Profile" panel.
+
+    .. image:: images/02_working_with_02expand.gif
+        :width: 75%
+
+2. Choose where to place the window: either at the World Origin or at the 3D Cursor.
+
+    .. image:: images/02_working_with_02origin.gif
+        :width: 75%    
+
+3. Click on the Window Icon to open the window presets gallery.
+
+    .. image:: images/02_working_with_02pressets.gif
+        :width: 75%
+
+4. Choose one of the presets to add it to your scene.
+
+    .. image:: images/02_working_with_02select.gif
+        :width: 75%
+
+Now you can adjust the selected preset to your needs. You can navigate to the :ref:`parameters` section of the documentation to find out how to customize your window.

@@ -1,32 +1,34 @@
 Starting Up
 ===========
 
-How to add a generator to your scene
-------------------------------------
+How to Install WindowGen add-on
+-------------------------------
 
-To incorporate a generator into your Blender scene follow these steps:
+To install WindowGen follow these steps:
 
-1. Click on "File" in the top left corner.
-2. Select "Append…".
+1. Click on "Edit" in the top left corner.
+2. Select "Preferences…".
     
-    .. image:: images/01_starting_up_append.png
-        :width: 213
-        :height: 236
+    .. image:: images/01_starting_up_install1.png
+        :width: 75%
 
-3. Navigate to the folder where you saved the .blend file containing the generator and double-click on it.
-4. Within the file, navigate to the Collection folder.
+3. Navigate to the "Add-ons" section (1) and press "Install…" (2).
+    
+    .. image:: images/01_starting_up_install2.png
+        :width: 75%
 
-    .. image:: images/01_starting_up_folder.png
-        :width: 213
-        :height: 179
+4. Navigate to the folder where you saved the WindowGen add-on zip archive. Select WindowGen zip archive and press "Install Add-on" 
 
-5. Select "!GENERATOR (Append Me)" and click "Append" in the bottom right corner.
+    .. image:: images/01_starting_up_install3.png
+        :width: 75%
 
-    .. image:: images/01_starting_up_collection.png
+5. Turn on add-on by activating checkbox.
+
+    .. image:: images/01_starting_up_install4.png
         :width: 75%
 
 
-Your scene should now reflect the changes made by appending the generator. You can easily disable the "PROFILES" and "FURNITURE" collections as they include the modeled geometry used in the generator such as PVC profiles and furniture.
+6. Close Preferences window. Press "N" on your keyboard to open side panel. Select WindowGen tab to interact with add-on interface. 
     
-    .. image:: images/01_starting_up_scene.png
+    .. image:: images/01_starting_up_install5.png
         :width: 75%
