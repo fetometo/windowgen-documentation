@@ -9,12 +9,12 @@ To simplify working with multiple windows in the scene, the settings panel will 
    :width: 75%
 
 Common Parameters
-=================
+-----------------
 
 The parameters depend on the selected window preset. However, there are common parameters such as Profile, Width, Height, Handle Settings, Glazing Settings, Lites Settings, Materials Settings, and Options.
 
 Window Profile
---------------
+~~~~~~~~~~~~~~
 
 This section features an icon gallery which allows you to choose one of the built-in window profiles. Click on the Profile Icon:
 
