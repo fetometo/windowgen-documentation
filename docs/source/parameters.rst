@@ -232,7 +232,7 @@ Tilt Angle
         Max tilt angle is constrained to the size of the scissors.
 
 Window Mullion 2 Sash
-====================
+=====================
 
 A window with two operable sashes that can either tilt or turn.
 
@@ -275,7 +275,7 @@ Left Sash Tilt
         Max tilt angle is constrained to the size of the scissors.
 
 Window Mullion 3 Sash
-====================
+=====================
 
 A window featuring two operable sashes with a fixed, non-opening section in the middle.
 
@@ -377,7 +377,7 @@ Window Single Frame
 ..   :width: 75%
 
 Window Stulp
-=====================
+============
 
 A window with two sashes featuring a large, unobstructed opening without a central mullion.
 

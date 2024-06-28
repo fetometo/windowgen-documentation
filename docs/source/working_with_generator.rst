@@ -24,17 +24,17 @@ Before adding your first window to the scene, you need to append WindowGen compo
 1. Press the "Append WindowGen" button.
 
     .. image:: images/02_working_with_01append.png
-        :width: 75%  
+        :width: 50%  
 
 2. The button will turn blue, indicating that Blender is loading all the necessary components into your scene. This process takes a few seconds.
 
     .. image:: images/02_working_with_01loading.png
-        :width: 75%
+        :width: 50%
 
 3. Once all the components are loaded, the button will turn grey, and the text "Successfully Appended!" will appear on the button.
 
     .. image:: images/02_working_with_01success.png
-        :width: 75%
+        :width: 50%
 
 How to add new window to the scene
 ----------------------------------
