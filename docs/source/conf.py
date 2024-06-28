@@ -38,11 +38,5 @@ html_theme = 'press'
 
 globaltoc_maxdepth = -1
 
-html_sidebars = {
-   '**': [
-       'globaltoc.html',
-   ]
-}
-
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
