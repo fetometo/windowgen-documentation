@@ -163,8 +163,8 @@ Window Hopper
 
 A bottom-hinged window that tilts inward from the top.
 
-.. image:: images/03_parameters_02_window.gif
-   :width: 75%
+.. .. image:: images/03_parameters_02_window.gif
+..   :width: 75%
 
 Rotation Settings
 -----------------
@@ -174,8 +174,8 @@ This section includes parameters for adjusting tilt rotations of the sash.
 Tilt Angle
     Sets the tilt angle of the sash.
 
-    .. image:: images/03_parameters_02_sash_tilt.gif
-        :width: 75%
+..    .. image:: images/03_parameters_02_sash_tilt.gif
+..        :width: 75%
 
     .. important::
         Max tilt angle is constrained to the size of the scissors.
@@ -185,8 +185,8 @@ Window Mullion 1 Sash
 
 A window featuring a single operable sash alongside a fixed, non-opening section.
 
-.. image:: images/03_parameters_03_window.gif
-        :width: 75%
+.. .. image:: images/03_parameters_03_window.gif
+..        :width: 75%
 
 Size
 ----
@@ -196,14 +196,14 @@ This section includes parameters for adjusting the width and height of the windo
 Mullion Centered
     Automatically calculate even space for sashes and a fixed frame. Turned on by default.
     
-    .. image:: images/03_parameters_03_mullion_centered.gif
-        :width: 75%
+..    .. image:: images/03_parameters_03_mullion_centered.gif
+..        :width: 75%
 
 Mullion Frame Width
     Sets the width of the fixed frame. Active when the **Mullion Centered** is **turned off**.
     
-    .. image:: images/03_parameters_03_mullion_width.gif
-        :width: 75%
+..    .. image:: images/03_parameters_03_mullion_width.gif
+..        :width: 75%
 
 Rotation Settings
 -----------------
@@ -213,20 +213,20 @@ This section includes parameters for adjusting turn and tilt rotations of the sa
 Sash Position
     Switch between left and right sashes.
    
-    .. image:: images/03_parameters_03_left_right.gif
-        :width: 75%
+..    .. image:: images/03_parameters_03_left_right.gif
+..        :width: 75%
 
 Turn Angle:
     Sets the turn angle of the sash.
 
-    .. image:: images/03_parameters_03_sash_turn.gif
-        :width: 75%
+..    .. image:: images/03_parameters_03_sash_turn.gif
+..        :width: 75%
 
 Tilt Angle
     Sets the tilt angle of the sash.
 
-    .. image:: images/03_parameters_03_sash_tilt.gif
-        :width: 75%
+..    .. image:: images/03_parameters_03_sash_tilt.gif
+..        :width: 75%
 
     .. important::
         Max tilt angle is constrained to the size of the scissors.
@@ -236,8 +236,8 @@ Window Mullion 2 Sash
 
 A window with two operable sashes that can either tilt or turn.
 
-.. image:: images/03_parameters_04_window.gif
-   :width: 75%
+.. .. image:: images/03_parameters_04_window.gif
+..   :width: 75%
 
 Rotation Settings
 -----------------
@@ -247,14 +247,14 @@ This section includes parameters for adjusting turn and tilt rotations of the sa
 Right Sash Turn
     Sets the turn angle of the right sash.
 
-    .. image:: images/03_parameters_04_sash_turn_r.gif
-        :width: 75%
+..    .. image:: images/03_parameters_04_sash_turn_r.gif
+..        :width: 75%
 
 Right Sash Tilt
     Sets the tilt angle of the right sash.
 
-    .. image:: images/03_parameters_04_sash_tilt_r.gif
-        :width: 75%
+..    .. image:: images/03_parameters_04_sash_tilt_r.gif
+..        :width: 75%
 
     .. important::
         Max tilt angle is constrained to the size of the scissors.
@@ -262,14 +262,14 @@ Right Sash Tilt
 Left Sash Turn
     Sets the turn angle of the left sash.
 
-    .. image:: images/03_parameters_04_sash_turn_l.gif
-        :width: 75%
+..    .. image:: images/03_parameters_04_sash_turn_l.gif
+..        :width: 75%
 
 Left Sash Tilt
     Sets the tilt angle of the left sash.
 
-    .. image:: images/03_parameters_04_sash_tilt_l.gif
-        :width: 75%
+..    .. image:: images/03_parameters_04_sash_tilt_l.gif
+..        :width: 75%
 
     .. important::
         Max tilt angle is constrained to the size of the scissors.
@@ -279,8 +279,8 @@ Window Mullion 3 Sash
 
 A window featuring two operable sashes with a fixed, non-opening section in the middle.
 
-.. image:: images/03_parameters_05_window.gif
-   :width: 75%
+.. .. image:: images/03_parameters_05_window.gif
+..   :width: 75%
 
 Size
 ----
@@ -290,14 +290,14 @@ This section includes parameters for adjusting the width and height of the windo
 Mullion Centered
     Automatically calculate even space for sashes and a fixed frame. Turned on by default.
     
-    .. image:: images/03_parameters_05_mullion_centered.gif
-        :width: 75%
+..    .. image:: images/03_parameters_05_mullion_centered.gif
+..        :width: 75%
 
 Mullion Frame Width
     Sets the width of the fixed frame. Active when the **Mullion Centered** is **turned off**.
     
-    .. image:: images/03_parameters_05_mullion_width.gif
-        :width: 75%
+..    .. image:: images/03_parameters_05_mullion_width.gif
+..        :width: 75%
 
 Rotation Settings
 -----------------
@@ -307,14 +307,14 @@ This section includes parameters for adjusting turn and tilt rotations of the sa
 Right Sash Turn
     Sets the turn angle of the right sash.
 
-    .. image:: images/03_parameters_05_sash_turn_r.gif
+..    .. image:: images/03_parameters_05_sash_turn_r.gif
         :width: 75%
 
 Right Sash Tilt
     Sets the tilt angle of the right sash.
 
-    .. image:: images/03_parameters_05_sash_tilt_r.gif
-        :width: 75%
+..    .. image:: images/03_parameters_05_sash_tilt_r.gif
+..        :width: 75%
 
     .. important::
         Max tilt angle is constrained to the size of the scissors.
@@ -322,14 +322,14 @@ Right Sash Tilt
 Left Sash Turn
     Sets the turn angle of the left sash.
 
-    .. image:: images/03_parameters_05_sash_turn_l.gif
-        :width: 75%
+..    .. image:: images/03_parameters_05_sash_turn_l.gif
+..        :width: 75%
 
 Left Sash Tilt
     Sets the tilt angle of the left sash.
 
-    .. image:: images/03_parameters_05_sash_tilt_l.gif
-        :width: 75%
+..    .. image:: images/03_parameters_05_sash_tilt_l.gif
+..        :width: 75%
 
     .. important::
         Max tilt angle is constrained to the size of the scissors.
@@ -339,8 +339,8 @@ Window Single
 
  A window featuring a single operable sash that can either tilt or turn.
 
- .. image:: images/03_parameters_06_window.png
-   :width: 75%
+.. .. image:: images/03_parameters_06_window.png
+..   :width: 75%
 
 Rotation Settings
 -----------------
@@ -350,20 +350,20 @@ This section includes parameters for adjusting turn and tilt rotations of the sa
 Opening
     Sets the direction in which sash will be opening.
 
-    .. image:: images/03_parameters_06_sash_opening.gif
-        :width: 75%
+..    .. image:: images/03_parameters_06_sash_opening.gif
+..        :width: 75%
 
 Turn Angle:
     Sets the turn angle of the sash.
 
-    .. image:: images/03_parameters_06_sash_turn.gif
-        :width: 75%
+..    .. image:: images/03_parameters_06_sash_turn.gif
+..        :width: 75%
 
 Tilt Angle
     Sets the tilt angle of the sash.
 
-    .. image:: images/03_parameters_06_sash_tilt.gif
-        :width: 75%
+..    .. image:: images/03_parameters_06_sash_tilt.gif
+..        :width: 75%
 
     .. important::
         Max tilt angle is constrained to the size of the scissors.
@@ -373,16 +373,16 @@ Window Single Frame
 
  A window with a fixed, non-opening section.
 
- .. image:: images/03_parameters_06_window.png
-   :width: 75%
+.. .. image:: images/03_parameters_06_window.png
+..   :width: 75%
 
 Window Stulp
 =====================
 
 A window with two sashes featuring a large, unobstructed opening without a central mullion.
 
-.. image:: images/03_parameters_08_window.gif
-        :width: 75%
+.. .. image:: images/03_parameters_08_window.gif
+..        :width: 75%
 
 Rotation Settings
 -----------------
@@ -392,20 +392,20 @@ This section includes parameters for adjusting turn and tilt rotations of the sa
 Leading Sash
     Switch between left and right leading sashes.
    
-    .. image:: images/03_parameters_08_left_right.gif
-        :width: 75%
+..    .. image:: images/03_parameters_08_left_right.gif
+..        :width: 75%
 
 Right Sash Turn
     Sets the turn angle of the right sash.
 
-    .. image:: images/03_parameters_08_sash_turn_r.gif
-        :width: 75%
+..    .. image:: images/03_parameters_08_sash_turn_r.gif
+..        :width: 75%
 
 Right Sash Tilt
     Sets the tilt angle of the right sash.
 
-    .. image:: images/03_parameters_08_sash_tilt_r.gif
-        :width: 75%
+..    .. image:: images/03_parameters_08_sash_tilt_r.gif
+..        :width: 75%
 
     .. important::
         Max tilt angle is constrained to the size of the scissors.
@@ -413,14 +413,14 @@ Right Sash Tilt
 Left Sash Turn
     Sets the turn angle of the left sash.
 
-    .. image:: images/03_parameters_08_sash_turn_l.gif
-        :width: 75%
+..    .. image:: images/03_parameters_08_sash_turn_l.gif
+..        :width: 75%
 
 Left Sash Tilt
     Sets the tilt angle of the left sash.
 
-    .. image:: images/03_parameters_08_sash_tilt_l.gif
-        :width: 75%
+..    .. image:: images/03_parameters_08_sash_tilt_l.gif
+..        :width: 75%
 
     .. important::
         Max tilt angle is constrained to the size of the scissors.
