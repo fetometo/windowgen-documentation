@@ -7,7 +7,7 @@ Supported Blender versions: **3.6+**
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :caption: Contents:
 
    starting_up

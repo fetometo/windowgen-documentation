@@ -36,9 +36,5 @@ source_suffix = {
 
 html_theme = 'press'
 
-html_theme_options = {
-    'navigation_depth': 4,
-}
-
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
