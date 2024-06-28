@@ -36,8 +36,15 @@ source_suffix = {
 
 html_theme = 'press'
 
-html_theme_options = {
-    'navigation_depth': 4,
+globaltoc_maxdepth = -1
+
+html_sidebars = {
+   '**': [
+       'globaltoc.html',
+       'relations.html',
+       'sourcelink.html',
+       'searchbox.html' 
+   ]
 }
 
 # -- Options for EPUB output
