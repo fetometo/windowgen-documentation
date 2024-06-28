@@ -138,8 +138,7 @@ Apply Modifier
 
 Window Awning
 =============
-
-A top-hinged window that swings outward from the bottom.
+ A top-hinged window that swings outward from the bottom.
 
 .. .. image:: images/03_parameters_01_window.gif
 ..   :width: 75%
