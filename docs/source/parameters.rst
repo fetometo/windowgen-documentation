@@ -49,7 +49,7 @@ Manual Handle Position
     Allows setting the position of the handle manually.
 
 Handle Positon
-    Active when the **Manual Handle Position** is turned on. Adjust the handle's position.
+    Active when the **Manual Handle Position** is **turned on**. Adjust the handle's position.
     
     .. image:: images/03_parameters_handle_position.gif
         :width: 75%
@@ -140,8 +140,8 @@ Window Awning
 
  A top-hinged window that swings outward from the bottom.
 
-.. image:: images/03_parameters_01_window.gif
-   :width: 75%
+.. .. image:: images/03_parameters_01_window.gif
+..   :width: 75%
 
 Rotation Settings
 -----------------
