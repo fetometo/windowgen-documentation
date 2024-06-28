@@ -24,6 +24,7 @@ This section features an icon gallery which allows you to choose one of the buil
 .. note::
     Custom profiles aren't currently supported due to dependencies on specific parameters for hinges, handles, and striker plates. Feel free to contact us for specific profile requests.
 
+.. tip::
     If for some reason there are no previews, press the refresh button.
 
 Size
@@ -37,7 +38,7 @@ This section includes parameters **Width** and **Height** for adjusting the widt
 Handle Settings
 ---------------
 
-This section includes parameters for handle type, height, and rotation.
+This section includes parameters for handle type, position, and rotation.
 
 Handle
     Choose from different handle types.
@@ -138,7 +139,7 @@ Apply Modifier
 Window Awning
 =============
 
- A top-hinged window that swings outward from the bottom.
+A top-hinged window that swings outward from the bottom.
 
 .. .. image:: images/03_parameters_01_window.gif
 ..   :width: 75%
@@ -154,14 +155,9 @@ Tilt Angle
     .. image:: images/03_parameters_01_sash_tilt.gif
         :width: 75%
 
-    .. important::
-        Max tilt angle is constrained to the size of the scissors.
-
-
 Window Hopper
 =============
-
-A bottom-hinged window that tilts inward from the top.
+ A bottom-hinged window that tilts inward from the top.
 
 .. .. image:: images/03_parameters_02_window.gif
 ..   :width: 75%
@@ -182,8 +178,7 @@ Tilt Angle
 
 Window Mullion 1 Sash
 =====================
-
-A window featuring a single operable sash alongside a fixed, non-opening section.
+ A window featuring a single operable sash alongside a fixed, non-opening section.
 
 .. .. image:: images/03_parameters_03_window.gif
 ..        :width: 75%
@@ -233,8 +228,7 @@ Tilt Angle
 
 Window Mullion 2 Sash
 =====================
-
-A window with two operable sashes that can either tilt or turn.
+ A window with two operable sashes that can either tilt or turn.
 
 .. .. image:: images/03_parameters_04_window.gif
 ..   :width: 75%
@@ -276,8 +270,7 @@ Left Sash Tilt
 
 Window Mullion 3 Sash
 =====================
-
-A window featuring two operable sashes with a fixed, non-opening section in the middle.
+ A window featuring two operable sashes with a fixed, non-opening section in the middle.
 
 .. .. image:: images/03_parameters_05_window.gif
 ..   :width: 75%
@@ -336,7 +329,6 @@ Left Sash Tilt
 
 Window Single
 =============
-
  A window featuring a single operable sash that can either tilt or turn.
 
 .. .. image:: images/03_parameters_06_window.png
@@ -370,7 +362,6 @@ Tilt Angle
 
 Window Single Frame
 ===================
-
  A window with a fixed, non-opening section.
 
 .. .. image:: images/03_parameters_06_window.png
