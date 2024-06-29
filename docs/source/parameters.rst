@@ -28,7 +28,7 @@ This section features an icon gallery which allows you to choose one of the buil
     If for some reason there are no previews, press the refresh button.
 
 Size
-----
+~~~~
 
 This section includes parameters **Width** and **Height** for adjusting the width and height of the window.
 
@@ -36,7 +36,7 @@ This section includes parameters **Width** and **Height** for adjusting the widt
    :width: 75%
 
 Handle Settings
----------------
+~~~~~~~~~~~~~~~
 
 This section includes parameters for handle type, position, and rotation.
 
@@ -62,7 +62,7 @@ Handle Rotation
         :width: 75%
 
 Glazing Settings
-----------------
+~~~~~~~~~~~~~~~~
 
 This section allows you to choose between double or triple glazing.
 
@@ -73,7 +73,7 @@ Glazing
         :width: 75%
 
 Lites Settings
---------------
+~~~~~~~~~~~~~~
 
 Horizintal Lites
     Sets the number of the horizontal lites.
@@ -94,7 +94,7 @@ Lites Width
         :width: 75%
 
 Materials
----------
+~~~~~~~~~
 
 This section allows you to assign materials to your window.
 
@@ -110,7 +110,7 @@ This section allows you to assign materials to your window.
     - **Spacer Material:** If you wish to change the spacer material, it's recommended to adjust the existing material to your needs as it contains a custom bump map for a realistic look and helps to reduce extra geometry for the spacer.
     
 Options
--------
+~~~~~~~
 
 This section includes parameters for centering the window, realizing instances and applying modifier.
 
@@ -137,14 +137,14 @@ Apply Modifier
 
 
 Window Awning
-=============
+-------------
  A top-hinged window that swings outward from the bottom.
 
 .. .. image:: images/03_parameters_01_window.gif
 ..   :width: 75%
 
 Rotation Settings
------------------
+~~~~~~~~~~~~~~~~~
 
 This section includes parameters for adjusting tilt rotation of the sash.
 
@@ -155,14 +155,14 @@ Tilt Angle
         :width: 75%
 
 Window Hopper
-=============
+-------------
  A bottom-hinged window that tilts inward from the top.
 
 .. .. image:: images/03_parameters_02_window.gif
 ..   :width: 75%
 
 Rotation Settings
------------------
+~~~~~~~~~~~~~~~~~
 
 This section includes parameters for adjusting tilt rotations of the sash.
 
@@ -176,14 +176,14 @@ Tilt Angle
         Max tilt angle is constrained to the size of the scissors.
 
 Window Mullion 1 Sash
-=====================
+---------------------
  A window featuring a single operable sash alongside a fixed, non-opening section.
 
 .. .. image:: images/03_parameters_03_window.gif
 ..        :width: 75%
 
 Size
-----
+~~~~
 
 This section includes parameters for adjusting the width and height of the window.
 
@@ -200,7 +200,7 @@ Mullion Frame Width
 ..        :width: 75%
 
 Rotation Settings
------------------
+~~~~~~~~~~~~~~~~~
 
 This section includes parameters for adjusting turn and tilt rotations of the sash.
 
@@ -226,14 +226,14 @@ Tilt Angle
         Max tilt angle is constrained to the size of the scissors.
 
 Window Mullion 2 Sash
-=====================
+---------------------
  A window with two operable sashes that can either tilt or turn.
 
 .. .. image:: images/03_parameters_04_window.gif
 ..   :width: 75%
 
 Rotation Settings
------------------
+~~~~~~~~~~~~~~~~~
 
 This section includes parameters for adjusting turn and tilt rotations of the sashes.
 
@@ -268,14 +268,14 @@ Left Sash Tilt
         Max tilt angle is constrained to the size of the scissors.
 
 Window Mullion 3 Sash
-=====================
+---------------------
  A window featuring two operable sashes with a fixed, non-opening section in the middle.
 
 .. .. image:: images/03_parameters_05_window.gif
 ..   :width: 75%
 
 Size
-----
+~~~~
 
 This section includes parameters for adjusting the width and height of the window.
 
@@ -292,7 +292,7 @@ Mullion Frame Width
 ..        :width: 75%
 
 Rotation Settings
------------------
+~~~~~~~~~~~~~~~~~
 
 This section includes parameters for adjusting turn and tilt rotations of the sashes.
 
@@ -327,14 +327,14 @@ Left Sash Tilt
         Max tilt angle is constrained to the size of the scissors.
 
 Window Single
-=============
+-------------
  A window featuring a single operable sash that can either tilt or turn.
 
 .. .. image:: images/03_parameters_06_window.png
 ..   :width: 75%
 
 Rotation Settings
------------------
+~~~~~~~~~~~~~~~~~
 
 This section includes parameters for adjusting turn and tilt rotations of the sash.
 
@@ -360,14 +360,14 @@ Tilt Angle
         Max tilt angle is constrained to the size of the scissors.
 
 Window Single Frame
-===================
+-------------------
  A window with a fixed, non-opening section.
 
 .. .. image:: images/03_parameters_06_window.png
 ..   :width: 75%
 
 Window Stulp
-============
+------------
 
 A window with two sashes featuring a large, unobstructed opening without a central mullion.
 
@@ -375,7 +375,7 @@ A window with two sashes featuring a large, unobstructed opening without a centr
 ..        :width: 75%
 
 Rotation Settings
------------------
+
 
 This section includes parameters for adjusting turn and tilt rotations of the sash.
 
