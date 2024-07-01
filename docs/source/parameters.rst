@@ -354,7 +354,7 @@ Opening
    </style>
 
    <video autoplay loop muted controls="nodownload">
-       <source src="_static/images/03_parameters_06_sash_opening.mp4" type="video/mp4">
+       <source src="images/03_parameters_06_sash_opening.mp4" type="video/mp4">
        Your browser does not support the video tag.
    </video>
 
