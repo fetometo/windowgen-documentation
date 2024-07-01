@@ -341,8 +341,22 @@ This section includes parameters for adjusting turn and tilt rotations of the sa
 Opening
     Sets the direction in which sash will be opening.
 
-..    .. image:: images/03_parameters_06_sash_opening.gif
-..        :width: 75%
+.. raw:: html
+
+   <style>
+   video {
+       width: 75% !important;
+       height: auto !important;
+   }
+   video::-webkit-media-controls { display: none !important; }
+   video::-moz-media-controls { display: none !important; }
+   video::-ms-media-controls { display: none !important; }
+   </style>
+
+   <video autoplay loop muted controls="nodownload">
+       <source src="_static/images/03_parameters_06_sash_opening.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+   </video>
 
 Turn Angle:
     Sets the turn angle of the sash.
