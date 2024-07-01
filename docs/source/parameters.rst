@@ -343,19 +343,9 @@ Opening
 
 .. raw:: html
 
-   <style>
-   video {
-       width: 75% !important;
-       height: auto !important;
-   }
-   video::-webkit-media-controls { display: none !important; }
-   video::-moz-media-controls { display: none !important; }
-   video::-ms-media-controls { display: none !important; }
-   </style>
-
-   <video autoplay loop muted controls="nodownload">
-       <source src="images/03_parameters_06_sash_opening.mp4" type="video/mp4">
-       Your browser does not support the video tag.
+   <video style="width:75%" autoplay loop>
+      <source src="images/03_parameters_06_sash_opening.mp4" type="video/mp4">
+   Your browser does not support the video tag.
    </video>
 
 Turn Angle:
