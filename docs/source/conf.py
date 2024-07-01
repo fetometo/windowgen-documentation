@@ -37,7 +37,7 @@ source_suffix = {
 
 html_theme = 'press'
 
-html_static_path = ['_static', 'videos']
+html_static_path = ['videos']
 
 globaltoc_maxdepth = -1
 
