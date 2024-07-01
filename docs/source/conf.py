@@ -1,5 +1,8 @@
 # Configuration file for the Sphinx documentation builder.
 
+import mimetypes
+mimetypes.add_type('video/mp4', '.mp4')
+
 # -- Project information
 
 project = 'WindowGen'
@@ -42,8 +45,5 @@ html_static_path = ['videos']
 globaltoc_maxdepth = -1
 
 # -- Options for EPUB output
-
-import mimetypes
-mimetypes.add_type('video/mp4', '.mp4')
 
 epub_show_urls = 'footnote'
