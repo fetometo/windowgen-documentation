@@ -344,7 +344,7 @@ Opening
 .. raw:: html
 
    <video style="width:75%" autoplay loop>
-      <source src="_static/videos/03_parameters_06_sash_opening.mp4" type="video/mp4">
+      <source src="_static/03_parameters_06_sash_opening.mp4" type="video/mp4">
    Your browser does not support the video tag.
    </video>
 
