@@ -45,4 +45,5 @@ html_theme = 'press'
 globaltoc_maxdepth = -1
 
 # -- Options for EPUB output
-epub_show_urls = 'footnote'
+
+# -- epub_show_urls = 'footnote'
