@@ -3,7 +3,7 @@
 import mimetypes
 mimetypes.add_type('video/mp4', '.mp4')
 
-html_static_path = ['_static', 'videos']
+html_static_path = '_static'
 
 # -- Project information
 
