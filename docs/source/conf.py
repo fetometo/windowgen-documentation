@@ -3,6 +3,8 @@
 import mimetypes
 mimetypes.add_type('video/mp4', '.mp4')
 
+html_static_path = ['_static', 'videos']
+
 # -- Project information
 
 project = 'WindowGen'
@@ -39,8 +41,6 @@ source_suffix = {
 # -- Options for HTML output
 
 html_theme = 'press'
-
-html_static_path = ['videos']
 
 globaltoc_maxdepth = -1
 
