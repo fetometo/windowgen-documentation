@@ -1,13 +1,18 @@
 # Configuration file for the Sphinx documentation builder.
 
+import mimetypes
+mimetypes.add_type('video/mp4', '.mp4')
+
+html_static_path = ['_static']
+
 # -- Project information
 
 project = 'WindowGen'
 copyright = '2024, Mikhail Shevchenko'
 author = 'Mikhail Shevchenko'
 
-release = '1.1'
-version = '1.1.0'
+release = '2.0'
+version = '2.0.1'
 
 # -- General configuration
 
@@ -17,6 +22,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.imgconverter',
 ]
 
 intersphinx_mapping = {
