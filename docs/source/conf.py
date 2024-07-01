@@ -37,6 +37,8 @@ source_suffix = {
 
 html_theme = 'press'
 
+html_static_path = ['_static', 'videos']
+
 globaltoc_maxdepth = -1
 
 # -- Options for EPUB output
