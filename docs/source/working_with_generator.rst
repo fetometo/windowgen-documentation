@@ -41,38 +41,22 @@ How to add new window to the scene
 
 1. Expand "Window Type and Profile" panel.
 
-    .. raw:: html
-
-        <video style="width:75%" autoplay loop>
-            <source src="_static/02_working_with_02expand.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
+    .. image:: images/02_working_with_02expand.gif
+        :width: 75%
 
 2. Choose where to place the window: either at the World Origin or at the 3D Cursor.
 
-    .. raw:: html
-
-        <video style="width:75%" autoplay loop>
-            <source src="_static/02_working_with_02origin.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
+    .. image:: images/02_working_with_02origin.gif
+        :width: 75%
 
 3. Click on the Window Icon to open the window presets gallery.
 
-    .. raw:: html
-
-        <video style="width:75%" autoplay loop>
-            <source src="_static/02_working_with_02pressets.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
+    .. image:: images/02_working_with_02pressets.gif
+        :width: 75%
 
 4. Choose one of the presets to add it to your scene.
 
-    .. raw:: html
-
-        <video style="width:75%" autoplay loop>
-            <source src="_static/02_working_with_02select.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
+    .. image:: images/02_working_with_02select.gif
+        :width: 75%
 
 Now you can adjust the selected preset to your needs. You can navigate to the :ref:`parameters` section of the documentation to find out how to customize your window.
