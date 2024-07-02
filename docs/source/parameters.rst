@@ -7,7 +7,7 @@ To simplify working with multiple windows in the scene, the settings panel will 
 
 .. raw:: html
 
-    <video style="width:75%" autoplay loop>
+    <video style="width:75%" controls>
         <source src="_static/03_parameters_settings.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
@@ -24,7 +24,7 @@ This section features an icon gallery that allows you to choose one of the built
 
 .. raw:: html
 
-    <video style="width:75%" autoplay loop>
+    <video style="width:75%" controls>
         <source src="_static/03_parameters_profile.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
@@ -42,7 +42,7 @@ This section includes parameters for adjusting the width and height of the windo
 
 .. raw:: html
 
-    <video style="width:75%" autoplay loop>
+    <video style="width:75%" controls>
         <source src="_static/03_parameters_01_size.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
@@ -57,7 +57,7 @@ Handle
     
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_handle.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -67,7 +67,7 @@ Custom Handle
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_01_handle_cutom.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -76,13 +76,13 @@ Lever Geometry
     The part that you hold and turn to open or close the window.
 
     .. image:: images/03_parameters_01_handle_lever.png
-        :width: 75%
+        :width: 50%
 
 Lever Backplate
     Fixed decorative plate around a window handle's base.
 
     .. image:: images/03_parameters_01_handle_backplate.png
-        :width: 75%
+        :width: 50%
 
 Manual Handle Position
     Allows setting the position of the handle manually.
@@ -92,7 +92,7 @@ Handle Position
     
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_handle_position.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -102,7 +102,7 @@ Handle Rotation
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_handle_rotation.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -117,7 +117,7 @@ Glazing
     
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_glazing.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -130,7 +130,7 @@ Horizontal Lites
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_01_lites_h.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -140,7 +140,7 @@ Vertical Lites
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_01_lites_v.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -150,7 +150,7 @@ Lites Width
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_01_lites_w.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -181,7 +181,7 @@ Center Origin
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_origin.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -191,7 +191,7 @@ Realize Instances
  
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_instances.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -201,7 +201,7 @@ Apply Modifier
  
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_apply.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -214,7 +214,7 @@ Window Awning
  A top-hinged window that swings outward from the bottom.
 
 .. image:: images/03_parameters_01_window.png
-   :width: 75%
+   :width: 50%
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
@@ -226,7 +226,7 @@ Tilt Angle
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_01_sash_tilt.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -236,7 +236,7 @@ Window Hopper
  A bottom-hinged window that tilts inward from the top.
 
 .. image:: images/03_parameters_02_window.png
-   :width: 75%
+   :width: 50%
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
@@ -248,7 +248,7 @@ Tilt Angle
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_02_sash_tilt.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -258,7 +258,7 @@ Window Mullion 1 Sash
  A window featuring a single operable sash alongside a fixed, non-opening section.
 
 .. image:: images/03_parameters_03_window.png
-   :width: 75%
+   :width: 50%
 
 Size
 ~~~~
@@ -270,7 +270,7 @@ Mullion Centered
     
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_03_mullion_centered.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -280,7 +280,7 @@ Mullion Frame Width
     
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_03_mullion_width.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -295,7 +295,7 @@ Sash Position
    
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_03_left_right.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -305,7 +305,7 @@ Turn Angle
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_03_sash_turn.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -315,7 +315,7 @@ Tilt Angle
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_03_sash_tilt.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -328,7 +328,7 @@ Window Mullion 2 Sash
  A window with two operable sashes that can either tilt or turn.
 
 .. image:: images/03_parameters_04_window.png
-   :width: 75%
+   :width: 50%
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
@@ -340,7 +340,7 @@ Right Sash Turn
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_04_sash_turn_r.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -350,7 +350,7 @@ Right Sash Tilt
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_04_sash_tilt_r.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -363,7 +363,7 @@ Left Sash Turn
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_04_sash_turn_l.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -373,7 +373,7 @@ Left Sash Tilt
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_04_sash_tilt_l.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -386,7 +386,7 @@ Window Mullion 3 Sash
  A window featuring two operable sashes with a fixed, non-opening section in the middle.
 
 .. image:: images/03_parameters_05_window.png
-   :width: 75%
+   :width: 50%
 
 Size
 ~~~~
@@ -398,7 +398,7 @@ Mullion Centered
     
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_05_mullion_centered.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -408,7 +408,7 @@ Mullion Frame Width
     
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_05_mullion_width.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -423,7 +423,7 @@ Right Sash Turn
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_05_sash_turn_r.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -433,7 +433,7 @@ Right Sash Tilt
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_05_sash_tilt_r.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -446,7 +446,7 @@ Left Sash Turn
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_05_sash_turn_l.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -456,7 +456,7 @@ Left Sash Tilt
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_05_sash_tilt_l.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -469,7 +469,7 @@ Window Single
  A window featuring a single operable sash that can either tilt or turn.
 
 .. image:: images/03_parameters_06_window.png
-   :width: 75%
+   :width: 50%
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
@@ -481,7 +481,7 @@ Opening
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_06_sash_opening.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -491,7 +491,7 @@ Turn Angle
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_06_sash_turn.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -501,7 +501,7 @@ Tilt Angle
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_06_sash_tilt.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -514,14 +514,14 @@ Window Single Frame
  A window with a fixed, non-opening section.
 
 .. image:: images/03_parameters_07_window.png
-    :width: 75%
+    :width: 50%
 
 Window Stulp
 ---------------
  A window with two sashes featuring a large, unobstructed opening without a central mullion.
 
 .. image:: images/03_parameters_08_window.png
-   :width: 75%
+   :width: 50%
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
@@ -533,7 +533,7 @@ Leading Sash
    
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_08_left_right.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -543,7 +543,7 @@ Right Sash Turn
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_08_sash_turn_r.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -553,7 +553,7 @@ Right Sash Tilt
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_08_sash_tilt_r.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -566,7 +566,7 @@ Left Sash Turn
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_08_sash_turn_l.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -576,7 +576,7 @@ Left Sash Tilt
 
     .. raw:: html
 
-        <video style="width:75%" autoplay loop>
+        <video style="width:75%" controls>
             <source src="_static/03_parameters_08_sash_tilt_l.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>

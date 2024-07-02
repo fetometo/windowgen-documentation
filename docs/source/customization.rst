@@ -12,7 +12,7 @@ To add a custom handle, follow these steps:
     
         .. raw:: html
 
-            <video style="width:75%" autoplay loop>
+            <video style="width:75%" controls>
                 <source src="_static/04_customization_world_origin.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
@@ -21,7 +21,7 @@ To add a custom handle, follow these steps:
     
         .. raw:: html
 
-            <video style="width:75%" autoplay loop>
+            <video style="width:75%" controls>
                 <source src="_static/04_customization_right_view.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
@@ -38,7 +38,7 @@ To add a custom handle, follow these steps:
    
         .. raw:: html
 
-            <video style="width:75%" autoplay loop>
+            <video style="width:75%" controls>
                 <source src="_static/04_customization_handle_and_base.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
@@ -47,7 +47,7 @@ To add a custom handle, follow these steps:
 
         .. raw:: html
 
-            <video style="width:75%" autoplay loop>
+            <video style="width:75%" controls>
                 <source src="_static/03_parameters_01_handle_cutom.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
