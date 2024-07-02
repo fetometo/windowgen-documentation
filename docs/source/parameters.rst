@@ -175,7 +175,7 @@ Window Hopper
 -------------
  A bottom-hinged window that tilts inward from the top.
 
-.. image:: images/03_parameters_02_window.gpng
+.. image:: images/03_parameters_02_window.png
    :width: 75%
 
 Rotation Settings
