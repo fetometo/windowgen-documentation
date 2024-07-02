@@ -62,6 +62,28 @@ Handle
         Your browser does not support the video tag.
         </video>
 
+Custom Handle
+    Choose your own handle. Refer to the :ref:`customization` on how to prepare it correctly.
+
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_01_handle_cutom.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+
+Lever Geometry
+    The part that you hold and turn to open or close the window.
+
+    .. image:: images/03_parameters_01_handle_lever.png
+        :width: 75%
+
+Lever Backplate
+    Fixed decorative plate around a window handle's base.
+
+    .. image:: images/03_parameters_01_handle_backplate.png
+        :width: 75%
+
 Manual Handle Position
     Allows setting the position of the handle manually.
 
