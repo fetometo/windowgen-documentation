@@ -158,7 +158,7 @@ Window Awning
  A top-hinged window that swings outward from the bottom.
 
 .. image:: images/03_parameters_01_window.png
-   :width: 75%
+   :width: 50%
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
@@ -194,7 +194,7 @@ Window Mullion 1 Sash
  A window featuring a single operable sash alongside a fixed, non-opening section.
 
 .. image:: images/03_parameters_03_window.png
-   :width: 75%
+   :width: 50%
 
 Size
 ~~~~
@@ -244,7 +244,7 @@ Window Mullion 2 Sash
  A window with two operable sashes that can either tilt or turn.
 
 .. image:: images/03_parameters_04_window.png
-   :width: 75%
+   :width: 50%
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
@@ -286,7 +286,7 @@ Window Mullion 3 Sash
  A window featuring two operable sashes with a fixed, non-opening section in the middle.
 
 .. image:: images/03_parameters_05_window.png
-   :width: 75%
+   :width: 50%
 
 Size
 ~~~~
@@ -345,7 +345,7 @@ Window Single
  A window featuring a single operable sash that can either tilt or turn.
 
 .. image:: images/03_parameters_06_window.png
-   :width: 75%
+   :width: 50%
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
@@ -378,14 +378,14 @@ Window Single Frame
  A window with a fixed, non-opening section.
 
 .. image:: images/03_parameters_07_window.png
-    :width: 75%
+    :width: 50%
 
 Window Stulp
 ---------------
  A window with two sashes featuring a large, unobstructed opening without a central mullion.
 
 .. image:: images/03_parameters_08_window.png
-   :width: 75%
+   :width: 50%
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
