@@ -5,8 +5,12 @@ Parameters
 
 To simplify working with multiple windows in the scene, the settings panel will automatically display the name of the active window.
 
-.. image:: images/03_parameters_settings.gif
-   :width: 75%
+.. raw:: html
+
+    <video style="width:75%" autoplay loop>
+        <source src="_static/03_parameters_settings.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
 
 Common Parameters
 -----------------
@@ -18,8 +22,12 @@ Window Profile
 
 This section features an icon gallery that allows you to choose one of the built-in window profiles. Click on the Profile icon:
 
-.. image:: images/03_parameters_profile.gif
-   :width: 75%
+.. raw:: html
+
+    <video style="width:75%" autoplay loop>
+        <source src="_static/03_parameters_profile.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
 
 .. note::
     Custom profiles aren't currently supported due to dependencies on specific parameters for hinges, handles, and striker plates. Feel free to contact us for specific profile requests.
@@ -32,8 +40,12 @@ Size
 
 This section includes parameters for adjusting the width and height of the window.
 
-.. image:: images/03_parameters_01_size.gif
-   :width: 75%
+.. raw:: html
+
+    <video style="width:75%" autoplay loop>
+        <source src="_static/03_parameters_01_size.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
 
 Handle Settings
 ~~~~~~~~~~~~~~~
@@ -43,8 +55,12 @@ This section includes parameters for handle type, position, and rotation.
 Handle
     Choose from various handle types.
     
-    .. image:: images/03_parameters_handle.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_handle.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Manual Handle Position
     Allows setting the position of the handle manually.
@@ -52,14 +68,22 @@ Manual Handle Position
 Handle Position
     Active when the **Manual Handle Position** is **turned on**. Adjust the handle's position.
     
-    .. image:: images/03_parameters_handle_position.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_handle_position.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Handle Rotation
     Sets the rotation of the handle.
 
-    .. image:: images/03_parameters_handle_rotation.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_handle_rotation.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Glazing Settings
 ~~~~~~~~~~~~~~~~
@@ -69,8 +93,12 @@ This section allows you to choose between double or triple glazing.
 Glazing
     Choose between double glazing and triple glazing.
     
-    .. image:: images/03_parameters_glazing.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_glazing.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Lites Settings
 ~~~~~~~~~~~~~~
@@ -78,20 +106,32 @@ Lites Settings
 Horizontal Lites
     Sets the number of horizontal lites.
 
-    .. image:: images/03_parameters_01_lites_h.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_01_lites_h.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Vertical Lites
     Sets the number of vertical lites.
 
-    .. image:: images/03_parameters_01_lites_v.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_01_lites_v.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Lites Width
     Sets the width of the lites.
 
-    .. image:: images/03_parameters_01_lites_w.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_01_lites_w.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Materials
 ~~~~~~~~~
@@ -117,20 +157,32 @@ This section includes parameters for centering the window, realizing instances, 
 Center Origin
     Centers the window within the geometry bounding box.
 
-    .. image:: images/03_parameters_origin.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_origin.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Realize Instances
     Converts instances into real geometry.
  
-    .. image:: images/03_parameters_instances.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_instances.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Apply Modifier
     Applies the geometry nodes modifier.
  
-    .. image:: images/03_parameters_apply.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_apply.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
     .. warning::
         Once applied, you will lose the ability to adjust any of the modifier's parameters. Press this button if you are ready to export the window to another program or if you need to edit the final window directly (e.g., deleting or adding elements).
@@ -150,14 +202,18 @@ This section includes parameters for adjusting the tilt rotation of the sash.
 Tilt Angle
     Sets the tilt angle of the sash.
 
-    .. image:: images/03_parameters_01_sash_tilt.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_01_sash_tilt.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Window Hopper
 -------------
  A bottom-hinged window that tilts inward from the top.
 
-.. image:: images/03_parameters_02_window.gpng
+.. image:: images/03_parameters_02_window.png
    :width: 75%
 
 Rotation Settings
@@ -168,8 +224,12 @@ This section includes parameters for adjusting the tilt rotation of the sash.
 Tilt Angle
     Sets the tilt angle of the sash.
 
-    .. image:: images/03_parameters_02_sash_tilt.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_02_sash_tilt.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Window Mullion 1 Sash
 ---------------------
@@ -186,14 +246,22 @@ This section includes parameters for adjusting the width and height of the windo
 Mullion Centered
     Automatically calculates even space for sashes and a fixed frame. Turned on by default.
     
-    .. image:: images/03_parameters_03_mullion_centered.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_03_mullion_centered.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Mullion Frame Width
     Sets the width of the fixed frame. Active when the **Mullion Centered** is **turned off**.
     
-    .. image:: images/03_parameters_03_mullion_width.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_03_mullion_width.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
@@ -203,20 +271,32 @@ This section includes parameters for adjusting the turn and tilt rotations of th
 Sash Position
     Switch between left and right sashes.
    
-    .. image:: images/03_parameters_03_left_right.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_03_left_right.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Turn Angle
     Sets the turn angle of the sash.
 
-    .. image:: images/03_parameters_03_sash_turn.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_03_sash_turn.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Tilt Angle
     Sets the tilt angle of the sash.
 
-    .. image:: images/03_parameters_03_sash_tilt.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_03_sash_tilt.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
     .. important::
         Max tilt angle is constrained by the size of the scissors.
@@ -236,14 +316,22 @@ This section includes parameters for adjusting the turn and tilt rotations of th
 Right Sash Turn
     Sets the turn angle of the right sash.
 
-    .. image:: images/03_parameters_04_sash_turn_r.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_04_sash_turn_r.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Right Sash Tilt
     Sets the tilt angle of the right sash.
 
-    .. image:: images/03_parameters_04_sash_tilt_r.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_04_sash_tilt_r.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
     .. important::
         Max tilt angle is constrained by the size of the scissors.
@@ -251,14 +339,22 @@ Right Sash Tilt
 Left Sash Turn
     Sets the turn angle of the left sash.
 
-    .. image:: images/03_parameters_04_sash_turn_l.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_04_sash_turn_l.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Left Sash Tilt
     Sets the tilt angle of the left sash.
 
-    .. image:: images/03_parameters_04_sash_tilt_l.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_04_sash_tilt_l.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
     .. important::
         Max tilt angle is constrained by the size of the scissors.
@@ -278,14 +374,22 @@ This section includes parameters for adjusting the width and height of the windo
 Mullion Centered
     Automatically calculates even space for sashes and a fixed frame. Turned on by default.
     
-    .. image:: images/03_parameters_05_mullion_centered.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_05_mullion_centered.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Mullion Frame Width
     Sets the width of the fixed frame. Active when the **Mullion Centered** is **turned off**.
     
-    .. image:: images/03_parameters_05_mullion_width.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_05_mullion_width.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Rotation Settings
 ~~~~~~~~~~~~~~~~~
@@ -295,14 +399,22 @@ This section includes parameters for adjusting the turn and tilt rotations of th
 Right Sash Turn
     Sets the turn angle of the right sash.
 
-    .. image:: images/03_parameters_05_sash_turn_r.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_05_sash_turn_r.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Right Sash Tilt
     Sets the tilt angle of the right sash.
 
-    .. image:: images/03_parameters_05_sash_tilt_r.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_05_sash_tilt_r.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
     .. important::
         Max tilt angle is constrained by the size of the scissors.
@@ -310,14 +422,22 @@ Right Sash Tilt
 Left Sash Turn
     Sets the turn angle of the left sash.
 
-    .. image:: images/03_parameters_05_sash_turn_l.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_05_sash_turn_l.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Left Sash Tilt
     Sets the tilt angle of the left sash.
 
-    .. image:: images/03_parameters_05_sash_tilt_l.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_05_sash_tilt_l.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
     .. important::
         Max tilt angle is constrained by the size of the scissors.
@@ -347,14 +467,22 @@ Opening
 Turn Angle
     Sets the turn angle of the sash.
 
-    .. image:: images/03_parameters_06_sash_turn.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_06_sash_turn.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Tilt Angle
     Sets the tilt angle of the sash.
 
-    .. image:: images/03_parameters_06_sash_tilt.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_06_sash_tilt.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
     .. important::
         Max tilt angle is constrained by the size of the scissors.
@@ -381,20 +509,32 @@ This section includes parameters for adjusting the turn and tilt rotations of th
 Leading Sash
     Switch between left and right leading sashes.
    
-    .. image:: images/03_parameters_08_left_right.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_08_left_right.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Right Sash Turn
     Sets the turn angle of the right sash.
 
-    .. image:: images/03_parameters_08_sash_turn_r.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_08_sash_turn_r.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Right Sash Tilt
     Sets the tilt angle of the right sash.
 
-    .. image:: images/03_parameters_08_sash_tilt_r.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_08_sash_tilt_r.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
     .. important::
         Max tilt angle is constrained by the size of the scissors.
@@ -402,14 +542,22 @@ Right Sash Tilt
 Left Sash Turn
     Sets the turn angle of the left sash.
 
-    .. image:: images/03_parameters_08_sash_turn_l.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_08_sash_turn_l.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
 Left Sash Tilt
     Sets the tilt angle of the left sash.
 
-    .. image:: images/03_parameters_08_sash_tilt_l.gif
-        :width: 75%
+    .. raw:: html
+
+        <video style="width:75%" autoplay loop>
+            <source src="_static/03_parameters_08_sash_tilt_l.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
     .. important::
         Max tilt angle is constrained by the size of the scissors.
