@@ -1,9 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 
-import mimetypes
-mimetypes.add_type('video/mp4', '.mp4')
 
-html_static_path = ['_static']
 
 # -- Project information
 
