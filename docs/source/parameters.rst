@@ -132,7 +132,7 @@ Options
 
 This section includes parameters for centering the window, realizing instances, and applying the modifier.
 
-Center Origin
+Origin in Center
     Centers the window within the geometry bounding box.
 
     .. image:: images/03_parameters_origin.gif
