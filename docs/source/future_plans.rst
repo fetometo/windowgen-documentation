@@ -1,7 +1,7 @@
 Future Plans
 ============
 
-Currently in the work and will be delivered with the next update 2.1:
+Currently in the work and will be delivered with the next update 2.0.1:
 
 - New Window Types
 - New Profiles
