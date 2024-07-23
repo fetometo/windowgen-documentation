@@ -150,6 +150,9 @@ Apply Modifier
     .. image:: images/03_parameters_apply.gif
         :width: 75%
 
+    .. important::
+        For this option to work correctly please activate built-in "Modifier Tools" add-on in Prefernces.
+
     .. warning::
         Once applied, you will lose the ability to adjust any of the modifier's parameters. Press this button if you are ready to export the window to another program or if you need to edit the final window directly (e.g., deleting or adding elements).
 
