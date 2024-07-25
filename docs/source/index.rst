@@ -5,8 +5,9 @@ Procedural Window Generator for Blender based on real life PVC window profiles a
 
 Supported Blender versions: **3.6+**
 
-Available both on `Gumroad <https://fetometo.gumroad.com/l/WindowGen>`_ and `Blender Market <https://blendermarket.com/products/windowgen>`_
+.. raw:: html
 
+    Available both on <a href="https://fetometo.gumroad.com/l/WindowGen" target="_blank">Gumroad</a> and <a href="https://blendermarket.com/products/windowgen" target="_blank">Blender Market</a>
 
 .. toctree::
    :maxdepth: 4
