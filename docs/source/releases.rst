@@ -19,3 +19,9 @@ Version 2.0
 
 - Standalone add-on release
 - Better performance
+
+Version 2.0.2
+-------------
+
+- Fixed a bug causing the Apply Modifier to not work and send an error.
+
