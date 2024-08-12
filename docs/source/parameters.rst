@@ -35,6 +35,15 @@ This section includes parameters for adjusting the width and height of the windo
 .. image:: images/03_parameters_01_size.gif
    :width: 75%
 
+Rotation Settings
+~~~~~~~~~~~~~~~~~
+This section includes parameters for opening and sash rotation.
+
+Opening
+   Choose between inward or outward opening.
+   .. image:: images/03_parameters_opening.gif
+        :width: 75%
+
 Handle Settings
 ~~~~~~~~~~~~~~~
 
