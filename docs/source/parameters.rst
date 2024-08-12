@@ -35,6 +35,15 @@ This section includes parameters for adjusting the width and height of the windo
 .. image:: images/03_parameters_01_size.gif
    :width: 75%
 
+Rotation Settings
+~~~~~~~~~~~~~~~~~
+This section includes parameters for opening and sash rotation.
+
+Opening
+   Choose between inward or outward opening.
+   .. image:: images/03_parameters_opening.gif
+        :width: 75%
+
 Handle Settings
 ~~~~~~~~~~~~~~~
 
@@ -149,6 +158,9 @@ Apply Modifier
  
     .. image:: images/03_parameters_apply.gif
         :width: 75%
+
+    .. important::
+        For this option to work correctly please activate built-in "Modifier Tools" add-on in Prefernces.
 
     .. warning::
         Once applied, you will lose the ability to adjust any of the modifier's parameters. Press this button if you are ready to export the window to another program or if you need to edit the final window directly (e.g., deleting or adding elements).
