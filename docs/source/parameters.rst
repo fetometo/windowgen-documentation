@@ -41,6 +41,7 @@ This section includes parameters for opening and sash rotation.
 
 Opening
    Choose between inward or outward opening.
+
    .. image:: images/03_parameters_opening.gif
         :width: 75%
 
