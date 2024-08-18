@@ -3,7 +3,7 @@ Welcome to WindowGen
 
 Procedural Window Generator for Blender based on real life PVC window profiles and hardware. In this documentation you can find how to use the generator, future plans on development and updates.
 
-Supported Blender versions: **3.6+**
+Supported Blender versions: **4.0+**
 
 .. raw:: html
 
