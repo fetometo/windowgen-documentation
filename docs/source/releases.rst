@@ -29,3 +29,15 @@ Version 2.0.3
 -------------
 
 - Added opening option (inward and outward opening)
+
+Version 2.0.4
+-------------
+
+- Fixed an issue where the Window Material was not updating
+
+Version 2.0.5
+-------------
+
+- Corrected stulp position for window heights of 2.1m and above for Stulp Window.
+- Resolved incorrect hinge orientation when "Realize Instances" is unchecked for Awning and Transom Windows.
+- Fixed incorrect glass position when "Outward Opening" is selected for 3 Section Window.
