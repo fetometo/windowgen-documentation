@@ -28,7 +28,7 @@ Version 2.0.2
 Version 2.0.3
 -------------
 
-- Added opening option (inward and outward opening)
+- Added opening option (inward and outward opening) in Rotation Settings
 
 Version 2.0.4
 -------------
