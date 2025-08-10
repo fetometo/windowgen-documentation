@@ -5,11 +5,11 @@
 # -- Project information
 
 project = 'WindowGen'
-copyright = '2024, Mikhail Shevchenko'
+copyright = '2025, Mikhail Shevchenko'
 author = 'Mikhail Shevchenko'
 
-release = '2.0'
-version = '2.0.1'
+release = '3.0'
+version = '3.0.1'
 
 # -- General configuration
 
