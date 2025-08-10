@@ -37,7 +37,7 @@ Before adding your first window to the scene, you need to append WindowGen compo
         :width: 50%
 
 How to add WindowGen Asset Library to the Blender
--------------------------------------
+-------------------------------------------------
 
 WindowGen Asset Library will bring realistic materials to customize the appearance of your windows even further:
 
@@ -60,7 +60,7 @@ WindowGen Asset Library will bring realistic materials to customize the appearan
         For easier seacrh most of the materials have tags: Metal, Plastic, RAL color code, etc.
 
 How to update WindowGen
--------------------------------------
+-----------------------
 
 Once you install the latest version of WindowGen addon, you will be able to update your older projects to this version.
     .. note::
