@@ -143,6 +143,7 @@ Texture Resolution
 
 .. note::
     Some texture resources (Megascans, Poliigon, Greyscale Gorilla etc.) include physical size of the texture in meters:
+    
     .. image:: images/03_parameters_materials_uv_scale.png
         :width: 75%
 
