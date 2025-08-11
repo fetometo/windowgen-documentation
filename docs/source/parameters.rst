@@ -127,7 +127,26 @@ Lites Width
 Materials
 ~~~~~~~~~
 
-This section allows you to assign materials to your window.
+This section allows you to assign materials to your window and control texel density.
+
+Texel Density
+    Sets the texel density (px/m) for the window. It is dependendent on **"Texture Resolution"**.
+
+    .. image:: images/03_parameters_material_texel.gif
+        :width: 75%
+
+Texture Resolution
+    Sets the resolution of the texture. Change it to the corresponding resolution of your materials's texture.
+
+    .. image:: images/03_parameters_material_texture.gif
+        :width: 75%
+
+.. note::
+    Some texture resources (Megascans, Poliigon, Greyscale Gorilla etc.) include physical size of the texture in meters:
+    .. image:: images/03_parameters_materials_uv_scale.png
+        :width: 75%
+
+    Knowing texture resolution and it's physical size you can set perfect scale for your UVs. For the texture with the Resolution (R) 2048 pixels and Physical Size (S) 2m your target Texel Density = R / S = 2048px / 2m = 1024px/m
 
 .. warning::
     For the materials to work correctly for mapping, choose the **UV Map** node and select UVMap (in some cases, the **Realize Instances** option must be enabled in the Options sections).
