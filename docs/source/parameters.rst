@@ -74,13 +74,16 @@ Lever Backplate
     .. image:: images/03_parameters_01_handle_backplate.png
         :width: 50%
 
-Manual Handle Position
-    Allows setting the position of the handle manually.
-
 Handle Position
+    Choose between centered and manual handle position.
+
+    .. image:: images/03_parameters_handle_position.gif
+        :width: 75%
+
+Manual Position
     Active when the **Manual Handle Position** is **turned on**. Adjust the handle's position.
     
-    .. image:: images/03_parameters_handle_position.gif
+    .. image:: images/03_parameters_manual_position.gif
         :width: 75%
 
 Handle Rotation
