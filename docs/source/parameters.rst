@@ -141,13 +141,14 @@ Texture Resolution
     .. image:: images/03_parameters_material_texture.gif
         :width: 75%
 
-.. note::
+.. tip::
     Some texture resources (Megascans, Poliigon, Greyscale Gorilla etc.) include physical size of the texture in meters:
     
     .. image:: images/03_parameters_materials_uv_scale.png
-        :width: 75%
+        :width: 50%
 
-    Knowing texture resolution and it's physical size you can set perfect scale for your UVs. For the texture with the Resolution (R) 2048 pixels and Physical Size (S) 2m your target Texel Density = R / S = 2048px / 2m = 1024px/m
+    Knowing texture resolution and it's physical size you can set perfect scale for your UVs.
+    For the texture with the **Resolution** (R) **2048px** and **Physical Size** (S) **2m** your target **Texel Density** = R / S = 2048px / 2m = **1024px/m**
 
 .. warning::
     For the materials to work correctly for mapping, choose the **UV Map** node and select UVMap (in some cases, the **Realize Instances** option must be enabled in the Options sections).
