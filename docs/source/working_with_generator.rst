@@ -119,6 +119,7 @@ How to export window using WindowGen
 You can export your window using WindowGen. It will export in the chosen format with the default Blender settings for each of the format.
 
 1. Select the format you want your Window to be exported.
+    
     .. image:: images/02_working_with_05format.gif
         :width: 75%
 
@@ -132,9 +133,10 @@ You can export your window using WindowGen. It will export in the chosen format 
 3. Export Options.
     You have two options:
     
-    Option A: Prepare for Export (Recommended for inspection)
+    **Option A: Prepare for Export (Recommended for inspection)**
 
     1. Press "Prepare for Export".
+        
         .. image:: images/02_working_with_05prepare.gif
             :width: 75%
     
@@ -149,6 +151,7 @@ You can export your window using WindowGen. It will export in the chosen format 
             
             .. image:: images/02_working_with_05origin.gif
                 :width: 75%
+        
         - Set proper origins for each component
         - Create a parent empty object for easy manipulation
         - Clean up unused materials
@@ -157,17 +160,17 @@ You can export your window using WindowGen. It will export in the chosen format 
             :width: 75%
 
     3. You can now:
-    - Inspect the separated components
-    - Make manual adjustments if needed
-    - Export manually using File > Export
+        - Inspect the separated components
+        - Make manual adjustments if needed
+        - Export manually using File > Export
 
-    Option B: Export Window (One-click export)
+    **Option B: Export Window (One-click export)**
 
     1. Click **"Export Window"**
-    
+        
     2. The addon will:
-    - Perform all preparation steps automatically
-    - Immediately export to your chosen format and location
-    - Display a success message when complete
+        - Perform all preparation steps automatically
+        - Immediately export to your chosen format and location
+        - Display a success message when complete
 
 Now you can adjust the selected preset to your needs. You can navigate to the :ref:`parameters` section of the documentation to find out how to customize your window.
