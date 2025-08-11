@@ -1,8 +1,8 @@
 Working With WindowGen
 ======================
 
-How to open the WindowGen interface
------------------------------------
+How to open WindowGen interface
+-------------------------------
 
 WindowGen is located in the side panel. To open the WindowGen interface, follow these steps:
 
@@ -126,6 +126,7 @@ You can export your window using WindowGen. It will export in the chosen format 
         :width: 75%
 
 2. Select Export Location.
+    
     .. note::
         By default WindowGen exports selected window to the folder WindowGen_Export, which is created at the same path where your .blend file is saved.
 
@@ -133,6 +134,7 @@ You can export your window using WindowGen. It will export in the chosen format 
         :width: 75%
 
 3. Export Options.
+    
     You have two options:
     
     **Option A: Prepare for Export (Recommended for inspection)**
