@@ -113,6 +113,9 @@ How to add new window to the scene
 How to export window using WindowGen
 ------------------------------------
 
+.. warning::
+    This function is still in experimental state. Please report any bugs if you have got any.
+
 You can export your window using WindowGen. It will export in the chosen format with the default Blender settings for each of the format.
 
 1. Select the format you want your Window to be exported.
@@ -127,11 +130,7 @@ You can export your window using WindowGen. It will export in the chosen format 
         :width: 75%
 
 3. Export Options.
-    
-    .. warning::
-        This function is still in experimental state. Please report any bugs if you have got any.
-
-    You have to options:
+    You have two options:
     
     Option A: Prepare for Export (Recommended for inspection)
 
