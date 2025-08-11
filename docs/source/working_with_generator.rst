@@ -147,11 +147,13 @@ You can export your window using WindowGen. It will export in the chosen format 
             - Frame
             - Sashes (sash1, sash2, etc.)
             - Handles (sash1_handle, sash2_handle, etc.)
+            
             .. image:: images/02_working_with_05origin.gif
                 :width: 75%
         - Set proper origins for each component
         - Create a parent empty object for easy manipulation
         - Clean up unused materials
+        
         .. image:: images/02_working_with_05outliner.png
             :width: 75%
 
@@ -163,6 +165,7 @@ You can export your window using WindowGen. It will export in the chosen format 
     Option B: Export Window (One-click export)
 
     1. Click **"Export Window"**
+    
     2. The addon will:
     - Perform all preparation steps automatically
     - Immediately export to your chosen format and location
