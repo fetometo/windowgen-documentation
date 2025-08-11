@@ -110,6 +110,8 @@ How to add new window to the scene
     .. image:: images/02_working_with_02select.gif
         :width: 75%
 
+Now you can adjust the selected preset to your needs. You can navigate to the :ref:`parameters` section of the documentation to find out how to customize your window.
+
 How to export window using WindowGen
 ------------------------------------
 
@@ -141,10 +143,12 @@ You can export your window using WindowGen. It will export in the chosen format 
             :width: 75%
     
     2. The addon will:
+        
         - Create a duplicate of your window
         - Move it to a new collection called "WindowGen Export"
         - Apply the WindowGen modifier (keeps other modifiers like Weighted Normal)
         - Separate the window into logical components:
+            
             - Frame
             - Sashes (sash1, sash2, etc.)
             - Handles (sash1_handle, sash2_handle, etc.)
@@ -160,6 +164,7 @@ You can export your window using WindowGen. It will export in the chosen format 
             :width: 75%
 
     3. You can now:
+        
         - Inspect the separated components
         - Make manual adjustments if needed
         - Export manually using File > Export
@@ -169,8 +174,7 @@ You can export your window using WindowGen. It will export in the chosen format 
     1. Click **"Export Window"**
         
     2. The addon will:
+        
         - Perform all preparation steps automatically
         - Immediately export to your chosen format and location
         - Display a success message when complete
-
-Now you can adjust the selected preset to your needs. You can navigate to the :ref:`parameters` section of the documentation to find out how to customize your window.
