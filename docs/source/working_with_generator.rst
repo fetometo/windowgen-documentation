@@ -63,8 +63,9 @@ How to update WindowGen
 -----------------------
 
 Once you install the latest version of WindowGen addon, you will be able to update your older projects to this version.
-    .. note::
-        WindowGen automatically finds the latest version on your PC and changes the UI to indicate if update is available.
+
+.. note::
+    WindowGen automatically finds the latest version on your PC and changes the UI to indicate if update is available.
 
 1. Press the "Update" button.
 
@@ -108,5 +109,63 @@ How to add new window to the scene
 
     .. image:: images/02_working_with_02select.gif
         :width: 75%
+
+How to export window using WindowGen
+------------------------------------
+
+You can export your window using WindowGen. It will export in the chosen format with the default Blender settings for each of the format.
+
+1. Select the format you want your Window to be exported.
+    .. image:: images/02_working_with_05format.gif
+        :width: 75%
+
+2. Select Export Location.
+    .. note::
+        By default WindowGen exports selected window to the folder WindowGen_Export, which is created at the same path where your .blend file is saved.
+
+    .. image:: images/02_working_with_05path.gif
+        :width: 75%
+
+3. Export Options.
+    
+    .. warning::
+        This function is still in experimental state. Please report any bugs if you have got any.
+
+    You have to options:
+    
+    Option A: Prepare for Export (Recommended for inspection)
+
+    1. Press "Prepare for Export".
+        .. image:: images/02_working_with_05prepare.gif
+            :width: 75%
+    
+    2. The addon will:
+        - Create a duplicate of your window
+        - Move it to a new collection called "WindowGen Export"
+        - Apply the WindowGen modifier (keeps other modifiers like Weighted Normal)
+        - Separate the window into logical components:
+            - Frame
+            - Sashes (sash1, sash2, etc.)
+            - Handles (sash1_handle, sash2_handle, etc.)
+            .. image:: images/02_working_with_05origin.gif
+                :width: 75%
+        - Set proper origins for each component
+        - Create a parent empty object for easy manipulation
+        - Clean up unused materials
+        .. image:: images/02_working_with_05outliner.png
+            :width: 75%
+
+    3. You can now:
+    - Inspect the separated components
+    - Make manual adjustments if needed
+    - Export manually using File > Export
+
+    Option B: Export Window (One-click export)
+
+    1. Click **"Export Window"**
+    2. The addon will:
+    - Perform all preparation steps automatically
+    - Immediately export to your chosen format and location
+    - Display a success message when complete
 
 Now you can adjust the selected preset to your needs. You can navigate to the :ref:`parameters` section of the documentation to find out how to customize your window.
