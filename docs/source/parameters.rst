@@ -3,7 +3,7 @@
 Parameters
 ==========
 
-To simplify working with multiple windows in the scene, the settings panel will automatically display the name of the active window.
+When multiple windows are present, the settings panel shows the active window's name.
 
 .. image:: images/03_parameters_settings.gif
    :width: 75%
@@ -130,25 +130,30 @@ Materials
 This section allows you to assign materials to your window and control texel density.
 
 Texel Density
-    Sets the texel density (px/m) for the window. It is dependendent on **"Texture Resolution"**.
+    Sets the texel density (px/m) for the window. It depends on **"Texture Resolution"**.
 
     .. image:: images/03_parameters_material_texel.gif
         :width: 75%
 
 Texture Resolution
-    Sets the resolution of the texture. Change it to the corresponding resolution of your materials's texture.
+    Sets the resolution of the texture. Change it to the corresponding resolution of the material's texture.
 
     .. image:: images/03_parameters_material_texture.gif
         :width: 75%
 
 .. tip::
+    Texel density controls how many texture pixels (texels) cover a meter of geometry. Use this formula:
+
+    .. code-block:: text
+
+        Texel density = texture resolution (px) / physical size (m)
+
+    Example: a 2048 px texture applied to a 2 m width gives a texel density of 1024 px/m.
+
     Some texture resources (Megascans, Poliigon, Greyscale Gorilla etc.) include physical size of the texture in meters:
     
     .. image:: images/03_parameters_materials_uv_scale.png
         :width: 50%
-
-    Knowing texture resolution and it's physical size you can set perfect scale for your UVs.
-    For the texture with the **Resolution** (R) **2048px** and **Physical Size** (S) **2m** your target **Texel Density** = R / S = 2048px / 2m = **1024px/m**
 
 .. warning::
     For the materials to work correctly for mapping, choose the **UV Map** node and select UVMap (in some cases, the **Realize Instances** option must be enabled in the Options sections).
@@ -185,7 +190,7 @@ Apply Modifier
         :width: 75%
 
     .. important::
-        For this option to work correctly please activate built-in "Modifier Tools" add-on in Prefernces.
+        For this option to work correctly please activate built-in "Modifier Tools" add-on in Preferences.
 
     .. warning::
         Once applied, you will lose the ability to adjust any of the modifier's parameters. Press this button if you are ready to export the window to another program or if you need to edit the final window directly (e.g., deleting or adding elements).

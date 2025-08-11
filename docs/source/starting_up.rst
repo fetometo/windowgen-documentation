@@ -1,23 +1,23 @@
 Starting Up
 ===========
 
-How to Install WindowGen add-on
+How to install WindowGen add-on
 -------------------------------
 
-To install WindowGen follow these steps:
+To install the WindowGen add-on, follow these steps:
 
-1. Click on "Edit" in the top left corner.
-2. Select "Preferences…".
+1. Click on **Edit** in the top left corner.
+2. Select **Preferences…**.
     
     .. image:: images/01_starting_up_install1.png
         :width: 75%
 
-3. Navigate to the "Add-ons" section (1) and press "Install…" (2).
+3. Navigate to the "Add-ons" section (1) and press **Install…** (2).
     
     .. image:: images/01_starting_up_install2.png
         :width: 75%
 
-4. Navigate to the folder where you saved the WindowGen add-on zip archive. Select WindowGen zip archive and press "Install Add-on" 
+4. Navigate to the folder where you saved the WindowGen add-on zip archive. Select the WindowGen zip archive and press "Install Add-on" 
 
     .. image:: images/01_starting_up_install3.png
         :width: 75%

@@ -45,14 +45,14 @@ Version 2.0.5
 Version 3.0
 -------------
 
-- Updated UI (now shows progress of appending and updating).
-- Increased performance, when initially appending WindowGen to the scene.
-- Added documentation links where applied.
-- New Placement Option — Place at Selected Face.
-- Added option to control profile resolution.
-- Added option to control texel dencity (scale UVs)
-- Added new types of windows — Portal (lift&slide doors) and Sliding
-- Added update functionality. Now you can update WindowGen and it's components to the latest version in your old projects.
-- Added export functionality. Now you can prepare windows for export: automatic separation to static and movable parts, cleaning materials, and setting origins. As well as automatic export to selected formats.
-- Added asset library with variety of materilas.
+- Updated UI: progress is shown while appending and updating.
+- Improved initial append performance.
+- Added documentation links in the UI.
+- New placement option: *Place at Selected Face*.
+- Added profile resolution control.
+- Added texel density control (scale UVs).
+- Added new window types: Portal (lift & slide) and Sliding.
+- Added update functionality to upgrade WindowGen components in existing projects.
+- Added export functionality: prepare windows for export, set origins, and perform automatic export to selected formats.
+- Added an asset library with multiple material presets.
 - Fixed several bugs.
