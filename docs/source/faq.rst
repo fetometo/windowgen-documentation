@@ -1,5 +1,5 @@
-FAQ — WindowGen (short answers)
-================================
+FAQ
+===
 
 This is a compact FAQ with short, actionable steps for common issues users hit when working with WindowGen.
 
@@ -8,14 +8,17 @@ Q: Blender crashes when I try to add a Window. What do I do?
 Short fix (try in this order):
 
 1. Open the Outliner and switch to **Blender File** view.
+    
     .. image:: images/faq_windowgen3.0_library_fix_01.png
-        :width: 75%
+        :width: 50%
 2. Expand **Libraries**.
+    
     .. image:: images/faq_windowgen3.0_library_fix_02.png
-        :width: 75%
+        :width: 50%
 3. Right‑click the WindowGen library and select **Reload**.
+    
     .. image:: images/faq_windowgen3.0_library_fix_03.png
-        :width: 75%
+        :width: 50%
 4. Save the .blend and retry to add the Window.
 
 Q: The Blender is slow and it takes a long time to load and modify the windows. What should I do?
@@ -38,18 +41,22 @@ Short answer:
 Quick steps:
 
 1. Look for add-on prompt asking to update WindowGen — accept it if shown.
+    
     .. image:: images/02_working_with_04update.png
-        :width: 75%
+        :width: 50%
 2. If not prompted: follow the steps below to manually relocate the WindowGen library to the latest WindowGen.blend
 3. Open the Outliner and switch to **Blender File** view.
+    
     .. image:: images/faq_windowgen3.0_library_fix_01.png
-        :width: 75%
+        :width: 50%
 4. Expand **Libraries**.
+    
     .. image:: images/faq_windowgen3.0_library_fix_02.png
-        :width: 75%
+        :width: 50%
 5. Right‑click the WindowGen library and select **Relocate**.
+    
     .. image:: images/faq_windowgen3.0_library_fix_04.png
-        :width: 75%
+        :width: 50%
     
     .. tip::
         WindowGen.blend is usually stored inside the WindowGen add-on assets folder in your Blender user directory.
