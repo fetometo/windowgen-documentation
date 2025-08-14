@@ -56,3 +56,10 @@ Version 3.0
 - Added export functionality: prepare windows for export, set origins, and perform automatic export to selected formats.
 - Added an asset library with multiple material presets.
 - Fixed several bugs.
+
+Version 3.0.2
+-------------
+
+- Fixed unexpected Lite behavior in Blender 4.5
+- Fixed sliding window profiles not updating correctly
+- Fixed incorrect sash scaling for Portal F and Portal C4 when changing window dimensions
