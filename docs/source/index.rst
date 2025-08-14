@@ -21,4 +21,5 @@ Supported Blender versions: **4.0 and later**
    parameters
    customization
    future_plans
+   faq
    releases
