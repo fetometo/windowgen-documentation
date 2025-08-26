@@ -76,3 +76,4 @@ Quick steps:
         If you prefer variables: on Windows you can use ``%APPDATA%\Blender Foundation\Blender\<version>\...``.
 
 6. After relocating, windows should reappear in your Scene.
+7. If the issue persists, check the modifier stack for multiple Auto Smooth modifiers. Remove any duplicates and reapply Auto Smooth.
