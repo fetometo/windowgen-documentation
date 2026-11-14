@@ -79,6 +79,7 @@ Complete rewrite. Requires Blender 4.2 or newer; tested up to Blender 5.3.
 - Material library split into its own asset file; the generator file went from 109 MB to 7 MB.
 - Handle, glazing and other choices are stored per window (portal and sliding handles used to be shared by the whole scene).
 - Face placement works directly from Edit Mode; cutting the opening is optional.
+- Many windows at once: a window on every selected face, optional random window types within the chosen category, editing all selected windows together, copying settings from the active window and randomizing type, side and opening of existing windows.
 - "Add Window" is a button, so the same preset can be added several times in a row and the action can be undone.
 - Export rewritten: OBJ export works again, parts get correct origins and hierarchy at any object scale, the original window is never modified.
 - Removed Windows-only file paths that broke the add-on on macOS and Linux.

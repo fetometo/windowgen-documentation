@@ -29,7 +29,7 @@ There is no separate "Append WindowGen" step. The components are loaded automati
     .. image:: images/02_working_with_02origin.gif
         :width: 75%
 
-2. To fit a window into a wall, choose **Face**. Select a face or a closed edge loop in Edit Mode, then add the window. It takes the size and the orientation of the face.
+2. To fit a window into a wall, choose **Faces**. Select a face or a closed edge loop in Edit Mode, then add the window. It takes the size and the orientation of the face.
 
     .. image:: images/02_working_with_02face.gif
         :width: 75%
@@ -42,12 +42,15 @@ There is no separate "Append WindowGen" step. The components are loaded automati
     .. note::
         You can press *Add Window* straight from Edit Mode. WindowGen switches back to Object Mode and selects the new window.
 
+    .. tip::
+        Select several faces and every one of them gets a window. See :ref:`many-windows`.
+
 3. Choose the window type: Casement, Portal or Sliding.
 
     .. image:: images/02_working_with_02types.gif
         :width: 75%
 
-4. Click the preview to open the gallery and pick a preset.
+4. Click the preview to open the gallery, then click a preset to choose it.
 
     .. image:: images/02_working_with_02pressets.gif
         :width: 75%
@@ -63,6 +66,74 @@ The new window is selected and its parameters appear below. Navigate to the :ref
 
 .. note::
     Only the window itself appears in the Outliner. Profiles, hardware and node groups are stored in the file but are not placed in any scene or collection, so they cannot be moved or deleted by accident. You can see them in the Outliner's *Blender File* view.
+
+.. _many-windows:
+
+How to work with many windows
+-----------------------------
+
+A facade can hold dozens or hundreds of windows. WindowGen places them in one step and lets you adjust them together, so you never have to repeat the same change window by window.
+
+Add a window to every selected face
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Set *Placement* to **Faces**.
+2. In Edit Mode select all the faces that should become windows. The panel shows how many faces are selected, and the button changes to *Add N Windows*. The faces may belong to several objects that are in Edit Mode together.
+3. Press **Add N Windows**. Each face gets its own window with the size and the orientation of that face.
+
+    .. image:: images/02_working_with_06faces.gif
+        :width: 75%
+
+    .. tip::
+        Use Face select mode (press **3** in Edit Mode). In Vertex select mode Blender also selects a face that lies between two selected faces.
+
+Add variety with Random Type
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Turn on **Random Type** to give each new window a different type. The category you chose stays the same: a casement facade gets only casement windows, but they are a mix of Single, Fixed Frame, Mullion, Stulp and so on.
+
+.. image:: images/02_working_with_06types.png
+    :width: 50%
+
+- Click the types to choose which ones may be used. All of them are on at first.
+- **Seed** changes the result. The same seed always gives the same arrangement.
+
+Random Type works with every placement, but it is meant for *Faces* with several faces selected.
+
+Edit all selected windows at once
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Select two or more windows and the **Selected Windows** panel appears.
+
+.. image:: images/02_working_with_06panel.png
+    :width: 50%
+
+With **Edit All Selected** turned on, every change you make to the active window is repeated on all the selected windows. The header of the settings shows the name of the active window and how many others follow it, for example *Window Single +3*.
+
+.. image:: images/02_working_with_06edit.gif
+    :width: 75%
+
+- The windows may be of different types. Each window takes the settings that exist for its type and ignores the rest, so a mixed selection stays valid.
+- The type of a window is never changed by editing.
+- Only the setting you change is passed on. Everything else that differs between the windows stays different.
+- One *Undo* takes the change back on all the windows.
+
+**Copy Active to Selected** gives every selected window all the settings of the active one in a single step: profile, glazing, lites, handle, materials, opening and options. Size is left alone unless you turn on *Size* in the operator panel that appears in the bottom left corner of the 3D Viewport.
+
+Turn **Edit All Selected** off when you want to change only the active window while the others stay selected.
+
+Randomize the selected windows
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Randomize* adds variety to windows that already exist. Choose what to randomize and press **Randomize Selected**.
+
+.. image:: images/02_working_with_06random.gif
+    :width: 75%
+
+- **Window Type**: each window gets a random type from its own category. The types come from the *Random Type* list in the *Add Window* panel. Size, materials and the other settings are kept.
+- **Opening Side**: swaps the hinge, sash or sliding side where the window type has that choice.
+- **Opening**: opens the sashes by a random amount, up to *Max Opening*. Fixed frames stay closed.
+- **Seed**: change it to get another result.
 
 Sharing files
 -------------
