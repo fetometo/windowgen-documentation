@@ -31,7 +31,10 @@ To add a custom handle, follow these steps:
     .. image:: images/04_customization_handle_and_base.gif
         :width: 75%
 
-5. Select "Custom" in the Handle Parameters dropdown. Assign your Lever and Backplate geometry to the corresponding sockets.
+5. Select **Custom** in the handle gallery of the *Handle* panel. Assign your lever and backplate objects to **Lever Geometry** and **Backplate Geometry**.
 
     .. image:: images/03_parameters_01_handle_cutom.gif
         :width: 75%
+
+.. note::
+    Portal windows have a third slot, **Pull Geometry**, and sliding windows use a single **Pull Handle** object. Prepare them the same way.

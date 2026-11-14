@@ -1,79 +1,72 @@
 FAQ
 ===
 
-This is a compact FAQ with short, actionable steps for common issues users hit when working with WindowGen.
+Q: I opened a file made with WindowGen 3. What do I do?
+-----------------------------------------------------------
 
-Q: Blender crashes when I try to add a Window. What do I do?
------------------------------------------------------------------
-Short fix (try in this order):
+Press **Update WindowGen in This File** at the top of the *Add Window* panel.
 
-1. Open the Outliner and switch to **Blender File** view.
-    
-    .. image:: images/faq_windowgen3.0_library_fix_01.png
-        :width: 50%
-2. Expand **Libraries**.
-    
-    .. image:: images/faq_windowgen3.0_library_fix_02.png
-        :width: 50%
-3. Right‑click the WindowGen library and select **Reload**.
-    
-    .. image:: images/faq_windowgen3.0_library_fix_03.png
-        :width: 50%
-4. Save the .blend and retry to add the Window.
+WindowGen 3 linked its components from the add-on folder. Version 4 stores them in the file. The update:
 
-Q: The Blender is slow and it takes a long time to load and modify the windows. What should I do?
--------------------------------------------------------------------------------------------------
-Short answer:
+- switches every window to the new components and keeps all of its settings;
+- removes the link to ``WindowGen.blend``, the hidden *WindowGen Components* scene and the library overrides;
+- leaves each window with a single smoothing modifier;
+- replaces WindowGen library materials used on your own objects with local copies.
 
-- This slowdown is a known issue with Blender 4.5 and has been reported. For now we recommend using a Blender version prior to 4.4 for best performance with WindowGen.
+Blender may print "Data corruption ... library override reference" messages while opening such a file. They describe the overrides the old version left behind and disappear after the update.
 
-Quick steps:
+Windows in a WindowGen 3 file can still be edited before updating, as long as the old library file is where the file expects it.
 
-1. If you are on Blender 4.5, try opening the file in Blender 4.4 (or earlier) and test performance.  
-2. Keep WindowGen updated to the latest add-on release.  
+Files made with WindowGen 2 are converted the same way. Their windows keep every setting; the profiles and hardware are replaced by the current versions, so the mesh is not identical vertex for vertex.
 
-Q: All the windows are missing in my scene. How can I restore them?
--------------------------------------------------------------------
-Short answer:
+Q: Blender crashes or freezes when I open an old WindowGen file.
+----------------------------------------------------------------
 
-- WindowGen should automatically prompt to update the library when needed — accepting the prompt usually restores missing windows. If no prompt appears, manually relocate the WindowGen library via the Outliner.
+This is a Blender problem with library overrides whose linked file cannot be found. It happens before any add-on runs, so WindowGen cannot prevent it. It was observed with:
 
-Quick steps:
+- WindowGen 2 files opened in Blender 5.2 or newer, unless the WindowGen 2 library is still at its original location;
+- WindowGen 3 files opened in Blender 5.1 or newer when ``WindowGen.blend`` is missing altogether.
 
-1. Look for add-on prompt asking to update WindowGen — accept it if shown.
-    
-    .. image:: images/02_working_with_04update.png
-        :width: 50%
-2. If not prompted: follow the steps below to manually relocate the WindowGen library to the latest WindowGen.blend
-3. Open the Outliner and switch to **Blender File** view.
-    
-    .. image:: images/faq_windowgen3.0_library_fix_01.png
-        :width: 50%
-4. Expand **Libraries**.
-    
-    .. image:: images/faq_windowgen3.0_library_fix_02.png
-        :width: 50%
-5. Right‑click the WindowGen library and select **Relocate**.
-    
-    .. image:: images/faq_windowgen3.0_library_fix_04.png
-        :width: 50%
-    
-    .. tip::
-        WindowGen.blend is usually stored inside the WindowGen add-on assets folder in your Blender user directory.
-        Replace ``<username>`` and ``<version>`` (e.g. ``4.4``) before using the paths below.
+Installing WindowGen 4 over WindowGen 3 does not cause it: WindowGen 3 files open normally in every supported version with the new library in place.
 
-        .. code-block:: text
+To recover such a file:
 
-            # Windows (typical)
-            C:\Users\<username>\AppData\Roaming\Blender Foundation\Blender\<version>\extensions\user_default\windowgen\assets\WindowGen.blend
+1. Open it in the Blender version it was last saved with (WindowGen 4 runs on Blender 4.2 and newer), or put the old ``WindowGen.blend`` back where the file expects it.
+2. Press **Update WindowGen in This File** and save.
 
-            # macOS (typical)
-            /Users/<username>/Library/Application Support/Blender/<version>/extensions/user_default/windowgen/assets/WindowGen.blend
+The saved file no longer links anything and opens in every supported Blender version.
 
-            # Linux (typical)
-            /home/<username>/.config/blender/<version>/extensions/user_default/windowgen/assets/WindowGen.blend
+Q: Window geometry disappeared although the object is still in the Outliner.
+----------------------------------------------------------------------------
 
-        If you prefer variables: on Windows you can use ``%APPDATA%\Blender Foundation\Blender\<version>\...``.
+This was caused by several "Auto Smooth" modifiers stacked on one window in WindowGen 3 files. Press **Update WindowGen in This File**; each window is left with exactly one *WindowGen Smooth* modifier and one *Weighted Normal*.
 
-6. After relocating, windows should reappear in your Scene.
-7. If the issue persists, check the modifier stack for multiple Auto Smooth modifiers. Remove any duplicates and reapply Auto Smooth.
+Q: The parameters are empty or show errors in Blender 5.2 and newer.
+--------------------------------------------------------------------
+
+Blender 5.2 changed how geometry nodes modifier inputs are accessed, which broke WindowGen 3. WindowGen 4 supports Blender 4.2 to 5.3. Install version 4 and update the file as described above.
+
+Q: In Blender 5.3 the locks and other sash hardware appear next to the window.
+------------------------------------------------------------------------------
+
+That happens with WindowGen 3 components in Blender 5.3. Update the file; the version 4 components place the hardware identically in every supported Blender version.
+
+Q: Does the person I send my file to need WindowGen?
+----------------------------------------------------
+
+No. The file contains everything the windows need. Without the add-on the windows still render and can be adjusted through the modifier panel; with the add-on the recipient also gets the WindowGen panels.
+
+Q: We keep assets on a network server. Can WindowGen load from there?
+---------------------------------------------------------------------
+
+Yes. See *Studio setup: one shared library* in :doc:`working_with_generator`. Because windows are appended, scenes never contain a path to the library, local or network.
+
+Q: Blender is slow when I modify windows.
+-------------------------------------------
+
+Keep *Realize Instances* off while you work and switch it on only for export or when you need real geometry. Lower *Profile Resolution* for windows that are far from the camera.
+
+Q: The previews in the galleries are missing.
+---------------------------------------------
+
+Press the refresh button next to the gallery.

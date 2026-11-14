@@ -3,10 +3,10 @@ Welcome to WindowGen
 
 Procedural window generator for Blender based on real-life PVC window profiles and hardware. In this documentation you can find how to use the generator, future plans on development and updates.
 
-Supported Blender versions: **4.0 and later**
+Supported Blender versions: **4.2 LTS and later** (tested up to 5.3)
 
-.. important::
-    Known issue (Blender 4.5): adding windows can be slow and cause a temporary FPS drop. Please wait until the operation completes. We are working on optimizations for a future update.
+.. note::
+    This is the documentation for WindowGen 4. For WindowGen 3, which also supports Blender 4.0 and 4.1, see the `3.0 documentation <https://windowgen-documentation.readthedocs.io/en/3.0/>`_.
 
 .. raw:: html
 

@@ -4,179 +4,182 @@ Working With WindowGen
 How to open WindowGen interface
 -------------------------------
 
-WindowGen is located in the side panel. To open the WindowGen interface, follow these steps:
+WindowGen is located in the side panel of the 3D Viewport.
 
 1. Press **N** to open the side panel.
 
     .. important::
         Make sure your mouse cursor is over the 3D View before pressing **N**; otherwise Blender may open a different panel.
 
-2. Select the *WindowGen* tab in the side panel.
+2. Select the *WindowGen* tab.
 
     .. image:: images/01_starting_up_install5.png
         :width: 75%
 
-How to append WindowGen to your scene
--------------------------------------
-
-Before you add the first window, append WindowGen components into your scene:
-
-1. Press the "Append WindowGen" button.
-
-    .. image:: images/02_working_with_01append.png
-        :width: 50%  
-
-2. The button will turn into progress bar, indicating that Blender is loading all the necessary components into your scene. This process typically takes 5–10 seconds, depending on your hardware and Blender version.
-
-    .. image:: images/02_working_with_01loading.png
-        :width: 50%
-
-3. Once all the components are loaded, the button will turn grey, and the text "WindowGen Appended" will appear on the button. And the panel "Add Window" will appear as well.
-
-    .. image:: images/02_working_with_01success.png
-        :width: 50%
-
-How to add WindowGen Asset Library to the Blender
--------------------------------------------------
-
-WindowGen Asset Library will bring realistic materials to customize the appearance of your windows even further:
-
-1. Press the "Add WindowGen Library" button.
-
-    .. image:: images/02_working_with_03add.png
-        :width: 50%  
-
-2. Once the Asset Library is added, the button will turn grey, and the text "WindowGen Library Added" will appear on the button.
-
-    .. image:: images/02_working_with_03success.png
-        :width: 50%
-
-3. Navigate to the Asset Browser, and select WindowGen in the libraries list to find the materials.
-
-    .. image:: images/02_working_with_03browser.gif
-        :width: 50%
-
-    .. tip::
-        For easier search most of the materials have tags: Metal, Plastic, RAL color code, etc.
-
-How to update WindowGen
------------------------
-
-Once you install the latest version of WindowGen addon, you will be able to update your older projects to this version.
-
-.. note::
-    WindowGen automatically finds the latest version on your PC and changes the UI to indicate if update is available.
-
-1. Press the "Update" button.
-
-    .. image:: images/02_working_with_04update.png
-        :width: 50%  
-
-2. The button will turn into progress bar, indicating that Blender is updating all the necessary components. This process typically takes 5–10 seconds, depending on your hardware and Blender version.
-
-    .. image:: images/02_working_with_04loading.png
-        :width: 50%
-
-3. Once the upgrade is completed, the UI will return to its default state.
-
-    .. image:: images/02_working_with_04success.png
-        :width: 50%
-
 How to add new window to the scene
 ----------------------------------
 
-1. Choose where to place the window: at the World Origin, at the 3D Cursor or at the Selected Face.
+There is no separate "Append WindowGen" step. The components are loaded automatically with the first window you add to a file.
+
+.. image:: images/02_working_with_01add.png
+    :width: 50%
+
+1. Choose where to place the window: at the **World** origin or at the 3D **Cursor**.
 
     .. image:: images/02_working_with_02origin.gif
         :width: 75%
 
-2. When Selected Face option is chosen. Before adding the window, enter Edit Mode (Tab) and select a Face or an Edge Loop you want your window to be placed at. After selecting a face or edge loop, press **Tab** to return to Object Mode. And add the window (see the next step).
+2. To fit a window into a wall, choose **Face**. Select a face or a closed edge loop in Edit Mode, then add the window. It takes the size and the orientation of the face.
 
     .. image:: images/02_working_with_02face.gif
         :width: 75%
+
+    .. image:: images/02_working_with_01face.png
+        :width: 50%
+
+    *Cut Opening* removes the selected face so the window sits in an opening. Turn it off to keep the face.
+
+    .. note::
+        You can press *Add Window* straight from Edit Mode. WindowGen switches back to Object Mode and selects the new window.
 
 3. Choose the window type: Casement, Portal or Sliding.
 
     .. image:: images/02_working_with_02types.gif
         :width: 75%
 
-4. Click on the Window Icon to open the window presets gallery.
+4. Click the preview to open the gallery and pick a preset.
 
     .. image:: images/02_working_with_02pressets.gif
         :width: 75%
 
-5. Choose one of the presets to add it to your scene.
+5. Press **Add Window**.
 
     .. image:: images/02_working_with_02select.gif
         :width: 75%
 
-Now you can adjust the selected preset to your needs. You can navigate to the :ref:`parameters` section of the documentation to find out how to customize your window.
+    The first window in a file takes a few seconds while the components are loaded; the mouse cursor and the status bar show that Blender is busy. Every window after that is added instantly.
+
+The new window is selected and its parameters appear below. Navigate to the :ref:`parameters` section to find out how to customize your window.
+
+.. note::
+    Only the window itself appears in the Outliner. Profiles, hardware and node groups are stored in the file but are not placed in any scene or collection, so they cannot be moved or deleted by accident. You can see them in the Outliner's *Blender File* view.
+
+Sharing files
+-------------
+
+Windows are **appended**, not linked. A .blend file that contains WindowGen windows is self-contained:
+
+- it opens on a computer where WindowGen is not installed, and the windows keep working as geometry nodes objects;
+- it does not store the location of the WindowGen library, so nothing has to be relinked when the file is sent to a client, moved to a render farm or opened by a colleague.
+
+WindowGen adds roughly 6 MB to a file, once, no matter how many windows it contains.
+
+How to add WindowGen Asset Library to the Blender
+-------------------------------------------------
+
+The WindowGen Asset Library brings realistic materials to customize the appearance of your windows even further.
+
+1. Open the *Library* panel in the WindowGen tab and press **Add WindowGen Material Library**.
+
+    .. image:: images/02_working_with_03add.png
+        :width: 50%
+
+2. Once the library is added, the panel shows *Material library added*.
+
+    .. image:: images/02_working_with_03success.png
+        :width: 50%
+
+3. Open the Asset Browser and select *WindowGen* in the library list to find the materials.
+
+    .. image:: images/02_working_with_03browser.png
+        :width: 75%
+
+    .. tip::
+        For easier search most of the materials have tags: Metal, Plastic, RAL color code, etc.
+
+Materials are imported with the *Append* method, so they are copied into your file like the windows are.
+
+Studio setup: one shared library
+--------------------------------
+
+By default WindowGen uses the library that is bundled with the add-on. A studio can keep one copy on a network share instead, so every workstation uses the same components and materials.
+
+1. Copy the contents of the add-on's ``assets`` folder to the share. The folder must contain ``WindowGen.blend``, ``windowgen_library.json`` and the ``materials`` folder.
+
+2. On each workstation, open *Edit > Preferences > Add-ons > WindowGen* and set **Library Folder** to that share.
+
+    .. image:: images/02_working_with_03preferences.png
+        :width: 75%
+
+    Alternatively, set the environment variable ``WINDOWGEN_LIBRARY`` to the folder. This needs no per-user setup and suits managed deployments. The preference takes priority over the variable.
+
+3. Press **Add WindowGen Material Library** once; the asset library then points at the share as well.
+
+If the folder cannot be reached, WindowGen falls back to the bundled library and says so in the preferences.
+
+.. note::
+    Because windows are appended, scenes never contain a path to the library, whether it is local or on the network.
+
+How to update WindowGen
+-----------------------
+
+When a file contains components from an older WindowGen version, a notice appears at the top of the *Add Window* panel.
+
+1. Press **Update WindowGen in This File**.
+
+    .. image:: images/02_working_with_04update.png
+        :width: 50%
+
+2. All windows are switched to the installed components. Sizes, profiles, handles, materials and every other setting are kept.
+
+    .. image:: images/02_working_with_04success.png
+        :width: 50%
+
+The same button converts files made with WindowGen 2 and 3: the link to ``WindowGen.blend``, the hidden *WindowGen Components* scene and the library overrides are removed and replaced by data stored in the file. See the :doc:`faq` for details.
+
+.. _export:
 
 How to export window using WindowGen
 ------------------------------------
 
-.. warning::
-    This feature is experimental. Please report any bugs you encounter.
+Open the *Export* panel with a window selected.
 
-You can export your window using WindowGen. It will export in the chosen format with the default Blender settings for each of the format.
+.. image:: images/02_working_with_05export.png
+    :width: 50%
 
-1. Select the format you want your Window to be exported.
-    
-    .. image:: images/02_working_with_05format.gif
-        :width: 75%
+1. Select the format: FBX, OBJ, glTF or GLB.
 
-2. Select Export Location.
-    
+2. Select the export location.
+
     .. note::
-        By default WindowGen exports selected window to the folder WindowGen_Export, which is created at the same path where your .blend file is saved.
+        By default WindowGen exports to the folder ``WindowGen_Export``, created next to your .blend file. Enable *Custom Path* to choose another folder.
 
-    .. image:: images/02_working_with_05path.gif
+3. Choose one of the two actions.
+
+    **Prepare for Export (recommended for inspection)**
+
+    Creates an export copy of the window in the *WindowGen Export* collection and leaves the original untouched.
+
+    .. image:: images/02_working_with_05prepare.gif
         :width: 75%
 
-3. Export Options.
-    
-    You have two options:
-    
-    **Option A: Prepare for Export (Recommended for inspection)**
+    The copy is a plain mesh, split into logical parts:
 
-    1. Press "Prepare for Export".
-        
-        .. image:: images/02_working_with_05prepare.gif
-            :width: 75%
-    
-    2. The addon will:
-        
-        - Create a duplicate of your window
-        - Move it to a new collection called "WindowGen Export"
-        - Apply the WindowGen modifier (keeps other modifiers like Weighted Normal)
-        - Separate the window into logical components:
-            
-            - Frame
-            - Sashes (sash1, sash2, etc.)
-            - Handles (sash1_handle, sash2_handle, etc.)
-            
-            .. image:: images/02_working_with_05origin.gif
-                :width: 75%
-        
-        - Set proper origins for each component
-        - Create a parent empty object for easy manipulation
-        - Clean up unused materials
-        
-        .. image:: images/02_working_with_05outliner.png
-            :width: 75%
+    - the **frame**;
+    - each **sash** (``sash1``, ``sash2``, ...). Hinged sashes have their origin on the hinge: rotate around Z to turn and around X to tilt. Sliding sashes, portal sashes and the mosquito screen have their origin at the bottom center;
+    - each **handle** (``sash1_handle``, ...), parented to its sash, with its origin on the handle axis;
+    - a parent **empty** that carries the position, rotation and scale of the window.
 
-    3. You can now:
-        
-        - Inspect the separated components
-        - Make manual adjustments if needed
-        - Export manually using File > Export
+    Sash-side hinges and hardware belong to the sash, so they move with it.
 
-    **Option B: Export Window (One-click export)**
+    .. image:: images/02_working_with_05origin.gif
+        :width: 75%
 
-    1. Click **"Export Window"**
-        
-    2. The addon will:
-        
-        - Perform all preparation steps automatically
-        - Immediately export to your chosen format and location
-        - Display a success message when complete
+    .. image:: images/02_working_with_05outliner.png
+        :width: 75%
+
+    Unused material slots and helper attributes are removed. You can now inspect the parts, adjust them and export them yourself with *File > Export*.
+
+    **Export Window (one-click export)**
+
+    Does the same and writes the file immediately in the chosen format and location. Smoothing is applied on export.
