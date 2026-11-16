@@ -83,4 +83,3 @@ Complete rewrite. Requires Blender 4.2 or newer; tested up to Blender 5.3.
 - "Add Window" is a button, so the same preset can be added several times in a row and the action can be undone.
 - Export rewritten: OBJ export works again, parts get correct origins and hierarchy at any object scale, the original window is never modified.
 - Removed Windows-only file paths that broke the add-on on macOS and Linux.
-- Euroline58 is available in the profile gallery.
