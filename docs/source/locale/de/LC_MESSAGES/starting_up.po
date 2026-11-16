@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Mikhail Shevchenko
+# This file is distributed under the same license as the WindowGen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WindowGen 4.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-16 22:06+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:2
+#: DESKTOP-HETTM96/WindowGen
+msgid "Starting Up"
+msgstr "Erste Schritte"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:5
+#: DESKTOP-HETTM96/WindowGen
+msgid "Requirements"
+msgstr "Voraussetzungen"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:7
+#: DESKTOP-HETTM96/WindowGen
+msgid "WindowGen 4 runs on **Blender 4.2 LTS and newer** and is tested up to Blender 5.3. It is installed as a Blender extension."
+msgstr "WindowGen 4 läuft unter **Blender 4.2 LTS und neuer** und ist bis Blender 5.3 getestet. Es wird als Blender-Erweiterung installiert."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:10
+#: DESKTOP-HETTM96/WindowGen
+msgid "Using Blender 4.0 or 4.1? Stay on WindowGen 3 and its `documentation <https://windowgen-documentation.readthedocs.io/en/3.0/>`_."
+msgstr "Sie nutzen Blender 4.0 oder 4.1? Bleiben Sie bei WindowGen 3 und dessen `Dokumentation <https://windowgen-documentation.readthedocs.io/en/3.0/>`_."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:13
+#: DESKTOP-HETTM96/WindowGen
+msgid "How to install WindowGen add-on"
+msgstr "So installieren Sie das WindowGen-Add-on"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:15
+#: DESKTOP-HETTM96/WindowGen
+msgid "The quickest way is to drag the WindowGen zip archive from your file manager into the Blender window and confirm the installation. To install it from the Preferences instead, follow these steps:"
+msgstr "Am schnellsten ziehen Sie das WindowGen-Zip-Archiv aus dem Dateimanager in das Blender-Fenster und bestätigen die Installation. Um es stattdessen über die Einstellungen zu installieren, gehen Sie so vor:"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:17
+#: DESKTOP-HETTM96/WindowGen
+msgid "Click on **Edit** in the top left corner and select **Preferences…**."
+msgstr "Klicken Sie oben links auf **Edit** und wählen Sie **Preferences…**."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:19
+#: DESKTOP-HETTM96/WindowGen
+msgid "Open the **Get Extensions** section (1), click the arrow in the top right corner (2) and choose **Install from Disk…**."
+msgstr "Öffnen Sie den Bereich **Get Extensions** (1), klicken Sie oben rechts auf den Pfeil (2) und wählen Sie **Install from Disk…**."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:24
+#: DESKTOP-HETTM96/WindowGen
+msgid "Navigate to the folder where you saved the WindowGen zip archive, select it and press **Install from Disk**. Do not unpack the archive."
+msgstr "Navigieren Sie zu dem Ordner, in dem Sie das WindowGen-Zip-Archiv gespeichert haben, wählen Sie es aus und klicken Sie auf **Install from Disk**. Entpacken Sie das Archiv nicht."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:26
+#: DESKTOP-HETTM96/WindowGen
+msgid "WindowGen is enabled automatically. You can find it in the **Add-ons** section, where its preferences are located as well."
+msgstr "WindowGen wird automatisch aktiviert. Sie finden es im Bereich **Add-ons**, wo sich auch seine Einstellungen befinden."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:31
+#: DESKTOP-HETTM96/WindowGen
+msgid "Close the Preferences window. Press **N** in the 3D Viewport to open the side panel and select the **WindowGen** tab."
+msgstr "Schließen Sie das Einstellungsfenster. Drücken Sie im 3D-Viewport **N**, um die Seitenleiste zu öffnen, und wählen Sie den Reiter **WindowGen**."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:37
+#: DESKTOP-HETTM96/WindowGen
+msgid "Updating from WindowGen 3"
+msgstr "Update von WindowGen 3"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:39
+#: DESKTOP-HETTM96/WindowGen
+msgid "Install WindowGen 4 as described above. It replaces the previous version; there is no need to remove WindowGen 3 first."
+msgstr "Installieren Sie WindowGen 4 wie oben beschrieben. Es ersetzt die vorherige Version; WindowGen 3 muss vorher nicht entfernt werden."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:40
+#: DESKTOP-HETTM96/WindowGen
+msgid "Open your project and press **Update WindowGen in This File** in the *Add Window* panel. See :doc:`working_with_generator` for details."
+msgstr "Öffnen Sie Ihr Projekt und klicken Sie im Panel *Add Window* auf **Update WindowGen in This File**. Details siehe :doc:`working_with_generator`."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/starting_up.rst:42
+#: DESKTOP-HETTM96/WindowGen
+msgid "Your windows keep all of their settings."
+msgstr "Ihre Fenster behalten alle Einstellungen."
+

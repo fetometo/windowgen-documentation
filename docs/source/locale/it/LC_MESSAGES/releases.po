@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Mikhail Shevchenko
+# This file is distributed under the same license as the WindowGen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WindowGen 4.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-16 22:19+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:2
+#: DESKTOP-HETTM96/WindowGen
+msgid "Releases"
+msgstr "Versioni"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:5
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 1.1"
+msgstr "Versione 1.1"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:7
+#: DESKTOP-HETTM96/WindowGen
+msgid "Initial release"
+msgstr "Prima versione"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:10
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 1.2"
+msgstr "Versione 1.2"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:12
+#: DESKTOP-HETTM96/WindowGen
+msgid "Added lites"
+msgstr "Aggiunte le inglesine"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:13
+#: DESKTOP-HETTM96/WindowGen
+msgid "Added transom option (awning and hopper types)"
+msgstr "Aggiunta l'opzione sopraluce (tipi awning e hopper)"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:14
+#: DESKTOP-HETTM96/WindowGen
+msgid "Optimization. Average face count reduced by 10%"
+msgstr "Ottimizzazione: numero medio di facce ridotto del 10%"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:15
+#: DESKTOP-HETTM96/WindowGen
+msgid "UI improvements for Blender 4.1. Added panels"
+msgstr "Miglioramenti dell'interfaccia per Blender 4.1. Aggiunti i pannelli"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:18
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 2.0"
+msgstr "Versione 2.0"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:20
+#: DESKTOP-HETTM96/WindowGen
+msgid "Standalone add-on release"
+msgstr "Pubblicazione come add-on autonomo"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:21
+#: DESKTOP-HETTM96/WindowGen
+msgid "Better performance"
+msgstr "Prestazioni migliori"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:24
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 2.0.2"
+msgstr "Versione 2.0.2"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:26
+#: DESKTOP-HETTM96/WindowGen
+msgid "Fixed a bug causing the Apply Modifier to not work and send an error."
+msgstr "Corretto un bug per cui Apply Modifier non funzionava e mostrava un errore."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:29
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 2.0.3"
+msgstr "Versione 2.0.3"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:31
+#: DESKTOP-HETTM96/WindowGen
+msgid "Added opening option (inward and outward opening) in Rotation Settings"
+msgstr "Aggiunta l'opzione di apertura (verso l'interno e verso l'esterno) nelle impostazioni Rotation"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:34
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 2.0.4"
+msgstr "Versione 2.0.4"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:36
+#: DESKTOP-HETTM96/WindowGen
+msgid "Fixed an issue where the Window Material was not updating"
+msgstr "Corretto un problema per cui Window Material non si aggiornava"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:39
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 2.0.5"
+msgstr "Versione 2.0.5"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:41
+#: DESKTOP-HETTM96/WindowGen
+msgid "Corrected stulp position for window heights of 2.1m and above for Stulp Window."
+msgstr "Corretta la posizione del battente centrale per finestre alte 2,1 m o più (Stulp Window)."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:42
+#: DESKTOP-HETTM96/WindowGen
+msgid "Resolved incorrect hinge orientation when \"Realize Instances\" is unchecked for Awning and Transom Windows."
+msgstr "Corretto l'orientamento errato delle cerniere con «Realize Instances» disattivato nelle finestre Awning e Transom."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:43
+#: DESKTOP-HETTM96/WindowGen
+msgid "Fixed incorrect glass position when \"Outward Opening\" is selected for 3 Section Window."
+msgstr "Corretta la posizione errata del vetro quando si sceglie «Outward Opening» nella finestra a tre sezioni."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:46
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 3.0"
+msgstr "Versione 3.0"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:48
+#: DESKTOP-HETTM96/WindowGen
+msgid "Updated UI: progress is shown while appending and updating."
+msgstr "Interfaccia aggiornata: durante l'aggiunta e l'aggiornamento viene mostrato l'avanzamento."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:49
+#: DESKTOP-HETTM96/WindowGen
+msgid "Improved initial append performance."
+msgstr "Migliorate le prestazioni della prima aggiunta."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:50
+#: DESKTOP-HETTM96/WindowGen
+msgid "Added documentation links in the UI."
+msgstr "Aggiunti nell'interfaccia i collegamenti alla documentazione."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:51
+#: DESKTOP-HETTM96/WindowGen
+msgid "New placement option: *Place at Selected Face*."
+msgstr "Nuova opzione di posizionamento: *Place at Selected Face*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:52
+#: DESKTOP-HETTM96/WindowGen
+msgid "Added profile resolution control."
+msgstr "Aggiunto il controllo della risoluzione del profilo."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:53
+#: DESKTOP-HETTM96/WindowGen
+msgid "Added texel density control (scale UVs)."
+msgstr "Aggiunto il controllo della densità di texel (scala UV)."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:54
+#: DESKTOP-HETTM96/WindowGen
+msgid "Added new window types: Portal (lift & slide) and Sliding."
+msgstr "Aggiunti nuovi tipi di finestra: Portal (alzante scorrevole) e Sliding."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:55
+#: DESKTOP-HETTM96/WindowGen
+msgid "Added update functionality to upgrade WindowGen components in existing projects."
+msgstr "Aggiunta una funzione per aggiornare i componenti WindowGen nei progetti esistenti."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:56
+#: DESKTOP-HETTM96/WindowGen
+msgid "Added export functionality: prepare windows for export, set origins, and perform automatic export to selected formats."
+msgstr "Aggiunta l'esportazione: preparazione delle finestre per l'esportazione, impostazione delle origini ed esportazione automatica nei formati scelti."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:57
+#: DESKTOP-HETTM96/WindowGen
+msgid "Added an asset library with multiple material presets."
+msgstr "Aggiunta una libreria di asset con vari preset di materiali."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:58
+#: DESKTOP-HETTM96/WindowGen
+msgid "Fixed several bugs."
+msgstr "Corretti diversi bug."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:61
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 3.0.2"
+msgstr "Versione 3.0.2"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:63
+#: DESKTOP-HETTM96/WindowGen
+msgid "Fixed unexpected Lite behavior in Blender 4.5"
+msgstr "Corretto un comportamento inatteso delle inglesine in Blender 4.5"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:64
+#: DESKTOP-HETTM96/WindowGen
+msgid "Fixed sliding window profiles not updating correctly"
+msgstr "Corretto l'aggiornamento errato dei profili delle finestre scorrevoli"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:65
+#: DESKTOP-HETTM96/WindowGen
+msgid "Fixed incorrect sash scaling for Portal F and Portal C4 when changing window dimensions"
+msgstr "Corretto il ridimensionamento errato delle ante in Portal F e Portal C4 quando si cambiano le dimensioni della finestra"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:68
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 4.0.0"
+msgstr "Versione 4.0.0"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:70
+#: DESKTOP-HETTM96/WindowGen
+msgid "Complete rewrite. Requires Blender 4.2 or newer; tested up to Blender 5.3."
+msgstr "Riscritto da zero. Richiede Blender 4.2 o successivo; testato fino a Blender 5.3."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:72
+#: DESKTOP-HETTM96/WindowGen
+msgid "Works in Blender 5.2 and 5.3 (parameters were not shown in 5.2; sash hardware was misplaced in 5.3)."
+msgstr "Funziona in Blender 5.2 e 5.3 (in 5.2 i parametri non venivano mostrati; in 5.3 la ferramenta delle ante era fuori posto)."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:73
+#: DESKTOP-HETTM96/WindowGen
+msgid "Windows are appended instead of linked. Files are self-contained and can be shared without relinking."
+msgstr "Le finestre vengono aggiunte al file invece di essere collegate. I file sono autonomi e si possono condividere senza ricollegare nulla."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:74
+#: DESKTOP-HETTM96/WindowGen
+msgid "No \"Append WindowGen\" step: components load automatically with the first window."
+msgstr "Nessun passaggio «Append WindowGen»: i componenti si caricano automaticamente con la prima finestra."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:75
+#: DESKTOP-HETTM96/WindowGen
+msgid "Only the window appears in the Outliner; no hidden scene, no helper collections."
+msgstr "Nell'Outliner compare solo la finestra; nessuna scena nascosta, nessuna collezione ausiliaria."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:76
+#: DESKTOP-HETTM96/WindowGen
+msgid "Fixed disappearing geometry caused by duplicated Auto Smooth modifiers."
+msgstr "Corretta la scomparsa della geometria causata da modificatori Auto Smooth duplicati."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:77
+#: DESKTOP-HETTM96/WindowGen
+msgid "One-click update of existing files, including files made with WindowGen 3."
+msgstr "Aggiornamento dei file esistenti in un clic, compresi i file creati con WindowGen 3."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:78
+#: DESKTOP-HETTM96/WindowGen
+msgid "Custom library folder (preference or ``WINDOWGEN_LIBRARY`` environment variable) for studios with shared storage."
+msgstr "Cartella della libreria personalizzata (preferenza o variabile d'ambiente ``WINDOWGEN_LIBRARY``) per studi con archiviazione condivisa."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:79
+#: DESKTOP-HETTM96/WindowGen
+msgid "Material library split into its own asset file; the generator file went from 109 MB to 7 MB."
+msgstr "La libreria di materiali è ora un file di asset separato; il file del generatore è passato da 109 MB a 7 MB."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:80
+#: DESKTOP-HETTM96/WindowGen
+msgid "Handle, glazing and other choices are stored per window (portal and sliding handles used to be shared by the whole scene)."
+msgstr "Maniglia, vetratura e altre scelte vengono salvate per ogni finestra (prima le maniglie di portali e scorrevoli erano condivise da tutta la scena)."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:81
+#: DESKTOP-HETTM96/WindowGen
+msgid "Face placement works directly from Edit Mode; cutting the opening is optional."
+msgstr "Il posizionamento sulle facce funziona direttamente da Edit Mode; il taglio dell'apertura è facoltativo."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:82
+#: DESKTOP-HETTM96/WindowGen
+msgid "Many windows at once: a window on every selected face, optional random window types within the chosen category, editing all selected windows together, copying settings from the active window and randomizing type, side and opening of existing windows."
+msgstr "Molte finestre insieme: una finestra su ogni faccia selezionata, tipi di finestra casuali facoltativi all'interno della categoria scelta, modifica congiunta di tutte le finestre selezionate, copia delle impostazioni dalla finestra attiva e variazione casuale di tipo, lato e apertura delle finestre esistenti."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:83
+#: DESKTOP-HETTM96/WindowGen
+msgid "\"Add Window\" is a button, so the same preset can be added several times in a row and the action can be undone."
+msgstr "«Add Window» è un pulsante, quindi lo stesso preset si può aggiungere più volte di seguito e l'azione si può annullare."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:84
+#: DESKTOP-HETTM96/WindowGen
+msgid "Export rewritten: OBJ export works again, parts get correct origins and hierarchy at any object scale, the original window is never modified."
+msgstr "Esportazione riscritta: l'esportazione OBJ funziona di nuovo, le parti hanno origini e gerarchia corrette con qualsiasi scala dell'oggetto e la finestra originale non viene mai modificata."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:85
+#: DESKTOP-HETTM96/WindowGen
+msgid "Removed Windows-only file paths that broke the add-on on macOS and Linux."
+msgstr "Rimossi i percorsi validi solo su Windows che impedivano all'add-on di funzionare su macOS e Linux."
+

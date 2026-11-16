@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Mikhail Shevchenko
+# This file is distributed under the same license as the WindowGen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WindowGen 4.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-16 22:06+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/future_plans.rst:2
+#: DESKTOP-HETTM96/WindowGen
+msgid "Future Plans"
+msgstr "Projets"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/future_plans.rst:4
+#: DESKTOP-HETTM96/WindowGen
+msgid "Currently in the works for upcoming updates:"
+msgstr "En préparation pour les prochaines mises à jour :"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/future_plans.rst:6
+#: DESKTOP-HETTM96/WindowGen
+msgid "New Window Types"
+msgstr "Nouveaux types de fenêtres"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/future_plans.rst:7
+#: DESKTOP-HETTM96/WindowGen
+msgid "New Profiles"
+msgstr "Nouveaux profilés"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/future_plans.rst:8
+#: DESKTOP-HETTM96/WindowGen
+msgid "New Handles"
+msgstr "Nouvelles poignées"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/future_plans.rst:9
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sliding Windows (vertical)"
+msgstr "Fenêtres coulissantes (verticales)"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/future_plans.rst:12
+#: DESKTOP-HETTM96/WindowGen
+msgid "If you have ideas for new functionalities you'd like to see implemented or specific requirements tailored to your project, please don't hesitate to reach out to us. We value your feedback and are committed to enhancing WindowGen to better suit your needs. Contact us to discuss your suggestions or requirements further. We're here to help! (i@mshevchenko.ru)"
+msgstr "Si vous avez des idées de nouvelles fonctionnalités ou des besoins particuliers pour votre projet, n'hésitez pas à nous écrire. Vos retours comptent pour nous et nous travaillons à rendre WindowGen toujours mieux adapté à vos besoins. Contactez-nous pour discuter de vos suggestions ou de vos besoins. Nous sommes là pour vous aider ! (i@mshevchenko.ru)"
+

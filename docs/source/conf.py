@@ -30,6 +30,18 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+# -- Translations
+# English is the source. Translations live in locale/<lang>/LC_MESSAGES/<page>.po,
+# one file per page. Read the Docs builds each language from its own project
+# (set to that language), which passes -D language=<lang> to Sphinx.
+# To refresh after editing the English pages:
+#   sphinx-build -b gettext docs/source docs/build/gettext
+#   sphinx-intl update -p docs/build/gettext -d docs/source/locale -l fr -l it -l ru -l es -l de
+language = 'en'
+locale_dirs = ['locale/']
+gettext_compact = False
+gettext_uuid = False
+
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',

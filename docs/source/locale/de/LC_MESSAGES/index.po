@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Mikhail Shevchenko
+# This file is distributed under the same license as the WindowGen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WindowGen 4.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-16 22:06+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/index.rst:15
+#: DESKTOP-HETTM96/WindowGen
+msgid "Contents:"
+msgstr "Inhalt:"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/index.rst:2
+#: DESKTOP-HETTM96/WindowGen
+msgid "Welcome to WindowGen"
+msgstr "Willkommen bei WindowGen"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/index.rst:4
+#: DESKTOP-HETTM96/WindowGen
+msgid "Procedural window generator for Blender based on real-life PVC window profiles and hardware. In this documentation you can find how to use the generator, future plans on development and updates."
+msgstr "Prozeduraler Fenstergenerator für Blender auf Basis realer PVC-Fensterprofile und Beschläge. In dieser Dokumentation erfahren Sie, wie Sie den Generator verwenden, und finden die geplante Weiterentwicklung sowie alle Updates."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/index.rst:6
+#: DESKTOP-HETTM96/WindowGen
+msgid "Supported Blender versions: **4.2 LTS and later** (tested up to 5.3)"
+msgstr "Unterstützte Blender-Versionen: **4.2 LTS und neuer** (getestet bis 5.3)"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/index.rst:9
+#: DESKTOP-HETTM96/WindowGen
+msgid "This is the documentation for WindowGen 4. For WindowGen 3, which also supports Blender 4.0 and 4.1, see the `3.0 documentation <https://windowgen-documentation.readthedocs.io/en/3.0/>`_."
+msgstr "Dies ist die Dokumentation zu WindowGen 4. Für WindowGen 3, das auch Blender 4.0 und 4.1 unterstützt, siehe die `Dokumentation 3.0 <https://windowgen-documentation.readthedocs.io/en/3.0/>`_."
+
