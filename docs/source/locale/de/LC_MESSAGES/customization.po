@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Mikhail Shevchenko
+# This file is distributed under the same license as the WindowGen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WindowGen 4.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-16 22:06+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:4
+#: DESKTOP-HETTM96/WindowGen
+msgid "Customization"
+msgstr "Anpassung"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:7
+#: DESKTOP-HETTM96/WindowGen
+msgid "How to add your custom handle"
+msgstr "So fügen Sie einen eigenen Griff hinzu"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:9
+#: DESKTOP-HETTM96/WindowGen
+msgid "To add a custom handle, follow these steps:"
+msgstr "Um einen eigenen Griff hinzuzufügen, gehen Sie so vor:"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:11
+#: DESKTOP-HETTM96/WindowGen
+msgid "Place your handle at the world origin (0,0,0)."
+msgstr "Platzieren Sie Ihren Griff im Ursprung (0,0,0)."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:16
+#: DESKTOP-HETTM96/WindowGen
+msgid "Navigate to the Right orthographic view (press 3 on your Numpad or press ~ on your keyboard and choose Right)."
+msgstr "Wechseln Sie in die orthografische Ansicht von rechts (Ziffernblock 3 drücken oder ~ drücken und Right wählen)."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:22
+#: DESKTOP-HETTM96/WindowGen
+msgid "Ensure your handle is oriented the same way as in the example provided. **Press Ctrl+A to apply Scale and Rotation**."
+msgstr "Achten Sie darauf, dass Ihr Griff genauso ausgerichtet ist wie im Beispiel. **Drücken Sie Strg+A, um Scale und Rotation anzuwenden**."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:24
+#: DESKTOP-HETTM96/WindowGen
+msgid "The origin of your handle must be at the beginning of the backplate geometry. The rotation center of the handle should be appropriately set to prevent clipping issues and ensure correct rotation."
+msgstr "Der Ursprung des Griffs muss am Anfang der Rosettengeometrie liegen. Der Drehpunkt des Griffs muss passend gesetzt sein, damit es keine Überschneidungen gibt und die Drehung korrekt ist."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:29
+#: DESKTOP-HETTM96/WindowGen
+msgid "If your handle and its backplate are joined into a single geometry, separate them to allow independent rotation of the lever while ensuring the backplate remains attached to the sash."
+msgstr "Sind Griff und Rosette zu einer Geometrie verbunden, trennen Sie sie, damit sich der Hebel unabhängig drehen kann und die Rosette am Flügel befestigt bleibt."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:34
+#: DESKTOP-HETTM96/WindowGen
+msgid "Select **Custom** in the handle gallery of the *Handle* panel. Assign your lever and backplate objects to **Lever Geometry** and **Backplate Geometry**."
+msgstr "Wählen Sie **Custom** in der Griffgalerie des Panels *Handle*. Weisen Sie Ihre Hebel- und Rosettenobjekte **Lever Geometry** und **Backplate Geometry** zu."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:40
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal windows have a third slot, **Pull Geometry**, and sliding windows use a single **Pull Handle** object. Prepare them the same way."
+msgstr "Portalfenster haben einen dritten Slot, **Pull Geometry**, und Schiebefenster verwenden ein einzelnes Objekt **Pull Handle**. Bereiten Sie sie genauso vor."
+

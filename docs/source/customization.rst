@@ -8,7 +8,7 @@ How to add your custom handle
 
 To add a custom handle, follow these steps:
             
-1. Position your handle to the World Origin.
+1. Place your handle at the world origin (0,0,0).
     
     .. image:: images/04_customization_world_origin.gif
         :width: 75%
@@ -26,12 +26,15 @@ To add a custom handle, follow these steps:
     .. image:: images/04_customization_origin.png
         :width: 75%
 
-4. If your handle and its backaplate are joined into a single geometry, separate them to allow independent rotation of the lever while ensuring the backplate remains attached to the sash.
+4. If your handle and its backplate are joined into a single geometry, separate them to allow independent rotation of the lever while ensuring the backplate remains attached to the sash.
    
     .. image:: images/04_customization_handle_and_base.gif
         :width: 75%
 
-5. Select "Custom" in the Handle Parameters dropdown. Assign your Lever and Backplate geometry to the corresponding sockets.
+5. Select **Custom** in the handle gallery of the *Handle* panel. Assign your lever and backplate objects to **Lever Geometry** and **Backplate Geometry**.
 
     .. image:: images/03_parameters_01_handle_cutom.gif
         :width: 75%
+
+.. note::
+    Portal windows have a third slot, **Pull Geometry**, and sliding windows use a single **Pull Handle** object. Prepare them the same way.

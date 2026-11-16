@@ -1,0 +1,901 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Mikhail Shevchenko
+# This file is distributed under the same license as the WindowGen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WindowGen 4.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-16 22:06+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:4
+#: DESKTOP-HETTM96/WindowGen
+msgid "Parameters"
+msgstr "Parámetros"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:6
+#: DESKTOP-HETTM96/WindowGen
+msgid "Select a window to see its parameters in the *WindowGen* tab. The settings panel is titled with the name of the active window, so with several windows in the scene you always know which one you are editing."
+msgstr "Selecciona una ventana para ver sus parámetros en la pestaña *WindowGen*. El panel de ajustes lleva el nombre de la ventana activa, así que con varias ventanas en la escena siempre sabes cuál estás editando."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:11
+#: DESKTOP-HETTM96/WindowGen
+msgid "Every window keeps its own settings. Changing a handle, a profile or a material on one window never affects another."
+msgstr "Cada ventana guarda sus propios ajustes. Cambiar la manilla, el perfil o un material de una ventana nunca afecta a otra."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:14
+#: DESKTOP-HETTM96/WindowGen
+msgid "The panels only show what applies to the selected window type. A fixed frame has no *Rotation* panel, a portal has *Slide* instead of *Rotation*, and so on."
+msgstr "Los paneles solo muestran lo que corresponde al tipo de ventana seleccionado. Un fijo no tiene panel *Rotation*, un portal tiene *Slide* en lugar de *Rotation*, etc."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:17
+#: DESKTOP-HETTM96/WindowGen
+msgid "Common Parameters"
+msgstr "Parámetros comunes"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:19
+#: DESKTOP-HETTM96/WindowGen
+msgid "These parameters are shared by most window types."
+msgstr "Estos parámetros los comparten la mayoría de los tipos de ventana."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:22
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:601
+#: DESKTOP-HETTM96/WindowGen
+msgid "Window Profile"
+msgstr "Window Profile"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:24
+#: DESKTOP-HETTM96/WindowGen
+msgid "An icon gallery with the built-in profile systems. Click the preview and pick a profile."
+msgstr "Una galería de iconos con los sistemas de perfiles incluidos. Haz clic en la vista previa y elige un perfil."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:29
+#: DESKTOP-HETTM96/WindowGen
+msgid "Casement windows offer WHS60, WHS72, Euroline58, Softline70 and Softline82. Sliding windows have their own profile systems, see :ref:`sliding-windows`. Portals use a single profile system and have no *Window Profile* panel."
+msgstr "Las ventanas abatibles ofrecen WHS60, WHS72, Euroline58, Softline70 y Softline82. Las ventanas correderas tienen sus propios sistemas de perfiles, consulta :ref:`sliding-windows`. Los portales usan un único sistema de perfiles y no tienen panel *Window Profile*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:35
+#: DESKTOP-HETTM96/WindowGen
+msgid "Profile Resolution"
+msgstr "Profile Resolution"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:32
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets how finely the rounded corners of the profile are subdivided. Lower it for windows far from the camera, raise it for close-ups."
+msgstr "Define cuánto se subdividen las esquinas redondeadas del perfil. Redúcela para ventanas lejos de la cámara y auméntala para primeros planos."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:38
+#: DESKTOP-HETTM96/WindowGen
+msgid "Custom profiles aren't currently supported due to dependencies on specific parameters for hinges, handles, and striker plates. Feel free to contact us for specific profile requests."
+msgstr "Por ahora no se admiten perfiles personalizados, porque dependen de parámetros concretos de bisagras, manillas y cerraderos. Si necesitas un perfil concreto, escríbenos."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:41
+#: DESKTOP-HETTM96/WindowGen
+msgid "If for some reason there are no previews, press the refresh button next to the gallery."
+msgstr "Si por algún motivo no hay vistas previas, pulsa el botón de actualizar junto a la galería."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:44
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:266
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:345
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:506
+#: DESKTOP-HETTM96/WindowGen
+msgid "Size"
+msgstr "Size"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:46
+#: DESKTOP-HETTM96/WindowGen
+msgid "Width and height of the window."
+msgstr "Ancho y alto de la ventana."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:52
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:225
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:281
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:309
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:360
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:394
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:434
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:450
+#: DESKTOP-HETTM96/WindowGen
+msgid "Rotation Settings"
+msgstr "Ajustes de apertura"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:54
+#: DESKTOP-HETTM96/WindowGen
+msgid "The *Rotation* panel controls how the sashes open. It is available for casement windows that have a sash."
+msgstr "El panel *Rotation* controla cómo se abren las hojas. Está disponible para ventanas abatibles que tienen hoja."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:60
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:231
+#: DESKTOP-HETTM96/WindowGen
+msgid "Opening"
+msgstr "Opening"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:57
+#: DESKTOP-HETTM96/WindowGen
+msgid "Choose between inward and outward opening."
+msgstr "Elige entre apertura hacia dentro o hacia fuera."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:62
+#: DESKTOP-HETTM96/WindowGen
+msgid "The turn and tilt angles depend on the window type and are described for each type below."
+msgstr "Los ángulos de giro y de oscilación dependen del tipo de ventana y se describen para cada tipo más abajo."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:65
+#: DESKTOP-HETTM96/WindowGen
+msgid "The tilt angle is limited by the length of the stay arm, as on a real window. Values above the limit have no further effect."
+msgstr "El ángulo de oscilación está limitado por la longitud del compás, como en una ventana real. Los valores por encima del límite no tienen más efecto."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:68
+#: DESKTOP-HETTM96/WindowGen
+msgid "Handle Settings"
+msgstr "Ajustes de la manilla"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:70
+#: DESKTOP-HETTM96/WindowGen
+msgid "The *Handle* panel sets the handle type, its position and its rotation."
+msgstr "El panel *Handle* define el tipo de manilla, su posición y su rotación."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:76
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:542
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:548
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:642
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:648
+#: DESKTOP-HETTM96/WindowGen
+msgid "Handle"
+msgstr "Handle"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:73
+#: DESKTOP-HETTM96/WindowGen
+msgid "Choose one of the built-in handles, *No Handle*, or *Custom*."
+msgstr "Elige una de las manillas incluidas, *No Handle* o *Custom*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:82
+#: DESKTOP-HETTM96/WindowGen
+msgid "Custom Handle"
+msgstr "Custom Handle"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:79
+#: DESKTOP-HETTM96/WindowGen
+msgid "Use your own handle. Choose *Custom* and assign your objects to *Lever Geometry* and *Backplate Geometry*. Refer to :ref:`customization` on how to prepare them."
+msgstr "Usa tu propia manilla. Elige *Custom* y asigna tus objetos a *Lever Geometry* y *Backplate Geometry*. Cómo prepararlos se explica en :ref:`customization`."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:88
+#: DESKTOP-HETTM96/WindowGen
+msgid "Lever Geometry"
+msgstr "Lever Geometry"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:85
+#: DESKTOP-HETTM96/WindowGen
+msgid "The part that you hold and turn to open or close the window."
+msgstr "La parte que se agarra y se gira para abrir o cerrar la ventana."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:94
+#: DESKTOP-HETTM96/WindowGen
+msgid "Backplate Geometry"
+msgstr "Backplate Geometry"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:91
+#: DESKTOP-HETTM96/WindowGen
+msgid "Fixed decorative plate around the base of the handle."
+msgstr "Placa decorativa fija en la base de la manilla."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:100
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:554
+#: DESKTOP-HETTM96/WindowGen
+msgid "Handle Position"
+msgstr "Handle Position"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:97
+#: DESKTOP-HETTM96/WindowGen
+msgid "Choose between *Centered* (the middle of the sash) and *Manual*."
+msgstr "Elige entre *Centered* (centro de la hoja) y *Manual*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:106
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:560
+#: DESKTOP-HETTM96/WindowGen
+msgid "Manual Position"
+msgstr "Manual Position"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:103
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:557
+#: DESKTOP-HETTM96/WindowGen
+msgid "Shown when *Handle Position* is set to *Manual*. Sets the height of the handle."
+msgstr "Aparece cuando *Handle Position* está en *Manual*. Define la altura de la manilla."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:112
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:566
+#: DESKTOP-HETTM96/WindowGen
+msgid "Handle Rotation"
+msgstr "Handle Rotation"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:109
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the rotation of the handle."
+msgstr "Define la rotación de la manilla."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:115
+#: DESKTOP-HETTM96/WindowGen
+msgid "Glazing Settings"
+msgstr "Ajustes del acristalamiento"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:121
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:651
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:656
+#: DESKTOP-HETTM96/WindowGen
+msgid "Glazing"
+msgstr "Glazing"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:118
+#: DESKTOP-HETTM96/WindowGen
+msgid "Choose between double glazing (two panes, one spacer) and triple glazing (three panes, two spacers). The animation shows the glazing from above."
+msgstr "Elige entre doble acristalamiento (dos vidrios, un separador) y triple (tres vidrios, dos separadores). La animación muestra el acristalamiento visto desde arriba."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:124
+#: DESKTOP-HETTM96/WindowGen
+msgid "Lites Settings"
+msgstr "Ajustes de los cuarterones"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:126
+#: DESKTOP-HETTM96/WindowGen
+msgid "Lites divide the glass into smaller panes. The panel is available for casement windows."
+msgstr "Los cuarterones dividen el vidrio en paños más pequeños. El panel está disponible para ventanas abatibles."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:132
+#: DESKTOP-HETTM96/WindowGen
+msgid "Horizontal Lites"
+msgstr "Horizontal Lites"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:129
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the number of horizontal lites."
+msgstr "Define el número de cuarterones horizontales."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:138
+#: DESKTOP-HETTM96/WindowGen
+msgid "Vertical Lites"
+msgstr "Vertical Lites"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:135
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the number of vertical lites."
+msgstr "Define el número de cuarterones verticales."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:144
+#: DESKTOP-HETTM96/WindowGen
+msgid "Lites Width"
+msgstr "Lites Width"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:141
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the width of the lites."
+msgstr "Define el ancho de los cuarterones."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:147
+#: DESKTOP-HETTM96/WindowGen
+msgid "Materials"
+msgstr "Materials"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:149
+#: DESKTOP-HETTM96/WindowGen
+msgid "Assign materials to the parts of the window and control the UV scale."
+msgstr "Asigna materiales a las partes de la ventana y controla la escala de las UV."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:154
+#: DESKTOP-HETTM96/WindowGen
+msgid "Each slot accepts any material in the file. Casement windows have *Hinge* and *Hardware* slots; portals and sliding windows have a *Rail Metal* slot instead."
+msgstr "Cada slot acepta cualquier material del archivo. Las ventanas abatibles tienen los slots *Hinge* y *Hardware*; los portales y las ventanas correderas tienen en su lugar un slot *Rail Metal*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:160
+#: DESKTOP-HETTM96/WindowGen
+msgid "Texel Density"
+msgstr "Texel Density"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:157
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the texel density (px/m) for the window. It works together with *Texture Resolution*."
+msgstr "Define la densidad de téxeles (px/m) de la ventana. Funciona junto con *Texture Resolution*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:166
+#: DESKTOP-HETTM96/WindowGen
+msgid "Texture Resolution"
+msgstr "Texture Resolution"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:163
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the resolution of the texture. Change it to the resolution of the textures your material uses."
+msgstr "Define la resolución de la textura. Ajústala a la resolución de las texturas que usa tu material."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:169
+#: DESKTOP-HETTM96/WindowGen
+msgid "Texel density controls how many texture pixels (texels) cover a meter of geometry. Use this formula:"
+msgstr "La densidad de téxeles indica cuántos píxeles de textura (téxeles) cubren un metro de geometría. Usa esta fórmula:"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:175
+#: DESKTOP-HETTM96/WindowGen
+msgid "Example: a 2048 px texture applied to a 2 m width gives a texel density of 1024 px/m."
+msgstr "Ejemplo: una textura de 2048 px aplicada a 2 m de ancho da una densidad de 1024 px/m."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:177
+#: DESKTOP-HETTM96/WindowGen
+msgid "Some texture resources (Megascans, Poliigon, Greyscale Gorilla etc.) include physical size of the texture in meters:"
+msgstr "Algunos recursos de texturas (Megascans, Poliigon, Greyscale Gorilla, etc.) indican el tamaño físico de la textura en metros:"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:183
+#: DESKTOP-HETTM96/WindowGen
+msgid "For the materials to work correctly for mapping, choose the **UV Map** node and select UVMap (in some cases, the **Realize Instances** option must be enabled in the Options section)."
+msgstr "Para que el mapeado de los materiales funcione bien, usa el nodo **UV Map** y elige UVMap (en algunos casos hay que activar **Realize Instances** en la sección Options)."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:190
+#: DESKTOP-HETTM96/WindowGen
+msgid "**UVMaps:** The window includes necessary UVMaps, although there may be rotation issues at certain widths due to limitations in controlling UV unwrapping in geometry nodes."
+msgstr "**Mapas UV:** la ventana incluye los mapas UV necesarios, aunque con ciertos anchos puede haber problemas de rotación por las limitaciones para controlar el desplegado UV en geometry nodes."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:191
+#: DESKTOP-HETTM96/WindowGen
+msgid "**Spacer Material:** If you wish to change the spacer material, it's recommended to adjust the existing material to your needs as it contains a custom bump map for a realistic look and helps to reduce extra geometry for the spacer."
+msgstr "**Material del separador:** si quieres cambiar el material del separador, es mejor ajustar el material existente, ya que contiene un mapa de relieve propio para un aspecto realista y ahorra geometría adicional."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:194
+#: DESKTOP-HETTM96/WindowGen
+msgid "Options"
+msgstr "Options"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:200
+#: DESKTOP-HETTM96/WindowGen
+msgid "Origin in Center"
+msgstr "Origin in Center"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:197
+#: DESKTOP-HETTM96/WindowGen
+msgid "Moves the origin from the bottom of the window to the center of its bounding box."
+msgstr "Mueve el origen de la parte inferior de la ventana al centro de su caja delimitadora."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:206
+#: DESKTOP-HETTM96/WindowGen
+msgid "Realize Instances"
+msgstr "Realize Instances"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:203
+#: DESKTOP-HETTM96/WindowGen
+msgid "Converts instances into real geometry. Keep it off while you work: the viewport is faster and the file smaller. Turn it on when a material or another modifier needs real geometry. The animation shows the vertex count in the viewport statistics."
+msgstr "Convierte las instancias en geometría real. Mantenlo desactivado mientras trabajas: el viewport es más rápido y el archivo más ligero. Actívalo cuando un material u otro modificador necesite geometría real. La animación muestra el número de vértices en las estadísticas del viewport."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:215
+#: DESKTOP-HETTM96/WindowGen
+msgid "Apply Modifier"
+msgstr "Apply Modifier"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:209
+#: DESKTOP-HETTM96/WindowGen
+msgid "Turns the window into a plain mesh."
+msgstr "Convierte la ventana en una malla simple."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:215
+#: DESKTOP-HETTM96/WindowGen
+msgid "Once applied, the window is no longer parametric and the settings panel disappears. Use it when you need to edit the final geometry by hand. To hand a window over to another program, use the export described in :ref:`export` instead; it leaves the original window untouched."
+msgstr "Una vez aplicado, la ventana deja de ser paramétrica y el panel de ajustes desaparece. Úsalo cuando necesites editar a mano la geometría final. Para pasar una ventana a otro programa, usa mejor la exportación descrita en :ref:`export`; deja la ventana original intacta."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:218
+#: DESKTOP-HETTM96/WindowGen
+msgid "Window Single"
+msgstr "Window Single"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:219
+#: DESKTOP-HETTM96/WindowGen
+msgid "A window featuring a single operable sash that can either tilt or turn."
+msgstr "Una ventana con una sola hoja practicable que puede oscilar o abrirse."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:228
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the direction in which the sash opens."
+msgstr "Define el sentido de apertura de la hoja."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:237
+#: DESKTOP-HETTM96/WindowGen
+msgid "Swing Side"
+msgstr "Swing Side"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:234
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the side the sash is hinged on."
+msgstr "Define el lado de las bisagras de la hoja."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:243
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:293
+#: DESKTOP-HETTM96/WindowGen
+msgid "Turn Angle"
+msgstr "Turn Angle"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:240
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:290
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the turn angle of the sash."
+msgstr "Define el ángulo de giro de la hoja."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:249
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:299
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:440
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:456
+#: DESKTOP-HETTM96/WindowGen
+msgid "Tilt Angle"
+msgstr "Tilt Angle"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:246
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:296
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:437
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:453
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the tilt angle of the sash."
+msgstr "Define el ángulo de oscilación de la hoja."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:252
+#: DESKTOP-HETTM96/WindowGen
+msgid "Window Single Frame"
+msgstr "Window Single Frame"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:253
+#: DESKTOP-HETTM96/WindowGen
+msgid "A window with a fixed, non-opening section. It has no *Rotation* and no *Handle* panel."
+msgstr "Una ventana con una parte fija que no se abre. No tiene paneles *Rotation* ni *Handle*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:259
+#: DESKTOP-HETTM96/WindowGen
+msgid "Window Mullion 1 Sash"
+msgstr "Window Mullion 1 Sash"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:260
+#: DESKTOP-HETTM96/WindowGen
+msgid "A window featuring a single operable sash alongside a fixed, non-opening section."
+msgstr "Una ventana con una hoja practicable junto a una parte fija que no se abre."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:272
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:351
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:512
+#: DESKTOP-HETTM96/WindowGen
+msgid "Mullion Centered"
+msgstr "Mullion Centered"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:269
+#: DESKTOP-HETTM96/WindowGen
+msgid "Divides the window into two equal sections. Turned on by default."
+msgstr "Divide la ventana en dos partes iguales. Activado por defecto."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:278
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:357
+#: DESKTOP-HETTM96/WindowGen
+msgid "Mullion Section Width"
+msgstr "Mullion Section Width"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:275
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the width of the fixed section. Shown when *Mullion Centered* is turned off."
+msgstr "Define el ancho de la parte fija. Aparece cuando *Mullion Centered* está desactivado."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:287
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:527
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:621
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sash Position"
+msgstr "Sash Position"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:284
+#: DESKTOP-HETTM96/WindowGen
+msgid "Switch the operable sash between the left and the right section."
+msgstr "Coloca la hoja practicable en la parte izquierda o derecha."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:302
+#: DESKTOP-HETTM96/WindowGen
+msgid "Window Mullion 2 Sash"
+msgstr "Window Mullion 2 Sash"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:303
+#: DESKTOP-HETTM96/WindowGen
+msgid "A window with two operable sashes that can either tilt or turn."
+msgstr "Una ventana con dos hojas practicables que pueden oscilar o abrirse."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:315
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:366
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:406
+#: DESKTOP-HETTM96/WindowGen
+msgid "Right Sash Turn"
+msgstr "Right Sash Turn"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:312
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:363
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:403
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the turn angle of the right sash."
+msgstr "Define el ángulo de giro de la hoja derecha."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:321
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:372
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:412
+#: DESKTOP-HETTM96/WindowGen
+msgid "Right Sash Tilt"
+msgstr "Right Sash Tilt"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:318
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:369
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:409
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the tilt angle of the right sash."
+msgstr "Define el ángulo de oscilación de la hoja derecha."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:327
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:378
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:418
+#: DESKTOP-HETTM96/WindowGen
+msgid "Left Sash Turn"
+msgstr "Left Sash Turn"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:324
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:375
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:415
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the turn angle of the left sash."
+msgstr "Define el ángulo de giro de la hoja izquierda."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:333
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:384
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:424
+#: DESKTOP-HETTM96/WindowGen
+msgid "Left Sash Tilt"
+msgstr "Left Sash Tilt"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:330
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:381
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:421
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the tilt angle of the left sash."
+msgstr "Define el ángulo de oscilación de la hoja izquierda."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:335
+#: DESKTOP-HETTM96/WindowGen
+msgid "The *Handle* panel of this window has a separate rotation for each handle: *Right Sash Handle* and *Left Sash Handle*."
+msgstr "El panel *Handle* de esta ventana tiene una rotación independiente para cada manilla: *Right Sash Handle* y *Left Sash Handle*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:338
+#: DESKTOP-HETTM96/WindowGen
+msgid "Window Mullion 3 Sash"
+msgstr "Window Mullion 3 Sash"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:339
+#: DESKTOP-HETTM96/WindowGen
+msgid "A window featuring two operable sashes with a fixed, non-opening section in the middle."
+msgstr "Una ventana con dos hojas practicables y una parte fija en el centro."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:348
+#: DESKTOP-HETTM96/WindowGen
+msgid "Divides the window into three equal sections. Turned on by default."
+msgstr "Divide la ventana en tres partes iguales. Activado por defecto."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:354
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the width of the outer sections. Shown when *Mullion Centered* is turned off."
+msgstr "Define el ancho de las partes exteriores. Aparece cuando *Mullion Centered* está desactivado."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:387
+#: DESKTOP-HETTM96/WindowGen
+msgid "Window Stulp"
+msgstr "Window Stulp"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:388
+#: DESKTOP-HETTM96/WindowGen
+msgid "A window with two sashes featuring a large, unobstructed opening without a central mullion."
+msgstr "Una ventana de dos hojas con una gran abertura despejada, sin parteluz central."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:400
+#: DESKTOP-HETTM96/WindowGen
+msgid "Leading Sash"
+msgstr "Leading Sash"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:397
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets which sash carries the handle and opens first."
+msgstr "Define qué hoja lleva la manilla y se abre primero."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:427
+#: DESKTOP-HETTM96/WindowGen
+msgid "Window Awning"
+msgstr "Window Awning"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:428
+#: DESKTOP-HETTM96/WindowGen
+msgid "A top-hinged window that swings outward from the bottom."
+msgstr "Una ventana con bisagras arriba que se abre hacia fuera por abajo."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:443
+#: DESKTOP-HETTM96/WindowGen
+msgid "Window Hopper"
+msgstr "Window Hopper"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:444
+#: DESKTOP-HETTM96/WindowGen
+msgid "A bottom-hinged window that tilts inward from the top."
+msgstr "Una ventana con bisagras abajo que se inclina hacia dentro por arriba."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:461
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal Windows"
+msgstr "Ventanas Portal"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:462
+#: DESKTOP-HETTM96/WindowGen
+msgid "Lift and slide doors. Seven schemes are available; the letter follows the usual naming of lift-and-slide schemes."
+msgstr "Puertas elevables correderas. Hay siete esquemas; la letra sigue la denominación habitual de los esquemas elevables correderos."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:468
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:578
+#: DESKTOP-HETTM96/WindowGen
+msgid "Preset"
+msgstr "Preset"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:469
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:579
+#: DESKTOP-HETTM96/WindowGen
+msgid "Layout"
+msgstr "Distribución"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:470
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal A"
+msgstr "Portal A"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:471
+#: DESKTOP-HETTM96/WindowGen
+msgid "One sliding sash and one fixed section."
+msgstr "Una hoja corredera y una parte fija."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:472
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal C"
+msgstr "Portal C"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:473
+#: DESKTOP-HETTM96/WindowGen
+msgid "One sliding sash in the middle of two fixed sections."
+msgstr "Una hoja corredera entre dos partes fijas."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:474
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal C4"
+msgstr "Portal C4"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:475
+#: DESKTOP-HETTM96/WindowGen
+msgid "Two sliding sashes that meet in the middle, with a fixed section on each side."
+msgstr "Dos hojas correderas que se juntan en el centro, con una parte fija a cada lado."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:476
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal D"
+msgstr "Portal D"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:477
+#: DESKTOP-HETTM96/WindowGen
+msgid "Two sliding sashes, each with its own handle."
+msgstr "Dos hojas correderas, cada una con su propia manilla."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:478
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal F"
+msgstr "Portal F"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:479
+#: DESKTOP-HETTM96/WindowGen
+msgid "Four sliding sashes."
+msgstr "Cuatro hojas correderas."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:480
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal K"
+msgstr "Portal K"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:481
+#: DESKTOP-HETTM96/WindowGen
+msgid "Two sliding sashes at the sides of a fixed middle section."
+msgstr "Dos hojas correderas a los lados de una parte fija central."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:482
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal K4"
+msgstr "Portal K4"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:483
+#: DESKTOP-HETTM96/WindowGen
+msgid "Two sliding sashes at the sides, with the middle divided into fixed sections."
+msgstr "Dos hojas correderas a los lados, con el centro dividido en partes fijas."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:501
+#: DESKTOP-HETTM96/WindowGen
+msgid "*Top row: Portal A, C, C4, D. Bottom row: Portal F, K, K4.*"
+msgstr "*Fila superior: Portal A, C, C4, D. Fila inferior: Portal F, K, K4.*"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:503
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portals share *Size*, *Materials* and *Options* with the other windows. Instead of *Rotation* they have a *Slide* panel, and their *Handle* panel offers the portal handles."
+msgstr "Los portales comparten *Size*, *Materials* y *Options* con las demás ventanas. En lugar de *Rotation* tienen un panel *Slide*, y su panel *Handle* ofrece las manillas de portal."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:509
+#: DESKTOP-HETTM96/WindowGen
+msgid "Available for Portal A and Portal K. Turn it off to set the width of the fixed section with *Mullion Section Width*."
+msgstr "Disponible para Portal A y Portal K. Desactívalo para definir el ancho de la parte fija con *Mullion Section Width*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:515
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:609
+#: DESKTOP-HETTM96/WindowGen
+msgid "Slide"
+msgstr "Slide"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:521
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:633
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sash Slide"
+msgstr "Sash Slide"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:518
+#: DESKTOP-HETTM96/WindowGen
+msgid "Slides the sash along its track. 0 is closed, 1 is fully open."
+msgstr "Desliza la hoja por su guía. 0 es cerrada, 1 totalmente abierta."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:524
+#: DESKTOP-HETTM96/WindowGen
+msgid "Available for Portal A, C and D. Sets the side the sliding sash closes on."
+msgstr "Disponible para Portal A, C y D. Define el lado hacia el que cierra la hoja corredera."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:533
+#: DESKTOP-HETTM96/WindowGen
+msgid "Left Sash Slide, Right Sash Slide"
+msgstr "Left Sash Slide, Right Sash Slide"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:530
+#: DESKTOP-HETTM96/WindowGen
+msgid "Schemes with two sliding sashes (C4, D, K, K4) have one value for each sash."
+msgstr "Los esquemas con dos hojas correderas (C4, D, K, K4) tienen un valor para cada hoja."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:539
+#: DESKTOP-HETTM96/WindowGen
+msgid "Left, Mid Left, Mid Right and Right Sash"
+msgstr "Left, Mid Left, Mid Right and Right Sash"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:536
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal F has one value for each of its four sashes."
+msgstr "Portal F tiene un valor para cada una de sus cuatro hojas."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:545
+#: DESKTOP-HETTM96/WindowGen
+msgid "Choose one of the portal handles, *No Handle*, or *Custom*. With *Custom* you assign your own *Lever Geometry*, *Backplate Geometry* and *Pull Geometry*."
+msgstr "Elige una de las manillas de portal, *No Handle* o *Custom*. Con *Custom* asignas tus propias *Lever Geometry*, *Backplate Geometry* y *Pull Geometry*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:551
+#: DESKTOP-HETTM96/WindowGen
+msgid "*Fixed* places the handle 1 m above the floor, *Centered* in the middle of the sash, and *Manual* at the height set with *Manual Position*."
+msgstr "*Fixed* coloca la manilla a 1 m del suelo, *Centered* en el centro de la hoja y *Manual* a la altura definida en *Manual Position*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:563
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sets the rotation of the handle. Schemes with several sliding sashes have one value for each handle (*Left Handle*, *Right Handle* and so on)."
+msgstr "Define la rotación de la manilla. Los esquemas con varias hojas correderas tienen un valor para cada manilla (*Left Handle*, *Right Handle*, etc.)."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:571
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sliding Windows"
+msgstr "Ventanas correderas"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:572
+#: DESKTOP-HETTM96/WindowGen
+msgid "Lightweight sliding windows on two or three rails."
+msgstr "Ventanas correderas ligeras sobre dos o tres guías."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:580
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sliding Double"
+msgstr "Sliding Double"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:581
+#: DESKTOP-HETTM96/WindowGen
+msgid "Two sashes on two rails."
+msgstr "Dos hojas sobre dos guías."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:582
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sliding Double + Mesh"
+msgstr "Sliding Double + Mesh"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:583
+#: DESKTOP-HETTM96/WindowGen
+msgid "Two sashes on two rails and a sliding mosquito screen."
+msgstr "Dos hojas sobre dos guías y una mosquitera corredera."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:584
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sliding Mullion"
+msgstr "Sliding Mullion"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:585
+#: DESKTOP-HETTM96/WindowGen
+msgid "One sliding sash next to a fixed section."
+msgstr "Una hoja corredera junto a una parte fija."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:586
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sliding Triple"
+msgstr "Sliding Triple"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:587
+#: DESKTOP-HETTM96/WindowGen
+msgid "Three sashes on three rails."
+msgstr "Tres hojas sobre tres guías."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:598
+#: DESKTOP-HETTM96/WindowGen
+msgid "*From left to right: Sliding Double, Sliding Double + Mesh, Sliding Mullion, Sliding Triple.*"
+msgstr "*De izquierda a derecha: Sliding Double, Sliding Double + Mesh, Sliding Mullion, Sliding Triple.*"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:603
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sliding windows have their own profile systems (SL44, SL50, SL60, SL64). The gallery shows the ones available for the selected window type."
+msgstr "Las ventanas correderas tienen sus propios sistemas de perfiles (SL44, SL50, SL60, SL64). La galería muestra los disponibles para el tipo de ventana seleccionado."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:615
+#: DESKTOP-HETTM96/WindowGen
+msgid "Front Sash Slide, Back Sash Slide"
+msgstr "Front Sash Slide, Back Sash Slide"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:612
+#: DESKTOP-HETTM96/WindowGen
+msgid "Slides each sash along its rail. 0 is closed, 1 is fully open."
+msgstr "Desliza cada hoja por su guía. 0 es cerrada, 1 totalmente abierta."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:618
+#: DESKTOP-HETTM96/WindowGen
+msgid "Swaps the front and back sashes."
+msgstr "Intercambia las hojas delantera y trasera."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:627
+#: DESKTOP-HETTM96/WindowGen
+msgid "Middle Sash Slide"
+msgstr "Middle Sash Slide"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:624
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sliding Triple has a third value for the sash on the middle rail."
+msgstr "Sliding Triple tiene un tercer valor para la hoja de la guía central."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:630
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sliding Mullion has a single sliding sash."
+msgstr "Sliding Mullion tiene una sola hoja corredera."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:639
+#: DESKTOP-HETTM96/WindowGen
+msgid "Mosquito Slide"
+msgstr "Mosquito Slide"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:636
+#: DESKTOP-HETTM96/WindowGen
+msgid "Sliding Double + Mesh has a mosquito screen on its own rail. The animation shows the window from outside."
+msgstr "Sliding Double + Mesh tiene una mosquitera en su propia guía. La animación muestra la ventana desde fuera."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:645
+#: DESKTOP-HETTM96/WindowGen
+msgid "Choose one of the sliding handles, *No Handle*, or *Custom* with your own *Pull Handle* object."
+msgstr "Elige una de las manillas de ventana corredera, *No Handle* o *Custom* con tu propio objeto *Pull Handle*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/parameters.rst:654
+#: DESKTOP-HETTM96/WindowGen
+msgid "Choose between single and double glazing. The animation shows the glazing from above."
+msgstr "Elige entre acristalamiento simple y doble. La animación muestra el acristalamiento visto desde arriba."
+

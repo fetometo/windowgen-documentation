@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, Mikhail Shevchenko
+# This file is distributed under the same license as the WindowGen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WindowGen 4.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-16 22:06+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:4
+#: DESKTOP-HETTM96/WindowGen
+msgid "Customization"
+msgstr "Кастомизация"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:7
+#: DESKTOP-HETTM96/WindowGen
+msgid "How to add your custom handle"
+msgstr "Как добавить свою ручку"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:9
+#: DESKTOP-HETTM96/WindowGen
+msgid "To add a custom handle, follow these steps:"
+msgstr "Чтобы добавить свою ручку, выполните следующие шаги:"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:11
+#: DESKTOP-HETTM96/WindowGen
+msgid "Place your handle at the world origin (0,0,0)."
+msgstr "Поместите ручку в начало координат (0,0,0)."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:16
+#: DESKTOP-HETTM96/WindowGen
+msgid "Navigate to the Right orthographic view (press 3 on your Numpad or press ~ on your keyboard and choose Right)."
+msgstr "Перейдите в ортографический вид справа (нажмите 3 на цифровой клавиатуре или ~ и выберите Right)."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:22
+#: DESKTOP-HETTM96/WindowGen
+msgid "Ensure your handle is oriented the same way as in the example provided. **Press Ctrl+A to apply Scale and Rotation**."
+msgstr "Убедитесь, что ручка ориентирована так же, как в примере. **Нажмите Ctrl+A, чтобы применить Scale и Rotation**."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:24
+#: DESKTOP-HETTM96/WindowGen
+msgid "The origin of your handle must be at the beginning of the backplate geometry. The rotation center of the handle should be appropriately set to prevent clipping issues and ensure correct rotation."
+msgstr "Начало координат ручки должно быть в начале геометрии накладки. Центр вращения ручки нужно задать правильно, чтобы избежать пересечений и обеспечить верный поворот."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:29
+#: DESKTOP-HETTM96/WindowGen
+msgid "If your handle and its backplate are joined into a single geometry, separate them to allow independent rotation of the lever while ensuring the backplate remains attached to the sash."
+msgstr "Если ручка и накладка объединены в одну геометрию, разделите их: так рычаг сможет вращаться отдельно, а накладка останется закреплённой на створке."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:34
+#: DESKTOP-HETTM96/WindowGen
+msgid "Select **Custom** in the handle gallery of the *Handle* panel. Assign your lever and backplate objects to **Lever Geometry** and **Backplate Geometry**."
+msgstr "Выберите **Custom** в галерее ручек на панели *Handle*. Назначьте объекты рычага и накладки в **Lever Geometry** и **Backplate Geometry**."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/customization.rst:40
+#: DESKTOP-HETTM96/WindowGen
+msgid "Portal windows have a third slot, **Pull Geometry**, and sliding windows use a single **Pull Handle** object. Prepare them the same way."
+msgstr "У порталов есть третий слот, **Pull Geometry**, а раздвижные окна используют один объект **Pull Handle**. Подготовьте их так же."
+
