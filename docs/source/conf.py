@@ -53,6 +53,20 @@ html_theme = 'press'
 
 globaltoc_maxdepth = -1
 
+# The press theme does not declare itself safe for parallel builds, so with
+# `-j auto` (used by Read the Docs) Sphinx warns, and fail_on_warning turns that
+# into a failed build. Its TOC collector implements merge_other, so parallel
+# reading and writing are safe; declare it once the theme has been loaded.
+def _press_parallel_safe(app):
+    ext = app.extensions.get('sphinx_press_theme')
+    if ext is not None:
+        ext.parallel_read_safe = True
+        ext.parallel_write_safe = True
+
+
+def setup(app):
+    app.connect('builder-inited', _press_parallel_safe)
+
 # -- Options for EPUB output
 
 epub_show_urls = 'footnote'
