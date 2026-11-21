@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WindowGen 4.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-21 03:25+0300\n"
+"POT-Creation-Date: 2026-11-21 03:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Общие параметры"
 msgid "These parameters are shared by most window types."
 msgstr "Эти параметры есть у большинства типов окон."
 
-#: ../../source/parameters.rst:24 ../../source/parameters.rst:673
+#: ../../source/parameters.rst:24 ../../source/parameters.rst:675
 msgid "Profile"
 msgstr "Profile"
 
@@ -117,8 +117,8 @@ msgstr ""
 "появляется строка *Drawn at 1*. Ваше значение сохраняется и возвращается, "
 "как только окно снова окажется близко к камере."
 
-#: ../../source/parameters.rst:45 ../../source/parameters.rst:723
-#: ../../source/parameters.rst:728
+#: ../../source/parameters.rst:45 ../../source/parameters.rst:725
+#: ../../source/parameters.rst:730
 msgid "Glazing"
 msgstr "Glazing"
 
@@ -148,8 +148,8 @@ msgstr ""
 "Если превью по какой-то причине не отображаются, нажмите **Reload Previews**"
 " на панели *Library*."
 
-#: ../../source/parameters.rst:54 ../../source/parameters.rst:335
-#: ../../source/parameters.rst:414 ../../source/parameters.rst:575
+#: ../../source/parameters.rst:54 ../../source/parameters.rst:337
+#: ../../source/parameters.rst:416 ../../source/parameters.rst:577
 msgid "Size"
 msgstr "Size"
 
@@ -169,11 +169,11 @@ msgstr ""
 "Где находится начало координат объекта: внизу окна (**Bottom**, по "
 "умолчанию) или в его центре (**Center**)."
 
-#: ../../source/parameters.rst:68 ../../source/parameters.rst:294
-#: ../../source/parameters.rst:350 ../../source/parameters.rst:378
-#: ../../source/parameters.rst:429 ../../source/parameters.rst:463
-#: ../../source/parameters.rst:503 ../../source/parameters.rst:519
-#: ../../source/parameters.rst:584 ../../source/parameters.rst:681
+#: ../../source/parameters.rst:68 ../../source/parameters.rst:296
+#: ../../source/parameters.rst:352 ../../source/parameters.rst:380
+#: ../../source/parameters.rst:431 ../../source/parameters.rst:465
+#: ../../source/parameters.rst:505 ../../source/parameters.rst:521
+#: ../../source/parameters.rst:586 ../../source/parameters.rst:683
 msgid "Opening"
 msgstr "Opening"
 
@@ -187,7 +187,7 @@ msgstr ""
 "поворотно-откидных окон, сдвиг у порталов и раздвижных окон. Она доступна "
 "для всех окон с подвижной створкой."
 
-#: ../../source/parameters.rst:76 ../../source/parameters.rst:300
+#: ../../source/parameters.rst:76 ../../source/parameters.rst:302
 msgid "Direction"
 msgstr "Direction"
 
@@ -211,8 +211,8 @@ msgstr ""
 "Угол откидывания ограничен длиной ножниц, как на настоящем окне. Значения "
 "выше предела ни на что не влияют."
 
-#: ../../source/parameters.rst:84 ../../source/parameters.rst:611
-#: ../../source/parameters.rst:714
+#: ../../source/parameters.rst:84 ../../source/parameters.rst:613
+#: ../../source/parameters.rst:716
 msgid "Hardware"
 msgstr "Hardware"
 
@@ -224,8 +224,8 @@ msgstr ""
 "На панели *Hardware* собрано всё, что установлено на створке: ручка, её "
 "положение и угол, петли и запоры."
 
-#: ../../source/parameters.rst:92 ../../source/parameters.rst:617
-#: ../../source/parameters.rst:720
+#: ../../source/parameters.rst:92 ../../source/parameters.rst:619
+#: ../../source/parameters.rst:722
 msgid "Handle"
 msgstr "Handle"
 
@@ -264,7 +264,7 @@ msgstr "Backplate"
 msgid "Fixed decorative plate around the base of the handle."
 msgstr "Неподвижная декоративная накладка у основания ручки."
 
-#: ../../source/parameters.rst:116 ../../source/parameters.rst:623
+#: ../../source/parameters.rst:116 ../../source/parameters.rst:625
 msgid "Handle Position"
 msgstr "Handle Position"
 
@@ -272,11 +272,11 @@ msgstr "Handle Position"
 msgid "Choose between *Centered* (the middle of the sash) and *Manual*."
 msgstr "Выберите *Centered* (середина створки) или *Manual*."
 
-#: ../../source/parameters.rst:122 ../../source/parameters.rst:629
+#: ../../source/parameters.rst:122 ../../source/parameters.rst:631
 msgid "Height"
 msgstr "Height"
 
-#: ../../source/parameters.rst:119 ../../source/parameters.rst:626
+#: ../../source/parameters.rst:119 ../../source/parameters.rst:628
 msgid ""
 "Shown when *Handle Position* is set to *Manual*. Sets the height of the "
 "handle."
@@ -284,7 +284,7 @@ msgstr ""
 "Показывается, когда *Handle Position* установлено в *Manual*. Задаёт высоту "
 "ручки."
 
-#: ../../source/parameters.rst:128 ../../source/parameters.rst:632
+#: ../../source/parameters.rst:128 ../../source/parameters.rst:634
 msgid "Handle Angle"
 msgstr "Handle Angle"
 
@@ -304,7 +304,7 @@ msgstr "Hinges"
 msgid "Shows or hides the hinges. Casement windows only."
 msgstr "Показывает или скрывает петли. Только для поворотно-откидных окон."
 
-#: ../../source/parameters.rst:140 ../../source/parameters.rst:638
+#: ../../source/parameters.rst:140 ../../source/parameters.rst:640
 msgid "Locks and Strikers"
 msgstr "Locks and Strikers"
 
@@ -481,11 +481,20 @@ msgstr ""
 "Интерьер включается флажком в заголовке панели. Анимации в этом разделе "
 "показывают фасад из девяти окон, отрендеренный в EEVEE."
 
-#: ../../source/parameters.rst:228
+#: ../../source/parameters.rst:227
+msgid ""
+"The rooms are parallax rooms: when the view moves around the facade, the "
+"walls, floor and furniture shift with the perspective, as real rooms behind "
+"the glass would."
+msgstr ""
+"Это параллакс-комнаты: когда вид движется вокруг фасада, стены, пол и мебель"
+" смещаются вместе с перспективой, как настоящие комнаты за стеклом."
+
+#: ../../source/parameters.rst:230
 msgid "Rooms"
 msgstr "Rooms"
 
-#: ../../source/parameters.rst:228
+#: ../../source/parameters.rst:230
 msgid ""
 "The rooms material. WindowGen uses its built-in *WG_Interior* material. If "
 "the field is empty, press **Use Built-in Rooms**."
@@ -493,11 +502,11 @@ msgstr ""
 "Материал комнат. WindowGen использует встроенный материал *WG_Interior*. "
 "Если поле пустое, нажмите **Use Built-in Rooms**."
 
-#: ../../source/parameters.rst:234
+#: ../../source/parameters.rst:236
 msgid "Day / Night"
 msgstr "Day / Night"
 
-#: ../../source/parameters.rst:231
+#: ../../source/parameters.rst:233
 msgid ""
 "Blends the rooms from daylight (0) to night (1). It changes only the rooms: "
 "in the animation the sky and the sun are dimmed separately, as you would "
@@ -506,19 +515,19 @@ msgstr ""
 "Плавно переводит комнаты от дня (0) к ночи (1). Меняются только комнаты: "
 "небо и солнце в анимации затемнены отдельно, как при освещении ночной сцены."
 
-#: ../../source/parameters.rst:240
+#: ../../source/parameters.rst:242
 msgid "Lights On"
 msgstr "Lights On"
 
-#: ../../source/parameters.rst:237
+#: ../../source/parameters.rst:239
 msgid "Turns the room lights on or off at night."
 msgstr "Включает или выключает свет в комнатах ночью."
 
-#: ../../source/parameters.rst:246
+#: ../../source/parameters.rst:248
 msgid "Lit Windows"
 msgstr "Lit Windows"
 
-#: ../../source/parameters.rst:243
+#: ../../source/parameters.rst:245
 msgid ""
 "The share of rooms with the lights on at night. Available when *Lights On* "
 "is on."
@@ -526,23 +535,23 @@ msgstr ""
 "Доля комнат, в которых ночью горит свет. Доступно, когда включено *Lights "
 "On*."
 
-#: ../../source/parameters.rst:252
+#: ../../source/parameters.rst:254
 msgid "Intensity"
 msgstr "Intensity"
 
-#: ../../source/parameters.rst:249
+#: ../../source/parameters.rst:251
 msgid "Brightness of the rooms."
 msgstr "Яркость комнат."
 
-#: ../../source/parameters.rst:258
+#: ../../source/parameters.rst:260
 msgid "Room Variation"
 msgstr "Room Variation"
 
-#: ../../source/parameters.rst:255
+#: ../../source/parameters.rst:257
 msgid "Gives every window another room, mirroring and lighting."
 msgstr "Даёт каждому окну другую комнату, отражение и освещение."
 
-#: ../../source/parameters.rst:261
+#: ../../source/parameters.rst:263
 msgid ""
 "The look settings belong to the rooms material, so they are **shared by "
 "every window that uses it**. The panel says how many windows that is, for "
@@ -554,7 +563,7 @@ msgstr ""
 "например *Shared by 48 windows using WG_Interior*. Чтобы задать группе окон "
 "другой вид, назначьте им копию материала."
 
-#: ../../source/parameters.rst:264
+#: ../../source/parameters.rst:266
 msgid ""
 "The rooms are seen from outside. From inside the building the interior is "
 "invisible, so it never blocks the view out of a window."
@@ -562,15 +571,15 @@ msgstr ""
 "Комнаты видны снаружи. Изнутри здания интерьер невидим, поэтому он никогда "
 "не закрывает вид из окна."
 
-#: ../../source/parameters.rst:269
+#: ../../source/parameters.rst:271
 msgid "Performance"
 msgstr "Performance"
 
-#: ../../source/parameters.rst:275
+#: ../../source/parameters.rst:277
 msgid "Detail"
 msgstr "Detail"
 
-#: ../../source/parameters.rst:272
+#: ../../source/parameters.rst:274
 msgid ""
 "*Auto* lets :ref:`level-of-detail` decide by the distance to the camera. "
 "*Full* always keeps every detail, for hero windows. *Low* always draws the "
@@ -582,11 +591,11 @@ msgstr ""
 "окно проще — для окон, которые никогда не видны вблизи. Строка ниже "
 "показывает, рисуется ли окно сейчас с низкой детализацией."
 
-#: ../../source/parameters.rst:281
+#: ../../source/parameters.rst:283
 msgid "Realize Instances"
 msgstr "Realize Instances"
 
-#: ../../source/parameters.rst:278
+#: ../../source/parameters.rst:280
 msgid ""
 "Converts instances into real geometry. Keep it off while you work: the "
 "viewport is faster and the file smaller. Turn it on when a material or "
@@ -598,7 +607,7 @@ msgstr ""
 "другому модификатору нужна настоящая геометрия. Анимация показывает число "
 "вершин в статистике вьюпорта. Шейдинг в обоих случаях одинаковый."
 
-#: ../../source/parameters.rst:284
+#: ../../source/parameters.rst:286
 msgid ""
 "To turn a window into a plain mesh, use **Convert to Mesh…** in the *Export*"
 " panel, see :ref:`convert-to-mesh`."
@@ -606,52 +615,52 @@ msgstr ""
 "Чтобы превратить окно в обычный меш, используйте **Convert to Mesh…** на "
 "панели *Export*, см. :ref:`convert-to-mesh`."
 
-#: ../../source/parameters.rst:287
+#: ../../source/parameters.rst:289
 msgid "Window Single"
 msgstr "Window Single"
 
-#: ../../source/parameters.rst:288
+#: ../../source/parameters.rst:290
 msgid ""
 "A window featuring a single operable sash that can either tilt or turn."
 msgstr ""
 "Окно с одной открывающейся створкой, которая может откидываться или "
 "поворачиваться."
 
-#: ../../source/parameters.rst:297
+#: ../../source/parameters.rst:299
 msgid "Sets the direction in which the sash opens."
 msgstr "Задаёт направление открывания створки."
 
-#: ../../source/parameters.rst:306
+#: ../../source/parameters.rst:308
 msgid "Side"
 msgstr "Side"
 
-#: ../../source/parameters.rst:303
+#: ../../source/parameters.rst:305
 msgid "Sets the side the sash is hinged on."
 msgstr "Задаёт сторону, на которой у створки петли."
 
-#: ../../source/parameters.rst:312 ../../source/parameters.rst:362
+#: ../../source/parameters.rst:314 ../../source/parameters.rst:364
 msgid "Turn"
 msgstr "Turn"
 
-#: ../../source/parameters.rst:309 ../../source/parameters.rst:359
+#: ../../source/parameters.rst:311 ../../source/parameters.rst:361
 msgid "Sets the turn angle of the sash."
 msgstr "Задаёт угол поворота створки."
 
-#: ../../source/parameters.rst:318 ../../source/parameters.rst:368
-#: ../../source/parameters.rst:509 ../../source/parameters.rst:525
+#: ../../source/parameters.rst:320 ../../source/parameters.rst:370
+#: ../../source/parameters.rst:511 ../../source/parameters.rst:527
 msgid "Tilt"
 msgstr "Tilt"
 
-#: ../../source/parameters.rst:315 ../../source/parameters.rst:365
-#: ../../source/parameters.rst:506 ../../source/parameters.rst:522
+#: ../../source/parameters.rst:317 ../../source/parameters.rst:367
+#: ../../source/parameters.rst:508 ../../source/parameters.rst:524
 msgid "Sets the tilt angle of the sash."
 msgstr "Задаёт угол откидывания створки."
 
-#: ../../source/parameters.rst:321
+#: ../../source/parameters.rst:323
 msgid "Window Single Frame"
 msgstr "Window Single Frame"
 
-#: ../../source/parameters.rst:322
+#: ../../source/parameters.rst:324
 msgid ""
 "A window with a fixed, non-opening section. It has no *Opening* and no "
 "*Hardware* panel."
@@ -659,30 +668,30 @@ msgstr ""
 "Окно с глухой, неоткрывающейся частью. У него нет панелей *Opening* и "
 "*Hardware*."
 
-#: ../../source/parameters.rst:328
+#: ../../source/parameters.rst:330
 msgid "Window Mullion 1 Sash"
 msgstr "Window Mullion 1 Sash"
 
-#: ../../source/parameters.rst:329
+#: ../../source/parameters.rst:331
 msgid ""
 "A window featuring a single operable sash alongside a fixed, non-opening "
 "section."
 msgstr "Окно с одной открывающейся створкой и глухой частью рядом."
 
-#: ../../source/parameters.rst:341 ../../source/parameters.rst:420
-#: ../../source/parameters.rst:581
+#: ../../source/parameters.rst:343 ../../source/parameters.rst:422
+#: ../../source/parameters.rst:583
 msgid "Mullion Centered"
 msgstr "Mullion Centered"
 
-#: ../../source/parameters.rst:338
+#: ../../source/parameters.rst:340
 msgid "Divides the window into two equal sections. Turned on by default."
 msgstr "Делит окно на две равные части. Включено по умолчанию."
 
-#: ../../source/parameters.rst:347 ../../source/parameters.rst:426
+#: ../../source/parameters.rst:349 ../../source/parameters.rst:428
 msgid "Section Width"
 msgstr "Section Width"
 
-#: ../../source/parameters.rst:344
+#: ../../source/parameters.rst:346
 msgid ""
 "Sets the width of the fixed section. Shown when *Mullion Centered* is turned"
 " off."
@@ -690,66 +699,66 @@ msgstr ""
 "Задаёт ширину глухой части. Показывается, когда *Mullion Centered* "
 "выключено."
 
-#: ../../source/parameters.rst:356 ../../source/parameters.rst:596
-#: ../../source/parameters.rst:693
+#: ../../source/parameters.rst:358 ../../source/parameters.rst:598
+#: ../../source/parameters.rst:695
 msgid "Sash"
 msgstr "Sash"
 
-#: ../../source/parameters.rst:353
+#: ../../source/parameters.rst:355
 msgid "Switch the operable sash between the left and the right section."
 msgstr "Переносит открывающуюся створку в левую или правую часть."
 
-#: ../../source/parameters.rst:371
+#: ../../source/parameters.rst:373
 msgid "Window Mullion 2 Sash"
 msgstr "Window Mullion 2 Sash"
 
-#: ../../source/parameters.rst:372
+#: ../../source/parameters.rst:374
 msgid "A window with two operable sashes that can either tilt or turn."
 msgstr ""
 "Окно с двумя открывающимися створками, которые могут откидываться или "
 "поворачиваться."
 
-#: ../../source/parameters.rst:384 ../../source/parameters.rst:435
-#: ../../source/parameters.rst:475
+#: ../../source/parameters.rst:386 ../../source/parameters.rst:437
+#: ../../source/parameters.rst:477
 msgid "Right Sash: Turn"
 msgstr "Right Sash: Turn"
 
-#: ../../source/parameters.rst:381 ../../source/parameters.rst:432
-#: ../../source/parameters.rst:472
+#: ../../source/parameters.rst:383 ../../source/parameters.rst:434
+#: ../../source/parameters.rst:474
 msgid "Sets the turn angle of the right sash."
 msgstr "Задаёт угол поворота правой створки."
 
-#: ../../source/parameters.rst:390 ../../source/parameters.rst:441
-#: ../../source/parameters.rst:481
+#: ../../source/parameters.rst:392 ../../source/parameters.rst:443
+#: ../../source/parameters.rst:483
 msgid "Right Sash: Tilt"
 msgstr "Right Sash: Tilt"
 
-#: ../../source/parameters.rst:387 ../../source/parameters.rst:438
-#: ../../source/parameters.rst:478
+#: ../../source/parameters.rst:389 ../../source/parameters.rst:440
+#: ../../source/parameters.rst:480
 msgid "Sets the tilt angle of the right sash."
 msgstr "Задаёт угол откидывания правой створки."
 
-#: ../../source/parameters.rst:396 ../../source/parameters.rst:447
-#: ../../source/parameters.rst:487
+#: ../../source/parameters.rst:398 ../../source/parameters.rst:449
+#: ../../source/parameters.rst:489
 msgid "Left Sash: Turn"
 msgstr "Left Sash: Turn"
 
-#: ../../source/parameters.rst:393 ../../source/parameters.rst:444
-#: ../../source/parameters.rst:484
+#: ../../source/parameters.rst:395 ../../source/parameters.rst:446
+#: ../../source/parameters.rst:486
 msgid "Sets the turn angle of the left sash."
 msgstr "Задаёт угол поворота левой створки."
 
-#: ../../source/parameters.rst:402 ../../source/parameters.rst:453
-#: ../../source/parameters.rst:493
+#: ../../source/parameters.rst:404 ../../source/parameters.rst:455
+#: ../../source/parameters.rst:495
 msgid "Left Sash: Tilt"
 msgstr "Left Sash: Tilt"
 
-#: ../../source/parameters.rst:399 ../../source/parameters.rst:450
-#: ../../source/parameters.rst:490
+#: ../../source/parameters.rst:401 ../../source/parameters.rst:452
+#: ../../source/parameters.rst:492
 msgid "Sets the tilt angle of the left sash."
 msgstr "Задаёт угол откидывания левой створки."
 
-#: ../../source/parameters.rst:404
+#: ../../source/parameters.rst:406
 msgid ""
 "The *Hardware* panel of this window has a separate *Handle Angle* for each "
 "sash: *Right Sash* and *Left Sash*."
@@ -757,21 +766,21 @@ msgstr ""
 "На панели *Hardware* этого окна отдельный *Handle Angle* для каждой створки:"
 " *Right Sash* и *Left Sash*."
 
-#: ../../source/parameters.rst:407
+#: ../../source/parameters.rst:409
 msgid "Window Mullion 3 Sash"
 msgstr "Window Mullion 3 Sash"
 
-#: ../../source/parameters.rst:408
+#: ../../source/parameters.rst:410
 msgid ""
 "A window featuring two operable sashes with a fixed, non-opening section in "
 "the middle."
 msgstr "Окно с двумя открывающимися створками и глухой частью посередине."
 
-#: ../../source/parameters.rst:417
+#: ../../source/parameters.rst:419
 msgid "Divides the window into three equal sections. Turned on by default."
 msgstr "Делит окно на три равные части. Включено по умолчанию."
 
-#: ../../source/parameters.rst:423
+#: ../../source/parameters.rst:425
 msgid ""
 "Sets the width of the outer sections. Shown when *Mullion Centered* is "
 "turned off."
@@ -779,11 +788,11 @@ msgstr ""
 "Задаёт ширину крайних частей. Показывается, когда *Mullion Centered* "
 "выключено."
 
-#: ../../source/parameters.rst:456
+#: ../../source/parameters.rst:458
 msgid "Window Stulp"
 msgstr "Window Stulp"
 
-#: ../../source/parameters.rst:457
+#: ../../source/parameters.rst:459
 msgid ""
 "A window with two sashes featuring a large, unobstructed opening without a "
 "central mullion."
@@ -791,35 +800,35 @@ msgstr ""
 "Окно с двумя створками и большим проёмом без центрального импоста "
 "(штульповое)."
 
-#: ../../source/parameters.rst:469
+#: ../../source/parameters.rst:471
 msgid "Leading Sash"
 msgstr "Leading Sash"
 
-#: ../../source/parameters.rst:466
+#: ../../source/parameters.rst:468
 msgid "Sets which sash carries the handle and opens first."
 msgstr "Задаёт, на какой створке ручка и какая открывается первой."
 
-#: ../../source/parameters.rst:496
+#: ../../source/parameters.rst:498
 msgid "Window Awning"
 msgstr "Window Awning"
 
-#: ../../source/parameters.rst:497
+#: ../../source/parameters.rst:499
 msgid "A top-hinged window that swings outward from the bottom."
 msgstr "Окно с петлями сверху, открывается наружу нижней частью."
 
-#: ../../source/parameters.rst:512
+#: ../../source/parameters.rst:514
 msgid "Window Hopper"
 msgstr "Window Hopper"
 
-#: ../../source/parameters.rst:513
+#: ../../source/parameters.rst:515
 msgid "A bottom-hinged window that tilts inward from the top."
 msgstr "Окно с петлями снизу, откидывается внутрь верхней частью."
 
-#: ../../source/parameters.rst:530
+#: ../../source/parameters.rst:532
 msgid "Portal Windows"
 msgstr "Порталы"
 
-#: ../../source/parameters.rst:531
+#: ../../source/parameters.rst:533
 msgid ""
 "Lift and slide doors. Seven schemes are available; the letter follows the "
 "usual naming of lift-and-slide schemes."
@@ -827,35 +836,35 @@ msgstr ""
 "Подъёмно-раздвижные двери. Доступно семь схем; буква соответствует обычному "
 "обозначению подъёмно-раздвижных схем."
 
-#: ../../source/parameters.rst:537 ../../source/parameters.rst:650
+#: ../../source/parameters.rst:539 ../../source/parameters.rst:652
 msgid "Preset"
 msgstr "Пресет"
 
-#: ../../source/parameters.rst:538 ../../source/parameters.rst:651
+#: ../../source/parameters.rst:540 ../../source/parameters.rst:653
 msgid "Layout"
 msgstr "Схема"
 
-#: ../../source/parameters.rst:539
+#: ../../source/parameters.rst:541
 msgid "Portal A"
 msgstr "Portal A"
 
-#: ../../source/parameters.rst:540
+#: ../../source/parameters.rst:542
 msgid "One sliding sash and one fixed section."
 msgstr "Одна раздвижная створка и одна глухая часть."
 
-#: ../../source/parameters.rst:541
+#: ../../source/parameters.rst:543
 msgid "Portal C"
 msgstr "Portal C"
 
-#: ../../source/parameters.rst:542
+#: ../../source/parameters.rst:544
 msgid "One sliding sash in the middle of two fixed sections."
 msgstr "Одна раздвижная створка между двумя глухими частями."
 
-#: ../../source/parameters.rst:543
+#: ../../source/parameters.rst:545
 msgid "Portal C4"
 msgstr "Portal C4"
 
-#: ../../source/parameters.rst:544
+#: ../../source/parameters.rst:546
 msgid ""
 "Two sliding sashes that meet in the middle, with a fixed section on each "
 "side."
@@ -863,45 +872,45 @@ msgstr ""
 "Две раздвижные створки, сходящиеся посередине, с глухой частью с каждой "
 "стороны."
 
-#: ../../source/parameters.rst:545
+#: ../../source/parameters.rst:547
 msgid "Portal D"
 msgstr "Portal D"
 
-#: ../../source/parameters.rst:546
+#: ../../source/parameters.rst:548
 msgid "Two sliding sashes, each with its own handle."
 msgstr "Две раздвижные створки, у каждой своя ручка."
 
-#: ../../source/parameters.rst:547
+#: ../../source/parameters.rst:549
 msgid "Portal F"
 msgstr "Portal F"
 
-#: ../../source/parameters.rst:548
+#: ../../source/parameters.rst:550
 msgid "Four sliding sashes."
 msgstr "Четыре раздвижные створки."
 
-#: ../../source/parameters.rst:549
+#: ../../source/parameters.rst:551
 msgid "Portal K"
 msgstr "Portal K"
 
-#: ../../source/parameters.rst:550
+#: ../../source/parameters.rst:552
 msgid "Two sliding sashes at the sides of a fixed middle section."
 msgstr "Две раздвижные створки по краям глухой средней части."
 
-#: ../../source/parameters.rst:551
+#: ../../source/parameters.rst:553
 msgid "Portal K4"
 msgstr "Portal K4"
 
-#: ../../source/parameters.rst:552
+#: ../../source/parameters.rst:554
 msgid ""
 "Two sliding sashes at the sides, with the middle divided into fixed "
 "sections."
 msgstr "Две раздвижные створки по краям, середина разделена на глухие части."
 
-#: ../../source/parameters.rst:570
+#: ../../source/parameters.rst:572
 msgid "*Top row: Portal A, C, C4, D. Bottom row: Portal F, K, K4.*"
 msgstr "*Верхний ряд: Portal A, C, C4, D. Нижний ряд: Portal F, K, K4.*"
 
-#: ../../source/parameters.rst:572
+#: ../../source/parameters.rst:574
 msgid ""
 "Portals share *Profile*, *Size*, *Materials*, *Interior* and *Performance* "
 "with the other windows. Their *Opening* panel slides the sashes, and their "
@@ -911,7 +920,7 @@ msgstr ""
 "*Interior* и *Performance*. Их панель *Opening* сдвигает створки, а панель "
 "*Hardware* предлагает ручки для порталов."
 
-#: ../../source/parameters.rst:578
+#: ../../source/parameters.rst:580
 msgid ""
 "Available for Portal A and Portal K. Turn it off to set the width of the "
 "fixed section with *Section Width*."
@@ -919,41 +928,41 @@ msgstr ""
 "Доступно для Portal A и Portal K. Выключите, чтобы задать ширину глухой "
 "части параметром *Section Width*."
 
-#: ../../source/parameters.rst:590 ../../source/parameters.rst:705
+#: ../../source/parameters.rst:592 ../../source/parameters.rst:707
 msgid "Slide"
 msgstr "Slide"
 
-#: ../../source/parameters.rst:587
+#: ../../source/parameters.rst:589
 msgid "Slides the sash along its track. 0 is closed, 1 is fully open."
 msgstr "Сдвигает створку по направляющей. 0 — закрыто, 1 — полностью открыто."
 
-#: ../../source/parameters.rst:593
+#: ../../source/parameters.rst:595
 msgid ""
 "Available for Portal A, C and D. Sets the side the sliding sash closes on."
 msgstr ""
 "Доступно для Portal A, C и D. Задаёт сторону, у которой закрывается "
 "раздвижная створка."
 
-#: ../../source/parameters.rst:602
+#: ../../source/parameters.rst:604
 msgid "Left Slide, Right Slide"
 msgstr "Left Slide, Right Slide"
 
-#: ../../source/parameters.rst:599
+#: ../../source/parameters.rst:601
 msgid ""
 "Schemes with two sliding sashes (C4, D, K, K4) have one value for each sash."
 msgstr ""
 "У схем с двумя раздвижными створками (C4, D, K, K4) отдельное значение для "
 "каждой створки."
 
-#: ../../source/parameters.rst:608
+#: ../../source/parameters.rst:610
 msgid "Left, Mid Left, Mid Right and Right"
 msgstr "Left, Mid Left, Mid Right и Right"
 
-#: ../../source/parameters.rst:605
+#: ../../source/parameters.rst:607
 msgid "Portal F has one value for each of its four sashes."
 msgstr "У Portal F отдельное значение для каждой из четырёх створок."
 
-#: ../../source/parameters.rst:614
+#: ../../source/parameters.rst:616
 msgid ""
 "Choose one of the portal handles, *No Handle*, or *Custom*. With *Custom* "
 "you assign your own *Lever Geometry*, *Backplate* and *Pull Geometry*."
@@ -961,7 +970,7 @@ msgstr ""
 "Выберите одну из ручек для порталов, *No Handle* или *Custom*. С *Custom* вы"
 " назначаете свои *Lever Geometry*, *Backplate* и *Pull Geometry*."
 
-#: ../../source/parameters.rst:620
+#: ../../source/parameters.rst:622
 msgid ""
 "*Fixed* places the handle 1 m above the floor, *Centered* in the middle of "
 "the sash, and *Manual* at the height set with *Height*."
@@ -969,7 +978,7 @@ msgstr ""
 "*Fixed* ставит ручку на высоте 1 м над полом, *Centered* — посередине "
 "створки, *Manual* — на высоте, заданной в *Height*."
 
-#: ../../source/parameters.rst:632
+#: ../../source/parameters.rst:634
 msgid ""
 "Sets the rotation of the handle. Schemes with several sliding sashes have "
 "one value for each handle (*Left*, *Right* and so on)."
@@ -977,52 +986,52 @@ msgstr ""
 "Задаёт поворот ручки. В схемах с несколькими раздвижными створками отдельное"
 " значение для каждой ручки (*Left*, *Right* и так далее)."
 
-#: ../../source/parameters.rst:635
+#: ../../source/parameters.rst:637
 msgid "Shows or hides the locking hardware, as on casement windows."
 msgstr ""
 "Показывает или скрывает запорную фурнитуру, как у поворотно-откидных окон."
 
-#: ../../source/parameters.rst:643
+#: ../../source/parameters.rst:645
 msgid "Sliding Windows"
 msgstr "Раздвижные окна"
 
-#: ../../source/parameters.rst:644
+#: ../../source/parameters.rst:646
 msgid "Lightweight sliding windows on two or three rails."
 msgstr "Лёгкие раздвижные окна на двух или трёх направляющих."
 
-#: ../../source/parameters.rst:652
+#: ../../source/parameters.rst:654
 msgid "Sliding Double"
 msgstr "Sliding Double"
 
-#: ../../source/parameters.rst:653
+#: ../../source/parameters.rst:655
 msgid "Two sashes on two rails."
 msgstr "Две створки на двух направляющих."
 
-#: ../../source/parameters.rst:654
+#: ../../source/parameters.rst:656
 msgid "Sliding Double + Mesh"
 msgstr "Sliding Double + Mesh"
 
-#: ../../source/parameters.rst:655
+#: ../../source/parameters.rst:657
 msgid "Two sashes on two rails and a sliding mosquito screen."
 msgstr "Две створки на двух направляющих и раздвижная москитная сетка."
 
-#: ../../source/parameters.rst:656
+#: ../../source/parameters.rst:658
 msgid "Sliding Mullion"
 msgstr "Sliding Mullion"
 
-#: ../../source/parameters.rst:657
+#: ../../source/parameters.rst:659
 msgid "One sliding sash next to a fixed section."
 msgstr "Одна раздвижная створка рядом с глухой частью."
 
-#: ../../source/parameters.rst:658
+#: ../../source/parameters.rst:660
 msgid "Sliding Triple"
 msgstr "Sliding Triple"
 
-#: ../../source/parameters.rst:659
+#: ../../source/parameters.rst:661
 msgid "Three sashes on three rails."
 msgstr "Три створки на трёх направляющих."
 
-#: ../../source/parameters.rst:670
+#: ../../source/parameters.rst:672
 msgid ""
 "*From left to right: Sliding Double, Sliding Double + Mesh, Sliding Mullion,"
 " Sliding Triple.*"
@@ -1030,7 +1039,7 @@ msgstr ""
 "*Слева направо: Sliding Double, Sliding Double + Mesh, Sliding Mullion, "
 "Sliding Triple.*"
 
-#: ../../source/parameters.rst:675
+#: ../../source/parameters.rst:677
 msgid ""
 "Sliding windows have their own profile systems (SL44, SL50, SL60, SL64). The"
 " gallery shows the ones available for the selected window type."
@@ -1038,37 +1047,37 @@ msgstr ""
 "У раздвижных окон свои профильные системы (SL44, SL50, SL60, SL64). Галерея "
 "показывает те, что доступны для выбранного типа окна."
 
-#: ../../source/parameters.rst:687
+#: ../../source/parameters.rst:689
 msgid "Front Slide, Back Slide"
 msgstr "Front Slide, Back Slide"
 
-#: ../../source/parameters.rst:684
+#: ../../source/parameters.rst:686
 msgid "Slides each sash along its rail. 0 is closed, 1 is fully open."
 msgstr ""
 "Сдвигает каждую створку по её направляющей. 0 — закрыто, 1 — полностью "
 "открыто."
 
-#: ../../source/parameters.rst:690
+#: ../../source/parameters.rst:692
 msgid "Swaps the front and back sashes."
 msgstr "Меняет местами переднюю и заднюю створки."
 
-#: ../../source/parameters.rst:699
+#: ../../source/parameters.rst:701
 msgid "Middle Slide"
 msgstr "Middle Slide"
 
-#: ../../source/parameters.rst:696
+#: ../../source/parameters.rst:698
 msgid "Sliding Triple has a third value for the sash on the middle rail."
 msgstr "У Sliding Triple третье значение для створки на средней направляющей."
 
-#: ../../source/parameters.rst:702
+#: ../../source/parameters.rst:704
 msgid "Sliding Mullion has a single sliding sash."
 msgstr "У Sliding Mullion одна раздвижная створка."
 
-#: ../../source/parameters.rst:711
+#: ../../source/parameters.rst:713
 msgid "Mosquito Slide"
 msgstr "Mosquito Slide"
 
-#: ../../source/parameters.rst:708
+#: ../../source/parameters.rst:710
 msgid ""
 "Sliding Double + Mesh has a mosquito screen on its own rail. The animation "
 "shows the window from outside."
@@ -1076,7 +1085,7 @@ msgstr ""
 "У Sliding Double + Mesh москитная сетка на отдельной направляющей. Анимация "
 "показывает окно снаружи."
 
-#: ../../source/parameters.rst:717
+#: ../../source/parameters.rst:719
 msgid ""
 "Choose one of the sliding handles, *No Handle*, or *Custom* with your own "
 "*Pull Handle* object."
@@ -1084,7 +1093,7 @@ msgstr ""
 "Выберите одну из ручек для раздвижных окон, *No Handle* или *Custom* со "
 "своим объектом *Pull Handle*."
 
-#: ../../source/parameters.rst:726
+#: ../../source/parameters.rst:728
 msgid ""
 "In the *Profile* panel. With the SL60 profile, choose between single and "
 "double glazing. SL44, SL50 and SL64 are built with fixed glazing, so the "

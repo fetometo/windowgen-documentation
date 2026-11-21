@@ -224,6 +224,8 @@ Turn the interior on with the checkbox in the panel header. The animations in th
 .. image:: images/03_parameters_interior.gif
    :width: 75%
 
+The rooms are parallax rooms: when the view moves around the facade, the walls, floor and furniture shift with the perspective, as real rooms behind the glass would.
+
 Rooms
     The rooms material. WindowGen uses its built-in *WG_Interior* material. If the field is empty, press **Use Built-in Rooms**.
 
