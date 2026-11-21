@@ -64,9 +64,19 @@ Yes. See *Studio setup: one shared library* in :doc:`working_with_generator`. Be
 Q: Blender is slow when I modify windows.
 -------------------------------------------
 
-Keep *Realize Instances* off while you work and switch it on only for export or when you need real geometry. Lower *Profile Resolution* for windows that are far from the camera.
+Keep *Realize Instances* off while you work and switch it on only for export or when you need real geometry. Keep :ref:`level-of-detail` on: windows far from the camera are drawn with *Profile Resolution* 1 and without hinges and locks, by themselves. Set *Detail* to *Low* in the *Performance* panel for windows that are never seen up close.
 
 Q: The previews in the galleries are missing.
 ---------------------------------------------
 
-Press the refresh button next to the gallery.
+Press **Reload Previews** in the *Library* panel.
+
+Q: Why do the interior settings change on other windows too?
+-------------------------------------------------------------
+
+*Day / Night*, *Lights On*, *Lit Windows*, *Intensity* and *Room Variation* belong to the rooms material, not to the window, so every window that uses the same material changes together. The *Interior* panel says how many windows share it. To give some windows a different look, duplicate the material and assign the copy to those windows in *Rooms*.
+
+Q: I see no rooms behind the glass.
+-----------------------------------
+
+Turn on the checkbox in the *Interior* panel header and look at the window from outside: the rooms are not drawn from inside the building. In the viewport, use *Material Preview* or *Rendered* shading.

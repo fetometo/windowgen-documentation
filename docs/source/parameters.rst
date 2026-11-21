@@ -8,37 +8,47 @@ Select a window to see its parameters in the *WindowGen* tab. The settings panel
 .. image:: images/03_parameters_settings.gif
    :width: 75%
 
-Every window keeps its own settings. Changing a handle, a profile or a material on one window never affects another.
+Every window keeps its own settings. Changing a handle, a profile or a material on one window never affects another. The one exception is the look of the *Interior* rooms, which belongs to the rooms material and is shared by every window that uses it.
+
+The panels are in this order: *Profile*, *Size*, *Opening*, *Hardware*, *Lites*, *Materials*, *Interior* and *Performance*.
 
 .. note::
-    The panels only show what applies to the selected window type. A fixed frame has no *Rotation* panel, a portal has *Slide* instead of *Rotation*, and so on.
+    The panels only show what applies to the selected window type. A fixed frame has no *Opening* and no *Hardware* panel, only casement windows have *Lites*, and so on.
 
 Common Parameters
 -----------------
 
 These parameters are shared by most window types.
 
-Window Profile
-~~~~~~~~~~~~~~
+Profile
+~~~~~~~
 
 An icon gallery with the built-in profile systems. Click the preview and pick a profile.
 
 .. image:: images/03_parameters_profile.gif
    :width: 75%
 
-Casement windows offer WHS60, WHS72, Euroline58, Softline70 and Softline82. Sliding windows have their own profile systems, see :ref:`sliding-windows`. Portals use a single profile system and have no *Window Profile* panel.
+Casement windows offer WHS60, WHS72, Euroline58, Softline70 and Softline82. Sliding windows have their own profile systems, see :ref:`sliding-windows`. Portals use a single profile system, so their *Profile* panel has no gallery.
 
-Profile Resolution
+Resolution
     Sets how finely the rounded corners of the profile are subdivided. Lower it for windows far from the camera, raise it for close-ups.
 
     .. image:: images/03_parameters_profile_resolution.gif
+        :width: 75%
+
+    When :ref:`level-of-detail` draws a far window more simply, a line under the field says *Drawn at 1*. Your value is kept and comes back as soon as the window is near the camera again.
+
+Glazing
+    Choose between double glazing (two panes, one spacer) and triple glazing (three panes, two spacers). The animation shows the glazing from above.
+
+    .. image:: images/03_parameters_glazing.gif
         :width: 75%
 
 .. note::
     Custom profiles aren't currently supported due to dependencies on specific parameters for hinges, handles, and striker plates. Feel free to contact us for specific profile requests.
 
 .. tip::
-    If for some reason there are no previews, press the refresh button next to the gallery.
+    If for some reason there are no previews, press **Reload Previews** in the *Library* panel.
 
 Size
 ~~~~
@@ -48,26 +58,32 @@ Width and height of the window.
 .. image:: images/03_parameters_01_size.gif
    :width: 75%
 
-Rotation Settings
-~~~~~~~~~~~~~~~~~
+Pivot
+    Where the object origin sits: at the **Bottom** of the window (the default) or in its **Center**.
 
-The *Rotation* panel controls how the sashes open. It is available for casement windows that have a sash.
+    .. image:: images/03_parameters_origin.gif
+        :width: 75%
 
 Opening
+~~~~~~~
+
+The *Opening* panel controls how the sashes open: turn and tilt on casement windows, slide on portals and sliding windows. It is available for every window that has a moving sash.
+
+Direction
    Choose between inward and outward opening.
 
    .. image:: images/03_parameters_opening.gif
         :width: 75%
 
-The turn and tilt angles depend on the window type and are described for each type below.
+The turn, tilt and slide values depend on the window type and are described for each type below.
 
 .. important::
     The tilt angle is limited by the length of the stay arm, as on a real window. Values above the limit have no further effect.
 
-Handle Settings
-~~~~~~~~~~~~~~~
+Hardware
+~~~~~~~~
 
-The *Handle* panel sets the handle type, its position and its rotation.
+The *Hardware* panel holds everything fitted to the sash: the handle, its position and angle, the hinges and the locks.
 
 Handle
     Choose one of the built-in handles, *No Handle*, or *Custom*.
@@ -76,7 +92,7 @@ Handle
         :width: 75%
 
 Custom Handle
-    Use your own handle. Choose *Custom* and assign your objects to *Lever Geometry* and *Backplate Geometry*. Refer to :ref:`customization` on how to prepare them.
+    Use your own handle. Choose *Custom* and assign your objects to *Lever Geometry* and *Backplate*. Refer to :ref:`customization` on how to prepare them.
 
     .. image:: images/03_parameters_01_handle_cutom.gif
         :width: 75%
@@ -87,7 +103,7 @@ Lever Geometry
     .. image:: images/03_parameters_01_handle_lever.png
         :width: 50%
 
-Backplate Geometry
+Backplate
     Fixed decorative plate around the base of the handle.
 
     .. image:: images/03_parameters_01_handle_backplate.png
@@ -99,45 +115,51 @@ Handle Position
     .. image:: images/03_parameters_handle_position.gif
         :width: 75%
 
-Manual Position
+Height
     Shown when *Handle Position* is set to *Manual*. Sets the height of the handle.
 
     .. image:: images/03_parameters_manual_position.gif
         :width: 75%
 
-Handle Rotation
-    Sets the rotation of the handle.
+Handle Angle
+    Sets the rotation of the handle. Windows with two handles show one value for each sash.
 
     .. image:: images/03_parameters_handle_rotation.gif
         :width: 75%
 
-Glazing Settings
-~~~~~~~~~~~~~~~~
+Hinges
+    Shows or hides the hinges. Casement windows only.
 
-Glazing
-    Choose between double glazing (two panes, one spacer) and triple glazing (three panes, two spacers). The animation shows the glazing from above.
-
-    .. image:: images/03_parameters_glazing.gif
+    .. image:: images/03_parameters_hinges.gif
         :width: 75%
 
-Lites Settings
-~~~~~~~~~~~~~~
+Locks and Strikers
+    Shows or hides the locking hardware: the strikers on the frame and the locks on the sash. The handle stays. Not available for sliding windows.
+
+    .. image:: images/03_parameters_locks.gif
+        :width: 75%
+
+.. tip::
+    Turn hinges and locks off for windows that are only seen from a distance. :ref:`level-of-detail` can do this by itself for windows far from the camera.
+
+Lites
+~~~~~
 
 Lites divide the glass into smaller panes. The panel is available for casement windows.
 
-Horizontal Lites
+Horizontal
     Sets the number of horizontal lites.
 
     .. image:: images/03_parameters_01_lites_h.gif
         :width: 75%
 
-Vertical Lites
+Vertical
     Sets the number of vertical lites.
 
     .. image:: images/03_parameters_01_lites_v.gif
         :width: 75%
 
-Lites Width
+Bar Width
     Sets the width of the lites.
 
     .. image:: images/03_parameters_01_lites_w.gif
@@ -151,15 +173,15 @@ Assign materials to the parts of the window and control the UV scale.
 .. image:: images/03_parameters_material_slots.png
    :width: 50%
 
-Each slot accepts any material in the file. Casement windows have *Hinge* and *Hardware* slots; portals and sliding windows have a *Rail Metal* slot instead.
+Each slot accepts any material in the file. Casement windows have *Hinge* and *Hardware* slots; portals and sliding windows have a *Rail* slot instead.
 
 Texel Density
-    Sets the texel density (px/m) for the window. It works together with *Texture Resolution*.
+    Sets the texel density (px/m) for the window. It works together with *Texture Size*.
 
     .. image:: images/03_parameters_material_texel.gif
         :width: 75%
 
-Texture Resolution
+Texture Size
     Sets the resolution of the texture. Change it to the resolution of the textures your material uses.
 
     .. image:: images/03_parameters_material_texture.gif
@@ -180,7 +202,7 @@ Texture Resolution
         :width: 50%
 
 .. warning::
-    For the materials to work correctly for mapping, choose the **UV Map** node and select UVMap (in some cases, the **Realize Instances** option must be enabled in the Options section).
+    For the materials to work correctly for mapping, choose the **UV Map** node and select UVMap (in some cases, the **Realize Instances** option in the *Performance* panel must be enabled).
 
     .. image:: images/03_parameters_materials.png
         :width: 75%
@@ -190,29 +212,78 @@ Texture Resolution
     - **UVMaps:** The window includes necessary UVMaps, although there may be rotation issues at certain widths due to limitations in controlling UV unwrapping in geometry nodes.
     - **Spacer Material:** If you wish to change the spacer material, it's recommended to adjust the existing material to your needs as it contains a custom bump map for a realistic look and helps to reduce extra geometry for the spacer.
 
-Options
-~~~~~~~
+.. _interior:
 
-Origin in Center
-    Moves the origin from the bottom of the window to the center of its bounding box.
+Interior
+~~~~~~~~
 
-    .. image:: images/03_parameters_origin.gif
+Rooms behind the glass, for facades seen from outside. Each window shows a furnished room with depth, walls, floor, ceiling, furniture and curtains, drawn by a single material instead of real geometry, so a building with hundreds of windows stays light. Different windows get different rooms automatically.
+
+Turn the interior on with the checkbox in the panel header. The animations in this section show a facade of nine windows rendered with EEVEE.
+
+.. image:: images/03_parameters_interior.gif
+   :width: 75%
+
+The rooms are parallax rooms: when the view moves around the facade, the walls, floor and furniture shift with the perspective, as real rooms behind the glass would.
+
+Rooms
+    The rooms material. WindowGen uses its built-in *WG_Interior* material. If the field is empty, press **Use Built-in Rooms**.
+
+Day / Night
+    Blends the rooms from daylight (0) to night (1). It changes only the rooms: in the animation the sky and the sun are dimmed separately, as you would light a night scene.
+
+    .. image:: images/03_parameters_interior_daynight.gif
+        :width: 75%
+
+Lights On
+    Turns the room lights on or off at night.
+
+    .. image:: images/03_parameters_interior_lights.gif
+        :width: 75%
+
+Lit Windows
+    The share of rooms with the lights on at night. Available when *Lights On* is on.
+
+    .. image:: images/03_parameters_interior_lit.gif
+        :width: 75%
+
+Intensity
+    Brightness of the rooms.
+
+    .. image:: images/03_parameters_interior_intensity.gif
+        :width: 75%
+
+Room Variation
+    Gives every window another room, mirroring and lighting.
+
+    .. image:: images/03_parameters_interior_variation.gif
+        :width: 75%
+
+.. important::
+    The look settings belong to the rooms material, so they are **shared by every window that uses it**. The panel says how many windows that is, for example *Shared by 48 windows using WG_Interior*. To give a group of windows a different look, assign them a copy of the material.
+
+.. note::
+    The rooms are seen from outside. From inside the building the interior is invisible, so it never blocks the view out of a window.
+
+.. _performance:
+
+Performance
+~~~~~~~~~~~
+
+Detail
+    *Auto* lets :ref:`level-of-detail` decide by the distance to the camera. *Full* always keeps every detail, for hero windows. *Low* always draws the window simpler, for windows that are never seen up close. The line below says whether the window is drawn at low detail right now.
+
+    .. image:: images/03_parameters_detail.gif
         :width: 75%
 
 Realize Instances
-    Converts instances into real geometry. Keep it off while you work: the viewport is faster and the file smaller. Turn it on when a material or another modifier needs real geometry. The animation shows the vertex count in the viewport statistics.
+    Converts instances into real geometry. Keep it off while you work: the viewport is faster and the file smaller. Turn it on when a material or another modifier needs real geometry. The animation shows the vertex count in the viewport statistics. Shading looks the same either way.
 
     .. image:: images/03_parameters_instances.gif
         :width: 75%
 
-Apply Modifier
-    Turns the window into a plain mesh.
-
-    .. image:: images/03_parameters_apply.gif
-        :width: 75%
-
-    .. warning::
-        Once applied, the window is no longer parametric and the settings panel disappears. Use it when you need to edit the final geometry by hand. To hand a window over to another program, use the export described in :ref:`export` instead; it leaves the original window untouched.
+.. tip::
+    To turn a window into a plain mesh, use **Convert to Mesh…** in the *Export* panel, see :ref:`convert-to-mesh`.
 
 Window Single
 -------------
@@ -221,28 +292,28 @@ Window Single
 .. image:: images/03_parameters_06_window.png
    :width: 50%
 
-Rotation Settings
-~~~~~~~~~~~~~~~~~
-
 Opening
+~~~~~~~
+
+Direction
     Sets the direction in which the sash opens.
 
     .. image:: images/03_parameters_06_sash_opening.gif
         :width: 75%
 
-Swing Side
+Side
     Sets the side the sash is hinged on.
 
     .. image:: images/03_parameters_06_swing_side.gif
         :width: 75%
 
-Turn Angle
+Turn
     Sets the turn angle of the sash.
 
     .. image:: images/03_parameters_06_sash_turn.gif
         :width: 75%
 
-Tilt Angle
+Tilt
     Sets the tilt angle of the sash.
 
     .. image:: images/03_parameters_06_sash_tilt.gif
@@ -250,7 +321,7 @@ Tilt Angle
 
 Window Single Frame
 -------------------
- A window with a fixed, non-opening section. It has no *Rotation* and no *Handle* panel.
+ A window with a fixed, non-opening section. It has no *Opening* and no *Hardware* panel.
 
 .. image:: images/03_parameters_07_window.png
     :width: 50%
@@ -271,28 +342,28 @@ Mullion Centered
     .. image:: images/03_parameters_03_mullion_centered.gif
         :width: 75%
 
-Mullion Section Width
+Section Width
     Sets the width of the fixed section. Shown when *Mullion Centered* is turned off.
 
     .. image:: images/03_parameters_03_mullion_width.gif
         :width: 75%
 
-Rotation Settings
-~~~~~~~~~~~~~~~~~
+Opening
+~~~~~~~
 
-Sash Position
+Sash
     Switch the operable sash between the left and the right section.
 
     .. image:: images/03_parameters_03_left_right.gif
         :width: 75%
 
-Turn Angle
+Turn
     Sets the turn angle of the sash.
 
     .. image:: images/03_parameters_03_sash_turn.gif
         :width: 75%
 
-Tilt Angle
+Tilt
     Sets the tilt angle of the sash.
 
     .. image:: images/03_parameters_03_sash_tilt.gif
@@ -305,34 +376,34 @@ Window Mullion 2 Sash
 .. image:: images/03_parameters_04_window.png
    :width: 50%
 
-Rotation Settings
-~~~~~~~~~~~~~~~~~
+Opening
+~~~~~~~
 
-Right Sash Turn
+Right Sash: Turn
     Sets the turn angle of the right sash.
 
     .. image:: images/03_parameters_04_sash_turn_r.gif
         :width: 75%
 
-Right Sash Tilt
+Right Sash: Tilt
     Sets the tilt angle of the right sash.
 
     .. image:: images/03_parameters_04_sash_tilt_r.gif
         :width: 75%
 
-Left Sash Turn
+Left Sash: Turn
     Sets the turn angle of the left sash.
 
     .. image:: images/03_parameters_04_sash_turn_l.gif
         :width: 75%
 
-Left Sash Tilt
+Left Sash: Tilt
     Sets the tilt angle of the left sash.
 
     .. image:: images/03_parameters_04_sash_tilt_l.gif
         :width: 75%
 
-The *Handle* panel of this window has a separate rotation for each handle: *Right Sash Handle* and *Left Sash Handle*.
+The *Hardware* panel of this window has a separate *Handle Angle* for each sash: *Right Sash* and *Left Sash*.
 
 Window Mullion 3 Sash
 ---------------------
@@ -350,34 +421,34 @@ Mullion Centered
     .. image:: images/03_parameters_05_mullion_centered.gif
         :width: 75%
 
-Mullion Section Width
+Section Width
     Sets the width of the outer sections. Shown when *Mullion Centered* is turned off.
 
     .. image:: images/03_parameters_05_mullion_width.gif
         :width: 75%
 
-Rotation Settings
-~~~~~~~~~~~~~~~~~
+Opening
+~~~~~~~
 
-Right Sash Turn
+Right Sash: Turn
     Sets the turn angle of the right sash.
 
     .. image:: images/03_parameters_05_sash_turn_r.gif
         :width: 75%
 
-Right Sash Tilt
+Right Sash: Tilt
     Sets the tilt angle of the right sash.
 
     .. image:: images/03_parameters_05_sash_tilt_r.gif
         :width: 75%
 
-Left Sash Turn
+Left Sash: Turn
     Sets the turn angle of the left sash.
 
     .. image:: images/03_parameters_05_sash_turn_l.gif
         :width: 75%
 
-Left Sash Tilt
+Left Sash: Tilt
     Sets the tilt angle of the left sash.
 
     .. image:: images/03_parameters_05_sash_tilt_l.gif
@@ -390,8 +461,8 @@ Window Stulp
 .. image:: images/03_parameters_08_window.png
    :width: 50%
 
-Rotation Settings
-~~~~~~~~~~~~~~~~~
+Opening
+~~~~~~~
 
 Leading Sash
     Sets which sash carries the handle and opens first.
@@ -399,25 +470,25 @@ Leading Sash
     .. image:: images/03_parameters_08_left_right.gif
         :width: 75%
 
-Right Sash Turn
+Right Sash: Turn
     Sets the turn angle of the right sash.
 
     .. image:: images/03_parameters_08_sash_turn_r.gif
         :width: 75%
 
-Right Sash Tilt
+Right Sash: Tilt
     Sets the tilt angle of the right sash.
 
     .. image:: images/03_parameters_08_sash_tilt_r.gif
         :width: 75%
 
-Left Sash Turn
+Left Sash: Turn
     Sets the turn angle of the left sash.
 
     .. image:: images/03_parameters_08_sash_turn_l.gif
         :width: 75%
 
-Left Sash Tilt
+Left Sash: Tilt
     Sets the tilt angle of the left sash.
 
     .. image:: images/03_parameters_08_sash_tilt_l.gif
@@ -430,10 +501,10 @@ Window Awning
 .. image:: images/03_parameters_01_window.png
    :width: 50%
 
-Rotation Settings
-~~~~~~~~~~~~~~~~~
+Opening
+~~~~~~~
 
-Tilt Angle
+Tilt
     Sets the tilt angle of the sash.
 
     .. image:: images/03_parameters_01_sash_tilt.gif
@@ -446,10 +517,10 @@ Window Hopper
 .. image:: images/03_parameters_02_window.png
    :width: 50%
 
-Rotation Settings
-~~~~~~~~~~~~~~~~~
+Opening
+~~~~~~~
 
-Tilt Angle
+Tilt
     Sets the tilt angle of the sash.
 
     .. image:: images/03_parameters_02_sash_tilt.gif
@@ -500,67 +571,70 @@ Portal Windows
 
 *Top row: Portal A, C, C4, D. Bottom row: Portal F, K, K4.*
 
-Portals share *Size*, *Materials* and *Options* with the other windows. Instead of *Rotation* they have a *Slide* panel, and their *Handle* panel offers the portal handles.
+Portals share *Profile*, *Size*, *Materials*, *Interior* and *Performance* with the other windows. Their *Opening* panel slides the sashes, and their *Hardware* panel offers the portal handles.
 
 Size
 ~~~~
 
 Mullion Centered
-    Available for Portal A and Portal K. Turn it off to set the width of the fixed section with *Mullion Section Width*.
+    Available for Portal A and Portal K. Turn it off to set the width of the fixed section with *Section Width*.
 
     .. image:: images/03_parameters_10_mullion.gif
         :width: 75%
 
-Slide
-~~~~~
+Opening
+~~~~~~~
 
-Sash Slide
+Slide
     Slides the sash along its track. 0 is closed, 1 is fully open.
 
     .. image:: images/03_parameters_10_slide.gif
         :width: 75%
 
-Sash Position
+Sash
     Available for Portal A, C and D. Sets the side the sliding sash closes on.
 
     .. image:: images/03_parameters_10_sash_position.gif
         :width: 75%
 
-Left Sash Slide, Right Sash Slide
+Left Slide, Right Slide
     Schemes with two sliding sashes (C4, D, K, K4) have one value for each sash.
 
     .. image:: images/03_parameters_10_slide_two.gif
         :width: 75%
 
-Left, Mid Left, Mid Right and Right Sash
+Left, Mid Left, Mid Right and Right
     Portal F has one value for each of its four sashes.
 
     .. image:: images/03_parameters_10_slide_four.gif
         :width: 75%
 
-Handle
-~~~~~~
+Hardware
+~~~~~~~~
 
 Handle
-    Choose one of the portal handles, *No Handle*, or *Custom*. With *Custom* you assign your own *Lever Geometry*, *Backplate Geometry* and *Pull Geometry*.
+    Choose one of the portal handles, *No Handle*, or *Custom*. With *Custom* you assign your own *Lever Geometry*, *Backplate* and *Pull Geometry*.
 
     .. image:: images/03_parameters_10_handle.gif
         :width: 75%
 
 Handle Position
-    *Fixed* places the handle 1 m above the floor, *Centered* in the middle of the sash, and *Manual* at the height set with *Manual Position*.
+    *Fixed* places the handle 1 m above the floor, *Centered* in the middle of the sash, and *Manual* at the height set with *Height*.
 
     .. image:: images/03_parameters_10_handle_position.gif
         :width: 75%
 
-Manual Position
+Height
     Shown when *Handle Position* is set to *Manual*. Sets the height of the handle.
 
     .. image:: images/03_parameters_10_handle_manual.gif
         :width: 75%
 
-Handle Rotation
-    Sets the rotation of the handle. Schemes with several sliding sashes have one value for each handle (*Left Handle*, *Right Handle* and so on).
+Handle Angle
+    Sets the rotation of the handle. Schemes with several sliding sashes have one value for each handle (*Left*, *Right* and so on).
+
+Locks and Strikers
+    Shows or hides the locking hardware, as on casement windows.
 
     .. image:: images/03_parameters_10_handle_rotation.gif
         :width: 75%
@@ -597,36 +671,36 @@ Sliding Windows
 
 *From left to right: Sliding Double, Sliding Double + Mesh, Sliding Mullion, Sliding Triple.*
 
-Window Profile
-~~~~~~~~~~~~~~
+Profile
+~~~~~~~
 
 Sliding windows have their own profile systems (SL44, SL50, SL60, SL64). The gallery shows the ones available for the selected window type.
 
 .. image:: images/03_parameters_20_profile.gif
    :width: 75%
 
-Slide
-~~~~~
+Opening
+~~~~~~~
 
-Front Sash Slide, Back Sash Slide
+Front Slide, Back Slide
     Slides each sash along its rail. 0 is closed, 1 is fully open.
 
     .. image:: images/03_parameters_20_slide.gif
         :width: 75%
 
-Sash Position
+Sash
     Swaps the front and back sashes.
 
     .. image:: images/03_parameters_20_sash_position.gif
         :width: 75%
 
-Middle Sash Slide
+Middle Slide
     Sliding Triple has a third value for the sash on the middle rail.
 
     .. image:: images/03_parameters_20_slide_triple.gif
         :width: 75%
 
-Sash Slide
+Slide
     Sliding Mullion has a single sliding sash.
 
     .. image:: images/03_parameters_20_slide_mullion.gif
@@ -638,8 +712,8 @@ Mosquito Slide
     .. image:: images/03_parameters_20_mosquito.gif
         :width: 75%
 
-Handle
-~~~~~~
+Hardware
+~~~~~~~~
 
 Handle
     Choose one of the sliding handles, *No Handle*, or *Custom* with your own *Pull Handle* object.
@@ -651,7 +725,7 @@ Glazing
 ~~~~~~~
 
 Glazing
-    Choose between single and double glazing. The animation shows the glazing from above.
+    In the *Profile* panel. With the SL60 profile, choose between single and double glazing. SL44, SL50 and SL64 are built with fixed glazing, so the choice is greyed out for them. The animation shows the glazing from above.
 
     .. image:: images/03_parameters_20_glazing.gif
         :width: 75%

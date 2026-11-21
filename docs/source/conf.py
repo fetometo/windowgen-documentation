@@ -8,8 +8,8 @@ project = 'WindowGen'
 copyright = '2026, Mikhail Shevchenko'
 author = 'Mikhail Shevchenko'
 
-release = '4.0'
-version = '4.0.0'
+release = '4.1'
+version = '4.1.0'
 
 # -- General configuration
 

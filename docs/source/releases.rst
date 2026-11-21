@@ -83,3 +83,15 @@ Complete rewrite. Requires Blender 4.2 or newer; tested up to Blender 5.3.
 - "Add Window" is a button, so the same preset can be added several times in a row and the action can be undone.
 - Export rewritten: OBJ export works again, parts get correct origins and hierarchy at any object scale, the original window is never modified.
 - Removed Windows-only file paths that broke the add-on on macOS and Linux.
+
+Version 4.1.0
+-------------
+
+- Interior: rooms behind the glass for facades seen from outside. One built-in material with eight furnished rooms, Day / Night, Lights On, Lit Windows and Room Variation. It adds almost no geometry and works the same with *Realize Instances* on or off.
+- Level of Detail: windows far from the camera are drawn more simply, by themselves, when the camera stops moving. Choose what low detail does (profile resolution 1, hide hinges, hide locks and strikers); set *Detail* per window to Auto, Full or Low. Renders and animations are always up to date; export always uses full detail.
+- Hinges and Locks and Strikers can be turned off per window.
+- Shading is now identical with *Realize Instances* on and off.
+- Reorganized sidebar: *Opening* replaces *Rotation* and *Slide*; *Hardware* holds the handle, hinges and locks; Glazing moved into *Profile*; Pivot moved into *Size*; new *Interior* and *Performance* panels; the *Options* panel is gone.
+- *Apply Modifier* is now **Convert to Mesh…** in the *Export* panel and asks before converting.
+- Level of Detail shows its status in the panel header; the Library panel shows whether the file is up to date and holds *Reload Previews*.
+- Shorter labels that are no longer cut off; Randomize shows the window type list inline.
