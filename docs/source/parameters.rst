@@ -219,7 +219,7 @@ Interior
 
 Rooms behind the glass, for facades seen from outside. Each window shows a furnished room with depth, walls, floor, ceiling, furniture and curtains, drawn by a single material instead of real geometry, so a building with hundreds of windows stays light. Different windows get different rooms automatically.
 
-Turn the interior on with the checkbox in the panel header.
+Turn the interior on with the checkbox in the panel header. The animations in this section show a facade of nine windows rendered with EEVEE.
 
 .. image:: images/03_parameters_interior.gif
    :width: 75%
@@ -228,19 +228,34 @@ Rooms
     The rooms material. WindowGen uses its built-in *WG_Interior* material. If the field is empty, press **Use Built-in Rooms**.
 
 Day / Night
-    Blends the rooms from daylight (0) to night (1).
+    Blends the rooms from daylight (0) to night (1). It changes only the rooms: in the animation the sky and the sun are dimmed separately, as you would light a night scene.
+
+    .. image:: images/03_parameters_interior_daynight.gif
+        :width: 75%
 
 Lights On
     Turns the room lights on or off at night.
 
+    .. image:: images/03_parameters_interior_lights.gif
+        :width: 75%
+
 Lit Windows
     The share of rooms with the lights on at night. Available when *Lights On* is on.
+
+    .. image:: images/03_parameters_interior_lit.gif
+        :width: 75%
 
 Intensity
     Brightness of the rooms.
 
+    .. image:: images/03_parameters_interior_intensity.gif
+        :width: 75%
+
 Room Variation
     Gives every window another room, mirroring and lighting.
+
+    .. image:: images/03_parameters_interior_variation.gif
+        :width: 75%
 
 .. important::
     The look settings belong to the rooms material, so they are **shared by every window that uses it**. The panel says how many windows that is, for example *Shared by 48 windows using WG_Interior*. To give a group of windows a different look, assign them a copy of the material.

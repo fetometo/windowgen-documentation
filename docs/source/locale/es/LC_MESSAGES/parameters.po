@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WindowGen 4.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-21 03:01+0300\n"
+"POT-Creation-Date: 2026-11-21 03:25+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Parámetros comunes"
 msgid "These parameters are shared by most window types."
 msgstr "Estos parámetros los comparten la mayoría de los tipos de ventana."
 
-#: ../../source/parameters.rst:24 ../../source/parameters.rst:658
+#: ../../source/parameters.rst:24 ../../source/parameters.rst:673
 msgid "Profile"
 msgstr "Profile"
 
@@ -117,8 +117,8 @@ msgstr ""
 " una línea bajo el campo indica *Drawn at 1*. Tu valor se conserva y vuelve "
 "en cuanto la ventana está de nuevo cerca de la cámara."
 
-#: ../../source/parameters.rst:45 ../../source/parameters.rst:708
-#: ../../source/parameters.rst:713
+#: ../../source/parameters.rst:45 ../../source/parameters.rst:723
+#: ../../source/parameters.rst:728
 msgid "Glazing"
 msgstr "Glazing"
 
@@ -149,8 +149,8 @@ msgstr ""
 "Si por algún motivo no aparecen las vistas previas, pulsa **Reload "
 "Previews** en el panel *Library*."
 
-#: ../../source/parameters.rst:54 ../../source/parameters.rst:320
-#: ../../source/parameters.rst:399 ../../source/parameters.rst:560
+#: ../../source/parameters.rst:54 ../../source/parameters.rst:335
+#: ../../source/parameters.rst:414 ../../source/parameters.rst:575
 msgid "Size"
 msgstr "Size"
 
@@ -170,11 +170,11 @@ msgstr ""
 "Dónde está el origen del objeto: en la parte inferior de la ventana "
 "(**Bottom**, por defecto) o en su centro (**Center**)."
 
-#: ../../source/parameters.rst:68 ../../source/parameters.rst:279
-#: ../../source/parameters.rst:335 ../../source/parameters.rst:363
-#: ../../source/parameters.rst:414 ../../source/parameters.rst:448
-#: ../../source/parameters.rst:488 ../../source/parameters.rst:504
-#: ../../source/parameters.rst:569 ../../source/parameters.rst:666
+#: ../../source/parameters.rst:68 ../../source/parameters.rst:294
+#: ../../source/parameters.rst:350 ../../source/parameters.rst:378
+#: ../../source/parameters.rst:429 ../../source/parameters.rst:463
+#: ../../source/parameters.rst:503 ../../source/parameters.rst:519
+#: ../../source/parameters.rst:584 ../../source/parameters.rst:681
 msgid "Opening"
 msgstr "Opening"
 
@@ -188,7 +188,7 @@ msgstr ""
 "las ventanas oscilobatientes, deslizamiento en los portales y las ventanas "
 "correderas. Está disponible para toda ventana con una hoja móvil."
 
-#: ../../source/parameters.rst:76 ../../source/parameters.rst:285
+#: ../../source/parameters.rst:76 ../../source/parameters.rst:300
 msgid "Direction"
 msgstr "Direction"
 
@@ -212,8 +212,8 @@ msgstr ""
 "El ángulo de oscilación está limitado por la longitud del compás, como en "
 "una ventana real. Los valores por encima del límite no tienen más efecto."
 
-#: ../../source/parameters.rst:84 ../../source/parameters.rst:596
-#: ../../source/parameters.rst:699
+#: ../../source/parameters.rst:84 ../../source/parameters.rst:611
+#: ../../source/parameters.rst:714
 msgid "Hardware"
 msgstr "Hardware"
 
@@ -225,8 +225,8 @@ msgstr ""
 "El panel *Hardware* reúne todo lo que va montado en la hoja: la manilla, su "
 "posición y su ángulo, las bisagras y los cierres."
 
-#: ../../source/parameters.rst:92 ../../source/parameters.rst:602
-#: ../../source/parameters.rst:705
+#: ../../source/parameters.rst:92 ../../source/parameters.rst:617
+#: ../../source/parameters.rst:720
 msgid "Handle"
 msgstr "Handle"
 
@@ -263,7 +263,7 @@ msgstr "Backplate"
 msgid "Fixed decorative plate around the base of the handle."
 msgstr "Placa decorativa fija en la base de la manilla."
 
-#: ../../source/parameters.rst:116 ../../source/parameters.rst:608
+#: ../../source/parameters.rst:116 ../../source/parameters.rst:623
 msgid "Handle Position"
 msgstr "Handle Position"
 
@@ -271,11 +271,11 @@ msgstr "Handle Position"
 msgid "Choose between *Centered* (the middle of the sash) and *Manual*."
 msgstr "Elige entre *Centered* (centro de la hoja) y *Manual*."
 
-#: ../../source/parameters.rst:122 ../../source/parameters.rst:614
+#: ../../source/parameters.rst:122 ../../source/parameters.rst:629
 msgid "Height"
 msgstr "Height"
 
-#: ../../source/parameters.rst:119 ../../source/parameters.rst:611
+#: ../../source/parameters.rst:119 ../../source/parameters.rst:626
 msgid ""
 "Shown when *Handle Position* is set to *Manual*. Sets the height of the "
 "handle."
@@ -283,7 +283,7 @@ msgstr ""
 "Aparece cuando *Handle Position* está en *Manual*. Define la altura de la "
 "manilla."
 
-#: ../../source/parameters.rst:128 ../../source/parameters.rst:617
+#: ../../source/parameters.rst:128 ../../source/parameters.rst:632
 msgid "Handle Angle"
 msgstr "Handle Angle"
 
@@ -303,7 +303,7 @@ msgstr "Hinges"
 msgid "Shows or hides the hinges. Casement windows only."
 msgstr "Muestra u oculta las bisagras. Solo ventanas oscilobatientes."
 
-#: ../../source/parameters.rst:140 ../../source/parameters.rst:623
+#: ../../source/parameters.rst:140 ../../source/parameters.rst:638
 msgid "Locks and Strikers"
 msgstr "Locks and Strikers"
 
@@ -479,8 +479,13 @@ msgstr ""
 "ligero. Las ventanas reciben automáticamente habitaciones distintas."
 
 #: ../../source/parameters.rst:222
-msgid "Turn the interior on with the checkbox in the panel header."
-msgstr "Activa el interior con la casilla de la cabecera del panel."
+msgid ""
+"Turn the interior on with the checkbox in the panel header. The animations "
+"in this section show a facade of nine windows rendered with EEVEE."
+msgstr ""
+"Activa el interior con la casilla de la cabecera del panel. Las animaciones "
+"de esta sección muestran una fachada de nueve ventanas renderizada con "
+"EEVEE."
 
 #: ../../source/parameters.rst:228
 msgid "Rooms"
@@ -494,27 +499,33 @@ msgstr ""
 "El material de las habitaciones. WindowGen usa su material integrado "
 "*WG_Interior*. Si el campo está vacío, pulsa **Use Built-in Rooms**."
 
-#: ../../source/parameters.rst:231
+#: ../../source/parameters.rst:234
 msgid "Day / Night"
 msgstr "Day / Night"
 
 #: ../../source/parameters.rst:231
-msgid "Blends the rooms from daylight (0) to night (1)."
-msgstr "Lleva las habitaciones de la luz del día (0) a la noche (1)."
+msgid ""
+"Blends the rooms from daylight (0) to night (1). It changes only the rooms: "
+"in the animation the sky and the sun are dimmed separately, as you would "
+"light a night scene."
+msgstr ""
+"Lleva las habitaciones de la luz del día (0) a la noche (1). Solo cambian "
+"las habitaciones: en la animación el cielo y el sol se oscurecen por "
+"separado, como al iluminar una escena nocturna."
 
-#: ../../source/parameters.rst:234
+#: ../../source/parameters.rst:240
 msgid "Lights On"
 msgstr "Lights On"
 
-#: ../../source/parameters.rst:234
+#: ../../source/parameters.rst:237
 msgid "Turns the room lights on or off at night."
 msgstr "Enciende o apaga la luz de las habitaciones por la noche."
 
-#: ../../source/parameters.rst:237
+#: ../../source/parameters.rst:246
 msgid "Lit Windows"
 msgstr "Lit Windows"
 
-#: ../../source/parameters.rst:237
+#: ../../source/parameters.rst:243
 msgid ""
 "The share of rooms with the lights on at night. Available when *Lights On* "
 "is on."
@@ -522,23 +533,23 @@ msgstr ""
 "La proporción de habitaciones con la luz encendida por la noche. Disponible "
 "cuando *Lights On* está activado."
 
-#: ../../source/parameters.rst:240
+#: ../../source/parameters.rst:252
 msgid "Intensity"
 msgstr "Intensity"
 
-#: ../../source/parameters.rst:240
+#: ../../source/parameters.rst:249
 msgid "Brightness of the rooms."
 msgstr "Brillo de las habitaciones."
 
-#: ../../source/parameters.rst:243
+#: ../../source/parameters.rst:258
 msgid "Room Variation"
 msgstr "Room Variation"
 
-#: ../../source/parameters.rst:243
+#: ../../source/parameters.rst:255
 msgid "Gives every window another room, mirroring and lighting."
 msgstr "Da a cada ventana otra habitación, otro reflejo y otra iluminación."
 
-#: ../../source/parameters.rst:246
+#: ../../source/parameters.rst:261
 msgid ""
 "The look settings belong to the rooms material, so they are **shared by "
 "every window that uses it**. The panel says how many windows that is, for "
@@ -550,7 +561,7 @@ msgstr ""
 "ventanas son, por ejemplo *Shared by 48 windows using WG_Interior*. Para dar"
 " otro aspecto a un grupo de ventanas, asígnales una copia del material."
 
-#: ../../source/parameters.rst:249
+#: ../../source/parameters.rst:264
 msgid ""
 "The rooms are seen from outside. From inside the building the interior is "
 "invisible, so it never blocks the view out of a window."
@@ -558,15 +569,15 @@ msgstr ""
 "Las habitaciones se ven desde fuera. Desde dentro del edificio el interior "
 "es invisible, así que nunca tapa la vista a través de la ventana."
 
-#: ../../source/parameters.rst:254
+#: ../../source/parameters.rst:269
 msgid "Performance"
 msgstr "Performance"
 
-#: ../../source/parameters.rst:260
+#: ../../source/parameters.rst:275
 msgid "Detail"
 msgstr "Detail"
 
-#: ../../source/parameters.rst:257
+#: ../../source/parameters.rst:272
 msgid ""
 "*Auto* lets :ref:`level-of-detail` decide by the distance to the camera. "
 "*Full* always keeps every detail, for hero windows. *Low* always draws the "
@@ -579,11 +590,11 @@ msgstr ""
 "nunca se ven de cerca. La línea de debajo indica si la ventana se dibuja "
 "ahora con detalle bajo."
 
-#: ../../source/parameters.rst:266
+#: ../../source/parameters.rst:281
 msgid "Realize Instances"
 msgstr "Realize Instances"
 
-#: ../../source/parameters.rst:263
+#: ../../source/parameters.rst:278
 msgid ""
 "Converts instances into real geometry. Keep it off while you work: the "
 "viewport is faster and the file smaller. Turn it on when a material or "
@@ -596,7 +607,7 @@ msgstr ""
 "muestra el número de vértices en las estadísticas del viewport. El sombreado"
 " es igual en ambos casos."
 
-#: ../../source/parameters.rst:269
+#: ../../source/parameters.rst:284
 msgid ""
 "To turn a window into a plain mesh, use **Convert to Mesh…** in the *Export*"
 " panel, see :ref:`convert-to-mesh`."
@@ -604,51 +615,51 @@ msgstr ""
 "Para convertir una ventana en una malla simple, usa **Convert to Mesh…** en "
 "el panel *Export*, consulta :ref:`convert-to-mesh`."
 
-#: ../../source/parameters.rst:272
+#: ../../source/parameters.rst:287
 msgid "Window Single"
 msgstr "Window Single"
 
-#: ../../source/parameters.rst:273
+#: ../../source/parameters.rst:288
 msgid ""
 "A window featuring a single operable sash that can either tilt or turn."
 msgstr ""
 "Una ventana con una sola hoja practicable que puede oscilar o abrirse."
 
-#: ../../source/parameters.rst:282
+#: ../../source/parameters.rst:297
 msgid "Sets the direction in which the sash opens."
 msgstr "Define el sentido de apertura de la hoja."
 
-#: ../../source/parameters.rst:291
+#: ../../source/parameters.rst:306
 msgid "Side"
 msgstr "Side"
 
-#: ../../source/parameters.rst:288
+#: ../../source/parameters.rst:303
 msgid "Sets the side the sash is hinged on."
 msgstr "Define el lado de las bisagras de la hoja."
 
-#: ../../source/parameters.rst:297 ../../source/parameters.rst:347
+#: ../../source/parameters.rst:312 ../../source/parameters.rst:362
 msgid "Turn"
 msgstr "Turn"
 
-#: ../../source/parameters.rst:294 ../../source/parameters.rst:344
+#: ../../source/parameters.rst:309 ../../source/parameters.rst:359
 msgid "Sets the turn angle of the sash."
 msgstr "Define el ángulo de giro de la hoja."
 
-#: ../../source/parameters.rst:303 ../../source/parameters.rst:353
-#: ../../source/parameters.rst:494 ../../source/parameters.rst:510
+#: ../../source/parameters.rst:318 ../../source/parameters.rst:368
+#: ../../source/parameters.rst:509 ../../source/parameters.rst:525
 msgid "Tilt"
 msgstr "Tilt"
 
-#: ../../source/parameters.rst:300 ../../source/parameters.rst:350
-#: ../../source/parameters.rst:491 ../../source/parameters.rst:507
+#: ../../source/parameters.rst:315 ../../source/parameters.rst:365
+#: ../../source/parameters.rst:506 ../../source/parameters.rst:522
 msgid "Sets the tilt angle of the sash."
 msgstr "Define el ángulo de oscilación de la hoja."
 
-#: ../../source/parameters.rst:306
+#: ../../source/parameters.rst:321
 msgid "Window Single Frame"
 msgstr "Window Single Frame"
 
-#: ../../source/parameters.rst:307
+#: ../../source/parameters.rst:322
 msgid ""
 "A window with a fixed, non-opening section. It has no *Opening* and no "
 "*Hardware* panel."
@@ -656,31 +667,31 @@ msgstr ""
 "Una ventana con una parte fija que no se abre. No tiene paneles *Opening* ni"
 " *Hardware*."
 
-#: ../../source/parameters.rst:313
+#: ../../source/parameters.rst:328
 msgid "Window Mullion 1 Sash"
 msgstr "Window Mullion 1 Sash"
 
-#: ../../source/parameters.rst:314
+#: ../../source/parameters.rst:329
 msgid ""
 "A window featuring a single operable sash alongside a fixed, non-opening "
 "section."
 msgstr ""
 "Una ventana con una hoja practicable junto a una parte fija que no se abre."
 
-#: ../../source/parameters.rst:326 ../../source/parameters.rst:405
-#: ../../source/parameters.rst:566
+#: ../../source/parameters.rst:341 ../../source/parameters.rst:420
+#: ../../source/parameters.rst:581
 msgid "Mullion Centered"
 msgstr "Mullion Centered"
 
-#: ../../source/parameters.rst:323
+#: ../../source/parameters.rst:338
 msgid "Divides the window into two equal sections. Turned on by default."
 msgstr "Divide la ventana en dos partes iguales. Activado por defecto."
 
-#: ../../source/parameters.rst:332 ../../source/parameters.rst:411
+#: ../../source/parameters.rst:347 ../../source/parameters.rst:426
 msgid "Section Width"
 msgstr "Section Width"
 
-#: ../../source/parameters.rst:329
+#: ../../source/parameters.rst:344
 msgid ""
 "Sets the width of the fixed section. Shown when *Mullion Centered* is turned"
 " off."
@@ -688,64 +699,64 @@ msgstr ""
 "Define el ancho de la parte fija. Aparece cuando *Mullion Centered* está "
 "desactivado."
 
-#: ../../source/parameters.rst:341 ../../source/parameters.rst:581
-#: ../../source/parameters.rst:678
+#: ../../source/parameters.rst:356 ../../source/parameters.rst:596
+#: ../../source/parameters.rst:693
 msgid "Sash"
 msgstr "Sash"
 
-#: ../../source/parameters.rst:338
+#: ../../source/parameters.rst:353
 msgid "Switch the operable sash between the left and the right section."
 msgstr "Coloca la hoja practicable en la parte izquierda o derecha."
 
-#: ../../source/parameters.rst:356
+#: ../../source/parameters.rst:371
 msgid "Window Mullion 2 Sash"
 msgstr "Window Mullion 2 Sash"
 
-#: ../../source/parameters.rst:357
+#: ../../source/parameters.rst:372
 msgid "A window with two operable sashes that can either tilt or turn."
 msgstr "Una ventana con dos hojas practicables que pueden oscilar o abrirse."
 
-#: ../../source/parameters.rst:369 ../../source/parameters.rst:420
-#: ../../source/parameters.rst:460
+#: ../../source/parameters.rst:384 ../../source/parameters.rst:435
+#: ../../source/parameters.rst:475
 msgid "Right Sash: Turn"
 msgstr "Right Sash: Turn"
 
-#: ../../source/parameters.rst:366 ../../source/parameters.rst:417
-#: ../../source/parameters.rst:457
+#: ../../source/parameters.rst:381 ../../source/parameters.rst:432
+#: ../../source/parameters.rst:472
 msgid "Sets the turn angle of the right sash."
 msgstr "Define el ángulo de giro de la hoja derecha."
 
-#: ../../source/parameters.rst:375 ../../source/parameters.rst:426
-#: ../../source/parameters.rst:466
+#: ../../source/parameters.rst:390 ../../source/parameters.rst:441
+#: ../../source/parameters.rst:481
 msgid "Right Sash: Tilt"
 msgstr "Right Sash: Tilt"
 
-#: ../../source/parameters.rst:372 ../../source/parameters.rst:423
-#: ../../source/parameters.rst:463
+#: ../../source/parameters.rst:387 ../../source/parameters.rst:438
+#: ../../source/parameters.rst:478
 msgid "Sets the tilt angle of the right sash."
 msgstr "Define el ángulo de oscilación de la hoja derecha."
 
-#: ../../source/parameters.rst:381 ../../source/parameters.rst:432
-#: ../../source/parameters.rst:472
+#: ../../source/parameters.rst:396 ../../source/parameters.rst:447
+#: ../../source/parameters.rst:487
 msgid "Left Sash: Turn"
 msgstr "Left Sash: Turn"
 
-#: ../../source/parameters.rst:378 ../../source/parameters.rst:429
-#: ../../source/parameters.rst:469
+#: ../../source/parameters.rst:393 ../../source/parameters.rst:444
+#: ../../source/parameters.rst:484
 msgid "Sets the turn angle of the left sash."
 msgstr "Define el ángulo de giro de la hoja izquierda."
 
-#: ../../source/parameters.rst:387 ../../source/parameters.rst:438
-#: ../../source/parameters.rst:478
+#: ../../source/parameters.rst:402 ../../source/parameters.rst:453
+#: ../../source/parameters.rst:493
 msgid "Left Sash: Tilt"
 msgstr "Left Sash: Tilt"
 
-#: ../../source/parameters.rst:384 ../../source/parameters.rst:435
-#: ../../source/parameters.rst:475
+#: ../../source/parameters.rst:399 ../../source/parameters.rst:450
+#: ../../source/parameters.rst:490
 msgid "Sets the tilt angle of the left sash."
 msgstr "Define el ángulo de oscilación de la hoja izquierda."
 
-#: ../../source/parameters.rst:389
+#: ../../source/parameters.rst:404
 msgid ""
 "The *Hardware* panel of this window has a separate *Handle Angle* for each "
 "sash: *Right Sash* and *Left Sash*."
@@ -753,21 +764,21 @@ msgstr ""
 "El panel *Hardware* de esta ventana tiene un *Handle Angle* distinto para "
 "cada hoja: *Right Sash* y *Left Sash*."
 
-#: ../../source/parameters.rst:392
+#: ../../source/parameters.rst:407
 msgid "Window Mullion 3 Sash"
 msgstr "Window Mullion 3 Sash"
 
-#: ../../source/parameters.rst:393
+#: ../../source/parameters.rst:408
 msgid ""
 "A window featuring two operable sashes with a fixed, non-opening section in "
 "the middle."
 msgstr "Una ventana con dos hojas practicables y una parte fija en el centro."
 
-#: ../../source/parameters.rst:402
+#: ../../source/parameters.rst:417
 msgid "Divides the window into three equal sections. Turned on by default."
 msgstr "Divide la ventana en tres partes iguales. Activado por defecto."
 
-#: ../../source/parameters.rst:408
+#: ../../source/parameters.rst:423
 msgid ""
 "Sets the width of the outer sections. Shown when *Mullion Centered* is "
 "turned off."
@@ -775,11 +786,11 @@ msgstr ""
 "Define el ancho de las partes exteriores. Aparece cuando *Mullion Centered* "
 "está desactivado."
 
-#: ../../source/parameters.rst:441
+#: ../../source/parameters.rst:456
 msgid "Window Stulp"
 msgstr "Window Stulp"
 
-#: ../../source/parameters.rst:442
+#: ../../source/parameters.rst:457
 msgid ""
 "A window with two sashes featuring a large, unobstructed opening without a "
 "central mullion."
@@ -787,36 +798,36 @@ msgstr ""
 "Una ventana de dos hojas con una gran abertura despejada, sin parteluz "
 "central."
 
-#: ../../source/parameters.rst:454
+#: ../../source/parameters.rst:469
 msgid "Leading Sash"
 msgstr "Leading Sash"
 
-#: ../../source/parameters.rst:451
+#: ../../source/parameters.rst:466
 msgid "Sets which sash carries the handle and opens first."
 msgstr "Define qué hoja lleva la manilla y se abre primero."
 
-#: ../../source/parameters.rst:481
+#: ../../source/parameters.rst:496
 msgid "Window Awning"
 msgstr "Window Awning"
 
-#: ../../source/parameters.rst:482
+#: ../../source/parameters.rst:497
 msgid "A top-hinged window that swings outward from the bottom."
 msgstr "Una ventana con bisagras arriba que se abre hacia fuera por abajo."
 
-#: ../../source/parameters.rst:497
+#: ../../source/parameters.rst:512
 msgid "Window Hopper"
 msgstr "Window Hopper"
 
-#: ../../source/parameters.rst:498
+#: ../../source/parameters.rst:513
 msgid "A bottom-hinged window that tilts inward from the top."
 msgstr ""
 "Una ventana con bisagras abajo que se inclina hacia dentro por arriba."
 
-#: ../../source/parameters.rst:515
+#: ../../source/parameters.rst:530
 msgid "Portal Windows"
 msgstr "Ventanas Portal"
 
-#: ../../source/parameters.rst:516
+#: ../../source/parameters.rst:531
 msgid ""
 "Lift and slide doors. Seven schemes are available; the letter follows the "
 "usual naming of lift-and-slide schemes."
@@ -824,35 +835,35 @@ msgstr ""
 "Puertas elevables correderas. Hay siete esquemas; la letra sigue la "
 "denominación habitual de los esquemas elevables correderos."
 
-#: ../../source/parameters.rst:522 ../../source/parameters.rst:635
+#: ../../source/parameters.rst:537 ../../source/parameters.rst:650
 msgid "Preset"
 msgstr "Preset"
 
-#: ../../source/parameters.rst:523 ../../source/parameters.rst:636
+#: ../../source/parameters.rst:538 ../../source/parameters.rst:651
 msgid "Layout"
 msgstr "Distribución"
 
-#: ../../source/parameters.rst:524
+#: ../../source/parameters.rst:539
 msgid "Portal A"
 msgstr "Portal A"
 
-#: ../../source/parameters.rst:525
+#: ../../source/parameters.rst:540
 msgid "One sliding sash and one fixed section."
 msgstr "Una hoja corredera y una parte fija."
 
-#: ../../source/parameters.rst:526
+#: ../../source/parameters.rst:541
 msgid "Portal C"
 msgstr "Portal C"
 
-#: ../../source/parameters.rst:527
+#: ../../source/parameters.rst:542
 msgid "One sliding sash in the middle of two fixed sections."
 msgstr "Una hoja corredera entre dos partes fijas."
 
-#: ../../source/parameters.rst:528
+#: ../../source/parameters.rst:543
 msgid "Portal C4"
 msgstr "Portal C4"
 
-#: ../../source/parameters.rst:529
+#: ../../source/parameters.rst:544
 msgid ""
 "Two sliding sashes that meet in the middle, with a fixed section on each "
 "side."
@@ -860,46 +871,46 @@ msgstr ""
 "Dos hojas correderas que se juntan en el centro, con una parte fija a cada "
 "lado."
 
-#: ../../source/parameters.rst:530
+#: ../../source/parameters.rst:545
 msgid "Portal D"
 msgstr "Portal D"
 
-#: ../../source/parameters.rst:531
+#: ../../source/parameters.rst:546
 msgid "Two sliding sashes, each with its own handle."
 msgstr "Dos hojas correderas, cada una con su propia manilla."
 
-#: ../../source/parameters.rst:532
+#: ../../source/parameters.rst:547
 msgid "Portal F"
 msgstr "Portal F"
 
-#: ../../source/parameters.rst:533
+#: ../../source/parameters.rst:548
 msgid "Four sliding sashes."
 msgstr "Cuatro hojas correderas."
 
-#: ../../source/parameters.rst:534
+#: ../../source/parameters.rst:549
 msgid "Portal K"
 msgstr "Portal K"
 
-#: ../../source/parameters.rst:535
+#: ../../source/parameters.rst:550
 msgid "Two sliding sashes at the sides of a fixed middle section."
 msgstr "Dos hojas correderas a los lados de una parte fija central."
 
-#: ../../source/parameters.rst:536
+#: ../../source/parameters.rst:551
 msgid "Portal K4"
 msgstr "Portal K4"
 
-#: ../../source/parameters.rst:537
+#: ../../source/parameters.rst:552
 msgid ""
 "Two sliding sashes at the sides, with the middle divided into fixed "
 "sections."
 msgstr ""
 "Dos hojas correderas a los lados, con el centro dividido en partes fijas."
 
-#: ../../source/parameters.rst:555
+#: ../../source/parameters.rst:570
 msgid "*Top row: Portal A, C, C4, D. Bottom row: Portal F, K, K4.*"
 msgstr "*Fila superior: Portal A, C, C4, D. Fila inferior: Portal F, K, K4.*"
 
-#: ../../source/parameters.rst:557
+#: ../../source/parameters.rst:572
 msgid ""
 "Portals share *Profile*, *Size*, *Materials*, *Interior* and *Performance* "
 "with the other windows. Their *Opening* panel slides the sashes, and their "
@@ -909,7 +920,7 @@ msgstr ""
 "*Performance* con las demás ventanas. Su panel *Opening* desliza las hojas y"
 " su panel *Hardware* ofrece las manillas de portal."
 
-#: ../../source/parameters.rst:563
+#: ../../source/parameters.rst:578
 msgid ""
 "Available for Portal A and Portal K. Turn it off to set the width of the "
 "fixed section with *Section Width*."
@@ -917,41 +928,41 @@ msgstr ""
 "Disponible para Portal A y Portal K. Desactívalo para definir el ancho de la"
 " parte fija con *Section Width*."
 
-#: ../../source/parameters.rst:575 ../../source/parameters.rst:690
+#: ../../source/parameters.rst:590 ../../source/parameters.rst:705
 msgid "Slide"
 msgstr "Slide"
 
-#: ../../source/parameters.rst:572
+#: ../../source/parameters.rst:587
 msgid "Slides the sash along its track. 0 is closed, 1 is fully open."
 msgstr "Desliza la hoja por su guía. 0 es cerrada, 1 totalmente abierta."
 
-#: ../../source/parameters.rst:578
+#: ../../source/parameters.rst:593
 msgid ""
 "Available for Portal A, C and D. Sets the side the sliding sash closes on."
 msgstr ""
 "Disponible para Portal A, C y D. Define el lado hacia el que cierra la hoja "
 "corredera."
 
-#: ../../source/parameters.rst:587
+#: ../../source/parameters.rst:602
 msgid "Left Slide, Right Slide"
 msgstr "Left Slide, Right Slide"
 
-#: ../../source/parameters.rst:584
+#: ../../source/parameters.rst:599
 msgid ""
 "Schemes with two sliding sashes (C4, D, K, K4) have one value for each sash."
 msgstr ""
 "Los esquemas con dos hojas correderas (C4, D, K, K4) tienen un valor para "
 "cada hoja."
 
-#: ../../source/parameters.rst:593
+#: ../../source/parameters.rst:608
 msgid "Left, Mid Left, Mid Right and Right"
 msgstr "Left, Mid Left, Mid Right y Right"
 
-#: ../../source/parameters.rst:590
+#: ../../source/parameters.rst:605
 msgid "Portal F has one value for each of its four sashes."
 msgstr "Portal F tiene un valor para cada una de sus cuatro hojas."
 
-#: ../../source/parameters.rst:599
+#: ../../source/parameters.rst:614
 msgid ""
 "Choose one of the portal handles, *No Handle*, or *Custom*. With *Custom* "
 "you assign your own *Lever Geometry*, *Backplate* and *Pull Geometry*."
@@ -959,7 +970,7 @@ msgstr ""
 "Elige una de las manillas de portal, *No Handle* o *Custom*. Con *Custom* "
 "asignas tus propios *Lever Geometry*, *Backplate* y *Pull Geometry*."
 
-#: ../../source/parameters.rst:605
+#: ../../source/parameters.rst:620
 msgid ""
 "*Fixed* places the handle 1 m above the floor, *Centered* in the middle of "
 "the sash, and *Manual* at the height set with *Height*."
@@ -967,7 +978,7 @@ msgstr ""
 "*Fixed* coloca la manilla a 1 m del suelo, *Centered* en el centro de la "
 "hoja y *Manual* a la altura definida en *Height*."
 
-#: ../../source/parameters.rst:617
+#: ../../source/parameters.rst:632
 msgid ""
 "Sets the rotation of the handle. Schemes with several sliding sashes have "
 "one value for each handle (*Left*, *Right* and so on)."
@@ -975,53 +986,53 @@ msgstr ""
 "Define el giro de la manilla. Los esquemas con varias hojas correderas "
 "tienen un valor para cada manilla (*Left*, *Right*, etc.)."
 
-#: ../../source/parameters.rst:620
+#: ../../source/parameters.rst:635
 msgid "Shows or hides the locking hardware, as on casement windows."
 msgstr ""
 "Muestra u oculta los herrajes de cierre, como en las ventanas "
 "oscilobatientes."
 
-#: ../../source/parameters.rst:628
+#: ../../source/parameters.rst:643
 msgid "Sliding Windows"
 msgstr "Ventanas correderas"
 
-#: ../../source/parameters.rst:629
+#: ../../source/parameters.rst:644
 msgid "Lightweight sliding windows on two or three rails."
 msgstr "Ventanas correderas ligeras sobre dos o tres guías."
 
-#: ../../source/parameters.rst:637
+#: ../../source/parameters.rst:652
 msgid "Sliding Double"
 msgstr "Sliding Double"
 
-#: ../../source/parameters.rst:638
+#: ../../source/parameters.rst:653
 msgid "Two sashes on two rails."
 msgstr "Dos hojas sobre dos guías."
 
-#: ../../source/parameters.rst:639
+#: ../../source/parameters.rst:654
 msgid "Sliding Double + Mesh"
 msgstr "Sliding Double + Mesh"
 
-#: ../../source/parameters.rst:640
+#: ../../source/parameters.rst:655
 msgid "Two sashes on two rails and a sliding mosquito screen."
 msgstr "Dos hojas sobre dos guías y una mosquitera corredera."
 
-#: ../../source/parameters.rst:641
+#: ../../source/parameters.rst:656
 msgid "Sliding Mullion"
 msgstr "Sliding Mullion"
 
-#: ../../source/parameters.rst:642
+#: ../../source/parameters.rst:657
 msgid "One sliding sash next to a fixed section."
 msgstr "Una hoja corredera junto a una parte fija."
 
-#: ../../source/parameters.rst:643
+#: ../../source/parameters.rst:658
 msgid "Sliding Triple"
 msgstr "Sliding Triple"
 
-#: ../../source/parameters.rst:644
+#: ../../source/parameters.rst:659
 msgid "Three sashes on three rails."
 msgstr "Tres hojas sobre tres guías."
 
-#: ../../source/parameters.rst:655
+#: ../../source/parameters.rst:670
 msgid ""
 "*From left to right: Sliding Double, Sliding Double + Mesh, Sliding Mullion,"
 " Sliding Triple.*"
@@ -1029,7 +1040,7 @@ msgstr ""
 "*De izquierda a derecha: Sliding Double, Sliding Double + Mesh, Sliding "
 "Mullion, Sliding Triple.*"
 
-#: ../../source/parameters.rst:660
+#: ../../source/parameters.rst:675
 msgid ""
 "Sliding windows have their own profile systems (SL44, SL50, SL60, SL64). The"
 " gallery shows the ones available for the selected window type."
@@ -1038,35 +1049,35 @@ msgstr ""
 " SL60, SL64). La galería muestra los disponibles para el tipo de ventana "
 "seleccionado."
 
-#: ../../source/parameters.rst:672
+#: ../../source/parameters.rst:687
 msgid "Front Slide, Back Slide"
 msgstr "Front Slide, Back Slide"
 
-#: ../../source/parameters.rst:669
+#: ../../source/parameters.rst:684
 msgid "Slides each sash along its rail. 0 is closed, 1 is fully open."
 msgstr "Desliza cada hoja por su guía. 0 es cerrada, 1 totalmente abierta."
 
-#: ../../source/parameters.rst:675
+#: ../../source/parameters.rst:690
 msgid "Swaps the front and back sashes."
 msgstr "Intercambia las hojas delantera y trasera."
 
-#: ../../source/parameters.rst:684
+#: ../../source/parameters.rst:699
 msgid "Middle Slide"
 msgstr "Middle Slide"
 
-#: ../../source/parameters.rst:681
+#: ../../source/parameters.rst:696
 msgid "Sliding Triple has a third value for the sash on the middle rail."
 msgstr "Sliding Triple tiene un tercer valor para la hoja de la guía central."
 
-#: ../../source/parameters.rst:687
+#: ../../source/parameters.rst:702
 msgid "Sliding Mullion has a single sliding sash."
 msgstr "Sliding Mullion tiene una sola hoja corredera."
 
-#: ../../source/parameters.rst:696
+#: ../../source/parameters.rst:711
 msgid "Mosquito Slide"
 msgstr "Mosquito Slide"
 
-#: ../../source/parameters.rst:693
+#: ../../source/parameters.rst:708
 msgid ""
 "Sliding Double + Mesh has a mosquito screen on its own rail. The animation "
 "shows the window from outside."
@@ -1074,7 +1085,7 @@ msgstr ""
 "Sliding Double + Mesh tiene una mosquitera en su propia guía. La animación "
 "muestra la ventana desde fuera."
 
-#: ../../source/parameters.rst:702
+#: ../../source/parameters.rst:717
 msgid ""
 "Choose one of the sliding handles, *No Handle*, or *Custom* with your own "
 "*Pull Handle* object."
@@ -1082,7 +1093,7 @@ msgstr ""
 "Elige una de las manillas de ventana corredera, *No Handle* o *Custom* con "
 "tu propio objeto *Pull Handle*."
 
-#: ../../source/parameters.rst:711
+#: ../../source/parameters.rst:726
 msgid ""
 "In the *Profile* panel. With the SL60 profile, choose between single and "
 "double glazing. SL44, SL50 and SL64 are built with fixed glazing, so the "
@@ -1163,3 +1174,9 @@ msgstr ""
 
 #~ msgid "Sash Slide"
 #~ msgstr "Sash Slide"
+
+#~ msgid "Turn the interior on with the checkbox in the panel header."
+#~ msgstr "Activa el interior con la casilla de la cabecera del panel."
+
+#~ msgid "Blends the rooms from daylight (0) to night (1)."
+#~ msgstr "Lleva las habitaciones de la luz del día (0) a la noche (1)."
