@@ -96,7 +96,7 @@ Turn on **Random Type** to give each new window a different type. The category y
     :width: 50%
 
 - Click the types to choose which ones may be used. All of them are on at first.
-- **Seed** changes the result. The same seed always gives the same arrangement.
+- **Variation** changes the result. The same value always gives the same arrangement.
 
 Random Type works with every placement, but it is meant for *Faces* with several faces selected.
 
@@ -108,7 +108,7 @@ Select two or more windows and the **Selected Windows** panel appears.
 .. image:: images/02_working_with_06panel.png
     :width: 50%
 
-With **Edit All Selected** turned on, every change you make to the active window is repeated on all the selected windows. The header of the settings shows the name of the active window and how many others follow it, for example *Window Single +3*.
+With **Edit All Selected** turned on, every change you make to the active window is repeated on all the selected windows. The header of the settings shows the name of the active window and how many others follow it, for example *Window Single* with *+3 selected*.
 
 .. image:: images/02_working_with_06edit.gif
     :width: 75%
@@ -118,7 +118,7 @@ With **Edit All Selected** turned on, every change you make to the active window
 - Only the setting you change is passed on. Everything else that differs between the windows stays different.
 - One *Undo* takes the change back on all the windows.
 
-**Copy Active to Selected** gives every selected window all the settings of the active one in a single step: profile, glazing, lites, handle, materials, opening and options. Size is left alone unless you turn on *Size* in the operator panel that appears in the bottom left corner of the 3D Viewport.
+**Copy Active to Selected** gives every selected window all the settings of the active one in a single step: profile, glazing, lites, hardware, materials, opening, interior, pivot and *Realize Instances*. Size is left alone unless you turn on *Size* in the operator panel that appears in the bottom left corner of the 3D Viewport.
 
 Turn **Edit All Selected** off when you want to change only the active window while the others stay selected.
 
@@ -130,10 +130,10 @@ Randomize the selected windows
 .. image:: images/02_working_with_06random.gif
     :width: 75%
 
-- **Window Type**: each window gets a random type from its own category. The types come from the *Random Type* list in the *Add Window* panel. Size, materials and the other settings are kept.
+- **Window Type**: each window gets a random type from its own category. Tick the types that may be used in the list right below it; with several categories in the selection, each has its own list. Size, materials and the other settings are kept.
 - **Opening Side**: swaps the hinge, sash or sliding side where the window type has that choice.
 - **Opening**: opens the sashes by a random amount, up to *Max Opening*. Fixed frames stay closed.
-- **Seed**: change it to get another result.
+- **Variation**: change it to get another result.
 
 Sharing files
 -------------
@@ -155,7 +155,7 @@ The WindowGen Asset Library brings realistic materials to customize the appearan
     .. image:: images/02_working_with_03add.png
         :width: 50%
 
-2. Once the library is added, the panel shows *Material library added*.
+2. Once the library is added, the panel shows *Material library added*. The panel also shows where the components come from and whether the file is up to date, and has **Reload Previews** for the galleries.
 
     .. image:: images/02_working_with_03success.png
         :width: 50%
@@ -194,7 +194,7 @@ If the folder cannot be reached, WindowGen falls back to the bundled library and
 How to update WindowGen
 -----------------------
 
-When a file contains components from an older WindowGen version, a notice appears at the top of the *Add Window* panel.
+When a file contains components from an older WindowGen version, a notice appears at the top of the *Add Window* panel. The *Library* panel shows the same button; when the file is current it says *up to date* instead.
 
 1. Press **Update WindowGen in This File**.
 
@@ -254,3 +254,46 @@ Open the *Export* panel with a window selected.
     **Export Window (one-click export)**
 
     Does the same and writes the file immediately in the chosen format and location. Smoothing is applied on export.
+
+    Windows at low detail are always exported at full detail. The rooms of the *Interior* are a material effect and are not exported.
+
+.. _convert-to-mesh:
+
+Convert to Mesh
+~~~~~~~~~~~~~~~
+
+**Convert to Mesh…** at the bottom of the *Export* panel turns the window into a plain mesh in place. It is red and asks first, because it cannot be reversed except with *Undo*.
+
+.. image:: images/03_parameters_apply.gif
+    :width: 75%
+
+.. warning::
+    After converting, the window is no longer parametric: its WindowGen settings, level of detail and interior rooms can no longer be changed. Use it when you need to edit the final geometry by hand. To hand a window over to another program, use the export above instead; it leaves the original window untouched.
+
+.. _level-of-detail:
+
+Level of Detail
+---------------
+
+On a large facade most windows are far from the camera, where hinges, locks and finely rounded profiles cannot be seen but still cost memory and viewport speed. *Level of Detail* draws those windows more simply, by itself.
+
+.. image:: images/02_working_with_07lod.png
+    :width: 50%
+
+- It is on by default. The checkbox in the header turns it off, and the header shows how many windows are at low detail right now, for example *3 / 48 low*, even while the panel is folded.
+- **Distance**: windows farther than this from the scene camera are drawn at low detail.
+- **At Low Detail**: choose what low detail does. **Profile Resolution 1** saves the most; **Hide Hinges** and **Hide Locks and Strikers** remove the small parts. Handles always stay.
+- The last line names the camera the distance is measured from.
+
+How it stays out of your way:
+
+- The windows are updated when the camera stops moving, not while you drag it, so the viewport stays responsive. Only the windows that cross the distance are rebuilt.
+- Windows near the limit do not flicker: a window switches to low detail a little beyond *Distance* and back a little inside it.
+- Every frame of an animation and every render is up to date, also from the command line.
+- The window's own *Resolution*, *Hinges* and *Locks and Strikers* are never changed. Bring the camera closer, or turn Level of Detail off, and the window is exactly as before.
+- Export always uses full detail.
+
+To decide per window, use *Detail* in the window's :ref:`performance` panel: *Full* for hero windows that must always keep every detail, *Low* for windows that should always be simple.
+
+.. tip::
+    Interior rooms (:ref:`interior`) cost almost no geometry, so they work well together with low detail on large facades.

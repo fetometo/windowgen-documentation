@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WindowGen 4.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 22:06+0300\n"
+"POT-Creation-Date: 2026-11-20 21:40+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
 "Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:2
@@ -31,23 +31,38 @@ msgstr "F: Ich habe eine mit WindowGen 3 erstellte Datei geöffnet. Was nun?"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:7
 #: DESKTOP-HETTM96/WindowGen
-msgid "Press **Update WindowGen in This File** at the top of the *Add Window* panel."
-msgstr "Klicken Sie oben im Panel *Add Window* auf **Update WindowGen in This File**."
+msgid ""
+"Press **Update WindowGen in This File** at the top of the *Add Window* "
+"panel."
+msgstr ""
+"Klicken Sie oben im Panel *Add Window* auf **Update WindowGen in This "
+"File**."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:9
 #: DESKTOP-HETTM96/WindowGen
-msgid "WindowGen 3 linked its components from the add-on folder. Version 4 stores them in the file. The update:"
-msgstr "WindowGen 3 hat seine Komponenten aus dem Add-on-Ordner verknüpft. Version 4 speichert sie in der Datei. Das Update:"
+msgid ""
+"WindowGen 3 linked its components from the add-on folder. Version 4 stores "
+"them in the file. The update:"
+msgstr ""
+"WindowGen 3 hat seine Komponenten aus dem Add-on-Ordner verknüpft. Version 4"
+" speichert sie in der Datei. Das Update:"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:11
 #: DESKTOP-HETTM96/WindowGen
-msgid "switches every window to the new components and keeps all of its settings;"
-msgstr "stellt jedes Fenster auf die neuen Komponenten um und behält alle seine Einstellungen;"
+msgid ""
+"switches every window to the new components and keeps all of its settings;"
+msgstr ""
+"stellt jedes Fenster auf die neuen Komponenten um und behält alle seine "
+"Einstellungen;"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:12
 #: DESKTOP-HETTM96/WindowGen
-msgid "removes the link to ``WindowGen.blend``, the hidden *WindowGen Components* scene and the library overrides;"
-msgstr "entfernt die Verknüpfung zu ``WindowGen.blend``, die versteckte Szene *WindowGen Components* und die Library Overrides;"
+msgid ""
+"removes the link to ``WindowGen.blend``, the hidden *WindowGen Components* "
+"scene and the library overrides;"
+msgstr ""
+"entfernt die Verknüpfung zu ``WindowGen.blend``, die versteckte Szene "
+"*WindowGen Components* und die Library Overrides;"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:13
 #: DESKTOP-HETTM96/WindowGen
@@ -56,48 +71,90 @@ msgstr "lässt jedem Fenster genau einen Glättungs-Modifier;"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:14
 #: DESKTOP-HETTM96/WindowGen
-msgid "replaces WindowGen library materials used on your own objects with local copies."
-msgstr "ersetzt Materialien der WindowGen-Bibliothek an Ihren eigenen Objekten durch lokale Kopien."
+msgid ""
+"replaces WindowGen library materials used on your own objects with local "
+"copies."
+msgstr ""
+"ersetzt Materialien der WindowGen-Bibliothek an Ihren eigenen Objekten durch"
+" lokale Kopien."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:16
 #: DESKTOP-HETTM96/WindowGen
-msgid "Blender may print \"Data corruption ... library override reference\" messages while opening such a file. They describe the overrides the old version left behind and disappear after the update."
-msgstr "Beim Öffnen einer solchen Datei gibt Blender eventuell Meldungen „Data corruption ... library override reference“ aus. Sie betreffen die Overrides, die die alte Version hinterlassen hat, und verschwinden nach dem Update."
+msgid ""
+"Blender may print \"Data corruption ... library override reference\" "
+"messages while opening such a file. They describe the overrides the old "
+"version left behind and disappear after the update."
+msgstr ""
+"Beim Öffnen einer solchen Datei gibt Blender eventuell Meldungen „Data "
+"corruption ... library override reference“ aus. Sie betreffen die Overrides,"
+" die die alte Version hinterlassen hat, und verschwinden nach dem Update."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:18
 #: DESKTOP-HETTM96/WindowGen
-msgid "Windows in a WindowGen 3 file can still be edited before updating, as long as the old library file is where the file expects it."
-msgstr "Fenster in einer WindowGen-3-Datei lassen sich auch vor dem Update bearbeiten, solange die alte Bibliotheksdatei dort liegt, wo die Datei sie erwartet."
+msgid ""
+"Windows in a WindowGen 3 file can still be edited before updating, as long "
+"as the old library file is where the file expects it."
+msgstr ""
+"Fenster in einer WindowGen-3-Datei lassen sich auch vor dem Update "
+"bearbeiten, solange die alte Bibliotheksdatei dort liegt, wo die Datei sie "
+"erwartet."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:20
 #: DESKTOP-HETTM96/WindowGen
-msgid "Files made with WindowGen 2 are converted the same way. Their windows keep every setting; the profiles and hardware are replaced by the current versions, so the mesh is not identical vertex for vertex."
-msgstr "Dateien aus WindowGen 2 werden genauso konvertiert. Ihre Fenster behalten alle Einstellungen; Profile und Beschläge werden durch die aktuellen Versionen ersetzt, daher ist das Mesh nicht Vertex für Vertex identisch."
+msgid ""
+"Files made with WindowGen 2 are converted the same way. Their windows keep "
+"every setting; the profiles and hardware are replaced by the current "
+"versions, so the mesh is not identical vertex for vertex."
+msgstr ""
+"Dateien aus WindowGen 2 werden genauso konvertiert. Ihre Fenster behalten "
+"alle Einstellungen; Profile und Beschläge werden durch die aktuellen "
+"Versionen ersetzt, daher ist das Mesh nicht Vertex für Vertex identisch."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:23
 #: DESKTOP-HETTM96/WindowGen
 msgid "Q: Blender crashes or freezes when I open an old WindowGen file."
-msgstr "F: Blender stürzt ab oder friert ein, wenn ich eine alte WindowGen-Datei öffne."
+msgstr ""
+"F: Blender stürzt ab oder friert ein, wenn ich eine alte WindowGen-Datei "
+"öffne."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:25
 #: DESKTOP-HETTM96/WindowGen
-msgid "This is a Blender problem with library overrides whose linked file cannot be found. It happens before any add-on runs, so WindowGen cannot prevent it. It was observed with:"
-msgstr "Das ist ein Blender-Problem mit Library Overrides, deren verknüpfte Datei nicht gefunden wird. Es tritt auf, bevor irgendein Add-on läuft, daher kann WindowGen es nicht verhindern. Beobachtet wurde es bei:"
+msgid ""
+"This is a Blender problem with library overrides whose linked file cannot be"
+" found. It happens before any add-on runs, so WindowGen cannot prevent it. "
+"It was observed with:"
+msgstr ""
+"Das ist ein Blender-Problem mit Library Overrides, deren verknüpfte Datei "
+"nicht gefunden wird. Es tritt auf, bevor irgendein Add-on läuft, daher kann "
+"WindowGen es nicht verhindern. Beobachtet wurde es bei:"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:27
 #: DESKTOP-HETTM96/WindowGen
-msgid "WindowGen 2 files opened in Blender 5.2 or newer, unless the WindowGen 2 library is still at its original location;"
-msgstr "WindowGen-2-Dateien, die in Blender 5.2 oder neuer geöffnet werden, außer die WindowGen-2-Bibliothek liegt noch am ursprünglichen Ort;"
+msgid ""
+"WindowGen 2 files opened in Blender 5.2 or newer, unless the WindowGen 2 "
+"library is still at its original location;"
+msgstr ""
+"WindowGen-2-Dateien, die in Blender 5.2 oder neuer geöffnet werden, außer "
+"die WindowGen-2-Bibliothek liegt noch am ursprünglichen Ort;"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:28
 #: DESKTOP-HETTM96/WindowGen
-msgid "WindowGen 3 files opened in Blender 5.1 or newer when ``WindowGen.blend`` is missing altogether."
-msgstr "WindowGen-3-Dateien, die in Blender 5.1 oder neuer geöffnet werden, wenn ``WindowGen.blend`` ganz fehlt."
+msgid ""
+"WindowGen 3 files opened in Blender 5.1 or newer when ``WindowGen.blend`` is"
+" missing altogether."
+msgstr ""
+"WindowGen-3-Dateien, die in Blender 5.1 oder neuer geöffnet werden, wenn "
+"``WindowGen.blend`` ganz fehlt."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:30
 #: DESKTOP-HETTM96/WindowGen
-msgid "Installing WindowGen 4 over WindowGen 3 does not cause it: WindowGen 3 files open normally in every supported version with the new library in place."
-msgstr "Die Installation von WindowGen 4 über WindowGen 3 verursacht das nicht: WindowGen-3-Dateien öffnen sich mit der neuen Bibliothek in jeder unterstützten Version normal."
+msgid ""
+"Installing WindowGen 4 over WindowGen 3 does not cause it: WindowGen 3 files"
+" open normally in every supported version with the new library in place."
+msgstr ""
+"Die Installation von WindowGen 4 über WindowGen 3 verursacht das nicht: "
+"WindowGen-3-Dateien öffnen sich mit der neuen Bibliothek in jeder "
+"unterstützten Version normal."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:32
 #: DESKTOP-HETTM96/WindowGen
@@ -106,8 +163,14 @@ msgstr "So retten Sie eine solche Datei:"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:34
 #: DESKTOP-HETTM96/WindowGen
-msgid "Open it in the Blender version it was last saved with (WindowGen 4 runs on Blender 4.2 and newer), or put the old ``WindowGen.blend`` back where the file expects it."
-msgstr "Öffnen Sie sie in der Blender-Version, mit der sie zuletzt gespeichert wurde (WindowGen 4 läuft unter Blender 4.2 und neuer), oder legen Sie die alte ``WindowGen.blend`` wieder dorthin, wo die Datei sie erwartet."
+msgid ""
+"Open it in the Blender version it was last saved with (WindowGen 4 runs on "
+"Blender 4.2 and newer), or put the old ``WindowGen.blend`` back where the "
+"file expects it."
+msgstr ""
+"Öffnen Sie sie in der Blender-Version, mit der sie zuletzt gespeichert wurde"
+" (WindowGen 4 läuft unter Blender 4.2 und neuer), oder legen Sie die alte "
+"``WindowGen.blend`` wieder dorthin, wo die Datei sie erwartet."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:35
 #: DESKTOP-HETTM96/WindowGen
@@ -116,38 +179,71 @@ msgstr "Klicken Sie auf **Update WindowGen in This File** und speichern Sie."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:37
 #: DESKTOP-HETTM96/WindowGen
-msgid "The saved file no longer links anything and opens in every supported Blender version."
-msgstr "Die gespeicherte Datei verknüpft nichts mehr und öffnet sich in jeder unterstützten Blender-Version."
+msgid ""
+"The saved file no longer links anything and opens in every supported Blender"
+" version."
+msgstr ""
+"Die gespeicherte Datei verknüpft nichts mehr und öffnet sich in jeder "
+"unterstützten Blender-Version."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:40
 #: DESKTOP-HETTM96/WindowGen
-msgid "Q: Window geometry disappeared although the object is still in the Outliner."
-msgstr "F: Die Fenstergeometrie ist verschwunden, obwohl das Objekt noch im Outliner ist."
+msgid ""
+"Q: Window geometry disappeared although the object is still in the Outliner."
+msgstr ""
+"F: Die Fenstergeometrie ist verschwunden, obwohl das Objekt noch im Outliner"
+" ist."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:42
 #: DESKTOP-HETTM96/WindowGen
-msgid "This was caused by several \"Auto Smooth\" modifiers stacked on one window in WindowGen 3 files. Press **Update WindowGen in This File**; each window is left with exactly one *WindowGen Smooth* modifier and one *Weighted Normal*."
-msgstr "Ursache waren mehrere übereinanderliegende „Auto Smooth“-Modifier an einem Fenster in WindowGen-3-Dateien. Klicken Sie auf **Update WindowGen in This File**; jedes Fenster behält genau einen Modifier *WindowGen Smooth* und einen *Weighted Normal*."
+msgid ""
+"This was caused by several \"Auto Smooth\" modifiers stacked on one window "
+"in WindowGen 3 files. Press **Update WindowGen in This File**; each window "
+"is left with exactly one *WindowGen Smooth* modifier and one *Weighted "
+"Normal*."
+msgstr ""
+"Ursache waren mehrere übereinanderliegende „Auto Smooth“-Modifier an einem "
+"Fenster in WindowGen-3-Dateien. Klicken Sie auf **Update WindowGen in This "
+"File**; jedes Fenster behält genau einen Modifier *WindowGen Smooth* und "
+"einen *Weighted Normal*."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:45
 #: DESKTOP-HETTM96/WindowGen
 msgid "Q: The parameters are empty or show errors in Blender 5.2 and newer."
-msgstr "F: Die Parameter sind leer oder zeigen Fehler in Blender 5.2 und neuer."
+msgstr ""
+"F: Die Parameter sind leer oder zeigen Fehler in Blender 5.2 und neuer."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:47
 #: DESKTOP-HETTM96/WindowGen
-msgid "Blender 5.2 changed how geometry nodes modifier inputs are accessed, which broke WindowGen 3. WindowGen 4 supports Blender 4.2 to 5.3. Install version 4 and update the file as described above."
-msgstr "Blender 5.2 hat den Zugriff auf die Eingänge von Geometry-Nodes-Modifiern geändert, was WindowGen 3 unbrauchbar machte. WindowGen 4 unterstützt Blender 4.2 bis 5.3. Installieren Sie Version 4 und aktualisieren Sie die Datei wie oben beschrieben."
+msgid ""
+"Blender 5.2 changed how geometry nodes modifier inputs are accessed, which "
+"broke WindowGen 3. WindowGen 4 supports Blender 4.2 to 5.3. Install version "
+"4 and update the file as described above."
+msgstr ""
+"Blender 5.2 hat den Zugriff auf die Eingänge von Geometry-Nodes-Modifiern "
+"geändert, was WindowGen 3 unbrauchbar machte. WindowGen 4 unterstützt "
+"Blender 4.2 bis 5.3. Installieren Sie Version 4 und aktualisieren Sie die "
+"Datei wie oben beschrieben."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:50
 #: DESKTOP-HETTM96/WindowGen
-msgid "Q: In Blender 5.3 the locks and other sash hardware appear next to the window."
-msgstr "F: In Blender 5.3 erscheinen Verschlüsse und andere Flügelbeschläge neben dem Fenster."
+msgid ""
+"Q: In Blender 5.3 the locks and other sash hardware appear next to the "
+"window."
+msgstr ""
+"F: In Blender 5.3 erscheinen Verschlüsse und andere Flügelbeschläge neben "
+"dem Fenster."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:52
 #: DESKTOP-HETTM96/WindowGen
-msgid "That happens with WindowGen 3 components in Blender 5.3. Update the file; the version 4 components place the hardware identically in every supported Blender version."
-msgstr "Das passiert mit WindowGen-3-Komponenten in Blender 5.3. Aktualisieren Sie die Datei; die Komponenten von Version 4 platzieren die Beschläge in jeder unterstützten Blender-Version gleich."
+msgid ""
+"That happens with WindowGen 3 components in Blender 5.3. Update the file; "
+"the version 4 components place the hardware identically in every supported "
+"Blender version."
+msgstr ""
+"Das passiert mit WindowGen-3-Komponenten in Blender 5.3. Aktualisieren Sie "
+"die Datei; die Komponenten von Version 4 platzieren die Beschläge in jeder "
+"unterstützten Blender-Version gleich."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:55
 #: DESKTOP-HETTM96/WindowGen
@@ -156,18 +252,33 @@ msgstr "F: Braucht der Empfänger meiner Datei WindowGen?"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:57
 #: DESKTOP-HETTM96/WindowGen
-msgid "No. The file contains everything the windows need. Without the add-on the windows still render and can be adjusted through the modifier panel; with the add-on the recipient also gets the WindowGen panels."
-msgstr "Nein. Die Datei enthält alles, was die Fenster brauchen. Ohne das Add-on werden die Fenster trotzdem gerendert und lassen sich über das Modifier-Panel anpassen; mit dem Add-on erhält der Empfänger auch die WindowGen-Panels."
+msgid ""
+"No. The file contains everything the windows need. Without the add-on the "
+"windows still render and can be adjusted through the modifier panel; with "
+"the add-on the recipient also gets the WindowGen panels."
+msgstr ""
+"Nein. Die Datei enthält alles, was die Fenster brauchen. Ohne das Add-on "
+"werden die Fenster trotzdem gerendert und lassen sich über das Modifier-"
+"Panel anpassen; mit dem Add-on erhält der Empfänger auch die WindowGen-"
+"Panels."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:60
 #: DESKTOP-HETTM96/WindowGen
 msgid "Q: We keep assets on a network server. Can WindowGen load from there?"
-msgstr "F: Wir speichern Assets auf einem Netzwerkserver. Kann WindowGen von dort laden?"
+msgstr ""
+"F: Wir speichern Assets auf einem Netzwerkserver. Kann WindowGen von dort "
+"laden?"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:62
 #: DESKTOP-HETTM96/WindowGen
-msgid "Yes. See *Studio setup: one shared library* in :doc:`working_with_generator`. Because windows are appended, scenes never contain a path to the library, local or network."
-msgstr "Ja. Siehe *Einrichtung für Studios: eine gemeinsame Bibliothek* in :doc:`working_with_generator`. Da Fenster angehängt werden, enthalten Szenen nie einen Pfad zur Bibliothek, weder lokal noch im Netzwerk."
+msgid ""
+"Yes. See *Studio setup: one shared library* in "
+":doc:`working_with_generator`. Because windows are appended, scenes never "
+"contain a path to the library, local or network."
+msgstr ""
+"Ja. Siehe *Einrichtung für Studios: eine gemeinsame Bibliothek* in "
+":doc:`working_with_generator`. Da Fenster angehängt werden, enthalten Szenen"
+" nie einen Pfad zur Bibliothek, weder lokal noch im Netzwerk."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:65
 #: DESKTOP-HETTM96/WindowGen
@@ -176,8 +287,19 @@ msgstr "F: Blender ist langsam, wenn ich Fenster ändere."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:67
 #: DESKTOP-HETTM96/WindowGen
-msgid "Keep *Realize Instances* off while you work and switch it on only for export or when you need real geometry. Lower *Profile Resolution* for windows that are far from the camera."
-msgstr "Lassen Sie *Realize Instances* während der Arbeit aus und schalten Sie es nur für den Export ein oder wenn Sie echte Geometrie brauchen. Verringern Sie *Profile Resolution* für Fenster weit weg von der Kamera."
+msgid ""
+"Keep *Realize Instances* off while you work and switch it on only for export"
+" or when you need real geometry. Keep :ref:`level-of-detail` on: windows far"
+" from the camera are drawn with *Profile Resolution* 1 and without hinges "
+"and locks, by themselves. Set *Detail* to *Low* in the *Performance* panel "
+"for windows that are never seen up close."
+msgstr ""
+"Lassen Sie *Realize Instances* während der Arbeit aus und schalten Sie es "
+"nur für den Export ein oder wenn Sie echte Geometrie brauchen. Lassen Sie "
+":ref:`level-of-detail` eingeschaltet: Fenster weit weg von der Kamera werden"
+" dann von selbst mit *Profile Resolution* 1 und ohne Bänder und "
+"Verriegelungen gezeichnet. Setzen Sie *Detail* im Panel *Performance* auf "
+"*Low* für Fenster, die nie aus der Nähe zu sehen sind."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:70
 #: DESKTOP-HETTM96/WindowGen
@@ -186,6 +308,47 @@ msgstr "F: In den Galerien fehlen die Vorschauen."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:72
 #: DESKTOP-HETTM96/WindowGen
-msgid "Press the refresh button next to the gallery."
-msgstr "Klicken Sie auf die Aktualisieren-Schaltfläche neben der Galerie."
+msgid "Press **Reload Previews** in the *Library* panel."
+msgstr "Klicken Sie im Panel *Library* auf **Reload Previews**."
 
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:75
+#: DESKTOP-HETTM96/WindowGen
+msgid "Q: Why do the interior settings change on other windows too?"
+msgstr ""
+"F: Warum ändern sich die Interior-Einstellungen auch bei anderen Fenstern?"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:77
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"*Day / Night*, *Lights On*, *Lit Windows*, *Intensity* and *Room Variation* "
+"belong to the rooms material, not to the window, so every window that uses "
+"the same material changes together. The *Interior* panel says how many "
+"windows share it. To give some windows a different look, duplicate the "
+"material and assign the copy to those windows in *Rooms*."
+msgstr ""
+"*Day / Night*, *Lights On*, *Lit Windows*, *Intensity* und *Room Variation* "
+"gehören zum Raum-Material, nicht zum Fenster. Deshalb ändern sich alle "
+"Fenster, die dasselbe Material verwenden, gemeinsam. Das Panel *Interior* "
+"zeigt, wie viele Fenster es teilen. Um einigen Fenstern ein anderes Aussehen"
+" zu geben, duplizieren Sie das Material und weisen Sie die Kopie diesen "
+"Fenstern unter *Rooms* zu."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:80
+#: DESKTOP-HETTM96/WindowGen
+msgid "Q: I see no rooms behind the glass."
+msgstr "F: Ich sehe keine Räume hinter dem Glas."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/faq.rst:82
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"Turn on the checkbox in the *Interior* panel header and look at the window "
+"from outside: the rooms are not drawn from inside the building. In the "
+"viewport, use *Material Preview* or *Rendered* shading."
+msgstr ""
+"Schalten Sie das Kontrollkästchen im Kopf des Panels *Interior* ein und "
+"betrachten Sie das Fenster von außen: Von innerhalb des Gebäudes werden die "
+"Räume nicht gezeichnet. Verwenden Sie im Viewport die Schattierung *Material"
+" Preview* oder *Rendered*."
+
+#~ msgid "Press the refresh button next to the gallery."
+#~ msgstr "Klicken Sie auf die Aktualisieren-Schaltfläche neben der Galerie."

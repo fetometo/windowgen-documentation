@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WindowGen 4.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 22:19+0300\n"
+"POT-Creation-Date: 2026-11-20 21:40+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:2
@@ -82,7 +82,8 @@ msgstr "Версия 2.0.2"
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:26
 #: DESKTOP-HETTM96/WindowGen
 msgid "Fixed a bug causing the Apply Modifier to not work and send an error."
-msgstr "Исправлена ошибка, из-за которой Apply Modifier не работал и выдавал ошибку."
+msgstr ""
+"Исправлена ошибка, из-за которой Apply Modifier не работал и выдавал ошибку."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:29
 #: DESKTOP-HETTM96/WindowGen
@@ -111,18 +112,29 @@ msgstr "Версия 2.0.5"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:41
 #: DESKTOP-HETTM96/WindowGen
-msgid "Corrected stulp position for window heights of 2.1m and above for Stulp Window."
-msgstr "Исправлено положение штульпа для окон высотой от 2,1 м у Stulp Window."
+msgid ""
+"Corrected stulp position for window heights of 2.1m and above for Stulp "
+"Window."
+msgstr ""
+"Исправлено положение штульпа для окон высотой от 2,1 м у Stulp Window."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:42
 #: DESKTOP-HETTM96/WindowGen
-msgid "Resolved incorrect hinge orientation when \"Realize Instances\" is unchecked for Awning and Transom Windows."
-msgstr "Исправлена неверная ориентация петель при выключенном «Realize Instances» у окон Awning и Transom."
+msgid ""
+"Resolved incorrect hinge orientation when \"Realize Instances\" is unchecked"
+" for Awning and Transom Windows."
+msgstr ""
+"Исправлена неверная ориентация петель при выключенном «Realize Instances» у "
+"окон Awning и Transom."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:43
 #: DESKTOP-HETTM96/WindowGen
-msgid "Fixed incorrect glass position when \"Outward Opening\" is selected for 3 Section Window."
-msgstr "Исправлено неверное положение стекла при выборе «Outward Opening» у трёхсекционного окна."
+msgid ""
+"Fixed incorrect glass position when \"Outward Opening\" is selected for 3 "
+"Section Window."
+msgstr ""
+"Исправлено неверное положение стекла при выборе «Outward Opening» у "
+"трёхсекционного окна."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:46
 #: DESKTOP-HETTM96/WindowGen
@@ -132,7 +144,8 @@ msgstr "Версия 3.0"
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:48
 #: DESKTOP-HETTM96/WindowGen
 msgid "Updated UI: progress is shown while appending and updating."
-msgstr "Обновлён интерфейс: при добавлении и обновлении показывается прогресс."
+msgstr ""
+"Обновлён интерфейс: при добавлении и обновлении показывается прогресс."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:49
 #: DESKTOP-HETTM96/WindowGen
@@ -166,13 +179,20 @@ msgstr "Добавлены новые типы окон: Portal (подъёмн�
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:55
 #: DESKTOP-HETTM96/WindowGen
-msgid "Added update functionality to upgrade WindowGen components in existing projects."
-msgstr "Добавлена функция обновления компонентов WindowGen в существующих проектах."
+msgid ""
+"Added update functionality to upgrade WindowGen components in existing "
+"projects."
+msgstr ""
+"Добавлена функция обновления компонентов WindowGen в существующих проектах."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:56
 #: DESKTOP-HETTM96/WindowGen
-msgid "Added export functionality: prepare windows for export, set origins, and perform automatic export to selected formats."
-msgstr "Добавлен экспорт: подготовка окон к экспорту, установка начал координат и автоматический экспорт в выбранные форматы."
+msgid ""
+"Added export functionality: prepare windows for export, set origins, and "
+"perform automatic export to selected formats."
+msgstr ""
+"Добавлен экспорт: подготовка окон к экспорту, установка начал координат и "
+"автоматический экспорт в выбранные форматы."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:57
 #: DESKTOP-HETTM96/WindowGen
@@ -201,8 +221,12 @@ msgstr "Исправлено некорректное обновление пр�
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:65
 #: DESKTOP-HETTM96/WindowGen
-msgid "Fixed incorrect sash scaling for Portal F and Portal C4 when changing window dimensions"
-msgstr "Исправлено неверное масштабирование створок у Portal F и Portal C4 при изменении размеров окна"
+msgid ""
+"Fixed incorrect sash scaling for Portal F and Portal C4 when changing window"
+" dimensions"
+msgstr ""
+"Исправлено неверное масштабирование створок у Portal F и Portal C4 при "
+"изменении размеров окна"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:68
 #: DESKTOP-HETTM96/WindowGen
@@ -211,76 +235,219 @@ msgstr "Версия 4.0.0"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:70
 #: DESKTOP-HETTM96/WindowGen
-msgid "Complete rewrite. Requires Blender 4.2 or newer; tested up to Blender 5.3."
-msgstr "Полностью переписан. Требуется Blender 4.2 или новее; проверено до Blender 5.3."
+msgid ""
+"Complete rewrite. Requires Blender 4.2 or newer; tested up to Blender 5.3."
+msgstr ""
+"Полностью переписан. Требуется Blender 4.2 или новее; проверено до Blender "
+"5.3."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:72
 #: DESKTOP-HETTM96/WindowGen
-msgid "Works in Blender 5.2 and 5.3 (parameters were not shown in 5.2; sash hardware was misplaced in 5.3)."
-msgstr "Работает в Blender 5.2 и 5.3 (в 5.2 не отображались параметры, в 5.3 фурнитура створок стояла не на месте)."
+msgid ""
+"Works in Blender 5.2 and 5.3 (parameters were not shown in 5.2; sash "
+"hardware was misplaced in 5.3)."
+msgstr ""
+"Работает в Blender 5.2 и 5.3 (в 5.2 не отображались параметры, в 5.3 "
+"фурнитура створок стояла не на месте)."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:73
 #: DESKTOP-HETTM96/WindowGen
-msgid "Windows are appended instead of linked. Files are self-contained and can be shared without relinking."
-msgstr "Окна добавляются в файл, а не связываются ссылкой. Файлы самодостаточны, ими можно делиться без перепривязки."
+msgid ""
+"Windows are appended instead of linked. Files are self-contained and can be "
+"shared without relinking."
+msgstr ""
+"Окна добавляются в файл, а не связываются ссылкой. Файлы самодостаточны, ими"
+" можно делиться без перепривязки."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:74
 #: DESKTOP-HETTM96/WindowGen
-msgid "No \"Append WindowGen\" step: components load automatically with the first window."
-msgstr "Нет шага «Append WindowGen»: компоненты загружаются автоматически с первым окном."
+msgid ""
+"No \"Append WindowGen\" step: components load automatically with the first "
+"window."
+msgstr ""
+"Нет шага «Append WindowGen»: компоненты загружаются автоматически с первым "
+"окном."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:75
 #: DESKTOP-HETTM96/WindowGen
-msgid "Only the window appears in the Outliner; no hidden scene, no helper collections."
-msgstr "В Outliner видно только окно: никакой скрытой сцены и вспомогательных коллекций."
+msgid ""
+"Only the window appears in the Outliner; no hidden scene, no helper "
+"collections."
+msgstr ""
+"В Outliner видно только окно: никакой скрытой сцены и вспомогательных "
+"коллекций."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:76
 #: DESKTOP-HETTM96/WindowGen
-msgid "Fixed disappearing geometry caused by duplicated Auto Smooth modifiers."
-msgstr "Исправлено исчезновение геометрии из-за дублированных модификаторов Auto Smooth."
+msgid ""
+"Fixed disappearing geometry caused by duplicated Auto Smooth modifiers."
+msgstr ""
+"Исправлено исчезновение геометрии из-за дублированных модификаторов Auto "
+"Smooth."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:77
 #: DESKTOP-HETTM96/WindowGen
-msgid "One-click update of existing files, including files made with WindowGen 3."
-msgstr "Обновление существующих файлов в один клик, включая файлы WindowGen 3."
+msgid ""
+"One-click update of existing files, including files made with WindowGen 3."
+msgstr ""
+"Обновление существующих файлов в один клик, включая файлы WindowGen 3."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:78
 #: DESKTOP-HETTM96/WindowGen
-msgid "Custom library folder (preference or ``WINDOWGEN_LIBRARY`` environment variable) for studios with shared storage."
-msgstr "Своя папка библиотеки (в настройках или через переменную окружения ``WINDOWGEN_LIBRARY``) для студий с общим хранилищем."
+msgid ""
+"Custom library folder (preference or ``WINDOWGEN_LIBRARY`` environment "
+"variable) for studios with shared storage."
+msgstr ""
+"Своя папка библиотеки (в настройках или через переменную окружения "
+"``WINDOWGEN_LIBRARY``) для студий с общим хранилищем."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:79
 #: DESKTOP-HETTM96/WindowGen
-msgid "Material library split into its own asset file; the generator file went from 109 MB to 7 MB."
-msgstr "Библиотека материалов вынесена в отдельный файл ассетов; файл генератора уменьшился со 109 МБ до 7 МБ."
+msgid ""
+"Material library split into its own asset file; the generator file went from"
+" 109 MB to 7 MB."
+msgstr ""
+"Библиотека материалов вынесена в отдельный файл ассетов; файл генератора "
+"уменьшился со 109 МБ до 7 МБ."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:80
 #: DESKTOP-HETTM96/WindowGen
-msgid "Handle, glazing and other choices are stored per window (portal and sliding handles used to be shared by the whole scene)."
-msgstr "Ручка, остекление и другие параметры хранятся отдельно для каждого окна (раньше ручки порталов и раздвижных окон были общими для всей сцены)."
+msgid ""
+"Handle, glazing and other choices are stored per window (portal and sliding "
+"handles used to be shared by the whole scene)."
+msgstr ""
+"Ручка, остекление и другие параметры хранятся отдельно для каждого окна "
+"(раньше ручки порталов и раздвижных окон были общими для всей сцены)."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:81
 #: DESKTOP-HETTM96/WindowGen
-msgid "Face placement works directly from Edit Mode; cutting the opening is optional."
-msgstr "Размещение по граням работает прямо из режима редактирования; вырезание проёма необязательно."
+msgid ""
+"Face placement works directly from Edit Mode; cutting the opening is "
+"optional."
+msgstr ""
+"Размещение по граням работает прямо из режима редактирования; вырезание "
+"проёма необязательно."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:82
 #: DESKTOP-HETTM96/WindowGen
-msgid "Many windows at once: a window on every selected face, optional random window types within the chosen category, editing all selected windows together, copying settings from the active window and randomizing type, side and opening of existing windows."
-msgstr "Много окон сразу: окно на каждой выделенной грани, случайные типы окон в пределах выбранной категории, редактирование всех выделенных окон вместе, копирование настроек активного окна и случайная смена типа, стороны и открывания существующих окон."
+msgid ""
+"Many windows at once: a window on every selected face, optional random "
+"window types within the chosen category, editing all selected windows "
+"together, copying settings from the active window and randomizing type, side"
+" and opening of existing windows."
+msgstr ""
+"Много окон сразу: окно на каждой выделенной грани, случайные типы окон в "
+"пределах выбранной категории, редактирование всех выделенных окон вместе, "
+"копирование настроек активного окна и случайная смена типа, стороны и "
+"открывания существующих окон."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:83
 #: DESKTOP-HETTM96/WindowGen
-msgid "\"Add Window\" is a button, so the same preset can be added several times in a row and the action can be undone."
-msgstr "«Add Window» — кнопка, поэтому один и тот же пресет можно добавить несколько раз подряд, а действие можно отменить."
+msgid ""
+"\"Add Window\" is a button, so the same preset can be added several times in"
+" a row and the action can be undone."
+msgstr ""
+"«Add Window» — кнопка, поэтому один и тот же пресет можно добавить несколько"
+" раз подряд, а действие можно отменить."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:84
 #: DESKTOP-HETTM96/WindowGen
-msgid "Export rewritten: OBJ export works again, parts get correct origins and hierarchy at any object scale, the original window is never modified."
-msgstr "Экспорт переписан: экспорт в OBJ снова работает, части получают правильные начала координат и иерархию при любом масштабе объекта, исходное окно не изменяется."
+msgid ""
+"Export rewritten: OBJ export works again, parts get correct origins and "
+"hierarchy at any object scale, the original window is never modified."
+msgstr ""
+"Экспорт переписан: экспорт в OBJ снова работает, части получают правильные "
+"начала координат и иерархию при любом масштабе объекта, исходное окно не "
+"изменяется."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:85
 #: DESKTOP-HETTM96/WindowGen
-msgid "Removed Windows-only file paths that broke the add-on on macOS and Linux."
-msgstr "Удалены пути, работавшие только в Windows, из-за которых аддон не работал на macOS и Linux."
+msgid ""
+"Removed Windows-only file paths that broke the add-on on macOS and Linux."
+msgstr ""
+"Удалены пути, работавшие только в Windows, из-за которых аддон не работал на"
+" macOS и Linux."
 
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:88
+#: DESKTOP-HETTM96/WindowGen
+msgid "Version 4.1.0"
+msgstr "Версия 4.1.0"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:90
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"Interior: rooms behind the glass for facades seen from outside. One built-in"
+" material with eight furnished rooms, Day / Night, Lights On, Lit Windows "
+"and Room Variation. It adds almost no geometry and works the same with "
+"*Realize Instances* on or off."
+msgstr ""
+"Interior: комнаты за стеклом для фасадов, которые видны снаружи. Один "
+"встроенный материал с восемью обставленными комнатами, Day / Night, Lights "
+"On, Lit Windows и Room Variation. Почти не добавляет геометрии и работает "
+"одинаково с включённым и выключенным *Realize Instances*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:91
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"Level of Detail: windows far from the camera are drawn more simply, by "
+"themselves, when the camera stops moving. Choose what low detail does "
+"(profile resolution 1, hide hinges, hide locks and strikers); set *Detail* "
+"per window to Auto, Full or Low. Renders and animations are always up to "
+"date; export always uses full detail."
+msgstr ""
+"Level of Detail: окна далеко от камеры сами рисуются проще, когда камера "
+"останавливается. Выберите, что делает низкая детализация (разрешение профиля"
+" 1, скрыть петли, скрыть запоры и ответные планки); задайте *Detail* для "
+"каждого окна: Auto, Full или Low. Рендеры и анимации всегда актуальны; "
+"экспорт всегда использует полную детализацию."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:92
+#: DESKTOP-HETTM96/WindowGen
+msgid "Hinges and Locks and Strikers can be turned off per window."
+msgstr "Hinges и Locks and Strikers можно выключать для каждого окна."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:93
+#: DESKTOP-HETTM96/WindowGen
+msgid "Shading is now identical with *Realize Instances* on and off."
+msgstr ""
+"Шейдинг теперь одинаковый с включённым и выключенным *Realize Instances*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:94
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"Reorganized sidebar: *Opening* replaces *Rotation* and *Slide*; *Hardware* "
+"holds the handle, hinges and locks; Glazing moved into *Profile*; Pivot "
+"moved into *Size*; new *Interior* and *Performance* panels; the *Options* "
+"panel is gone."
+msgstr ""
+"Перестроенная боковая панель: *Opening* заменяет *Rotation* и *Slide*; в "
+"*Hardware* — ручка, петли и запоры; Glazing перенесено в *Profile*; Pivot — "
+"в *Size*; новые панели *Interior* и *Performance*; панели *Options* больше "
+"нет."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:95
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"*Apply Modifier* is now **Convert to Mesh…** in the *Export* panel and asks "
+"before converting."
+msgstr ""
+"*Apply Modifier* теперь называется **Convert to Mesh…**, находится на панели"
+" *Export* и спрашивает подтверждение перед преобразованием."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:96
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"Level of Detail shows its status in the panel header; the Library panel "
+"shows whether the file is up to date and holds *Reload Previews*."
+msgstr ""
+"Level of Detail показывает своё состояние в заголовке панели; панель Library"
+" показывает, актуален ли файл, и содержит *Reload Previews*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/releases.rst:97
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"Shorter labels that are no longer cut off; Randomize shows the window type "
+"list inline."
+msgstr ""
+"Более короткие подписи, которые больше не обрезаются; Randomize показывает "
+"список типов окон прямо на панели."

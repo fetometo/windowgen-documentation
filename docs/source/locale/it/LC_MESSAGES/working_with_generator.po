@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WindowGen 4.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-16 22:06+0300\n"
+"POT-Creation-Date: 2026-11-20 21:40+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: it\n"
 "Language-Team: it <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:2
@@ -41,8 +41,12 @@ msgstr "Premi **N** per aprire il pannello laterale."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:12
 #: DESKTOP-HETTM96/WindowGen
-msgid "Make sure your mouse cursor is over the 3D View before pressing **N**; otherwise Blender may open a different panel."
-msgstr "Assicurati che il cursore del mouse sia sopra la vista 3D prima di premere **N**, altrimenti Blender potrebbe aprire un altro pannello."
+msgid ""
+"Make sure your mouse cursor is over the 3D View before pressing **N**; "
+"otherwise Blender may open a different panel."
+msgstr ""
+"Assicurati che il cursore del mouse sia sopra la vista 3D prima di premere "
+"**N**, altrimenti Blender potrebbe aprire un altro pannello."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:14
 #: DESKTOP-HETTM96/WindowGen
@@ -56,33 +60,59 @@ msgstr "Come aggiungere una nuova finestra alla scena"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:22
 #: DESKTOP-HETTM96/WindowGen
-msgid "There is no separate \"Append WindowGen\" step. The components are loaded automatically with the first window you add to a file."
-msgstr "Non c'è un passaggio «Append WindowGen» separato. I componenti si caricano automaticamente con la prima finestra aggiunta al file."
+msgid ""
+"There is no separate \"Append WindowGen\" step. The components are loaded "
+"automatically with the first window you add to a file."
+msgstr ""
+"Non c'è un passaggio «Append WindowGen» separato. I componenti si caricano "
+"automaticamente con la prima finestra aggiunta al file."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:27
 #: DESKTOP-HETTM96/WindowGen
-msgid "Choose where to place the window: at the **World** origin or at the 3D **Cursor**."
-msgstr "Scegli dove posizionare la finestra: nell'origine del mondo (**World**) o sul cursore 3D (**Cursor**)."
+msgid ""
+"Choose where to place the window: at the **World** origin or at the 3D "
+"**Cursor**."
+msgstr ""
+"Scegli dove posizionare la finestra: nell'origine del mondo (**World**) o "
+"sul cursore 3D (**Cursor**)."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:32
 #: DESKTOP-HETTM96/WindowGen
-msgid "To fit a window into a wall, choose **Faces**. Select a face or a closed edge loop in Edit Mode, then add the window. It takes the size and the orientation of the face."
-msgstr "Per inserire una finestra in un muro, scegli **Faces**. Seleziona una faccia o un anello di spigoli chiuso in Edit Mode, poi aggiungi la finestra. Prende le dimensioni e l'orientamento della faccia."
+msgid ""
+"To fit a window into a wall, choose **Faces**. Select a face or a closed "
+"edge loop in Edit Mode, then add the window. It takes the size and the "
+"orientation of the face."
+msgstr ""
+"Per inserire una finestra in un muro, scegli **Faces**. Seleziona una faccia"
+" o un anello di spigoli chiuso in Edit Mode, poi aggiungi la finestra. "
+"Prende le dimensioni e l'orientamento della faccia."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:40
 #: DESKTOP-HETTM96/WindowGen
-msgid "*Cut Opening* removes the selected face so the window sits in an opening. Turn it off to keep the face."
-msgstr "*Cut Opening* elimina la faccia selezionata, così la finestra sta in un'apertura. Disattivalo per mantenere la faccia."
+msgid ""
+"*Cut Opening* removes the selected face so the window sits in an opening. "
+"Turn it off to keep the face."
+msgstr ""
+"*Cut Opening* elimina la faccia selezionata, così la finestra sta in "
+"un'apertura. Disattivalo per mantenere la faccia."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:43
 #: DESKTOP-HETTM96/WindowGen
-msgid "You can press *Add Window* straight from Edit Mode. WindowGen switches back to Object Mode and selects the new window."
-msgstr "Puoi premere *Add Window* direttamente da Edit Mode. WindowGen torna in Object Mode e seleziona la nuova finestra."
+msgid ""
+"You can press *Add Window* straight from Edit Mode. WindowGen switches back "
+"to Object Mode and selects the new window."
+msgstr ""
+"Puoi premere *Add Window* direttamente da Edit Mode. WindowGen torna in "
+"Object Mode e seleziona la nuova finestra."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:46
 #: DESKTOP-HETTM96/WindowGen
-msgid "Select several faces and every one of them gets a window. See :ref:`many-windows`."
-msgstr "Seleziona più facce e ognuna riceverà una finestra. Vedi :ref:`many-windows`."
+msgid ""
+"Select several faces and every one of them gets a window. See :ref:`many-"
+"windows`."
+msgstr ""
+"Seleziona più facce e ognuna riceverà una finestra. Vedi :ref:`many-"
+"windows`."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:48
 #: DESKTOP-HETTM96/WindowGen
@@ -91,8 +121,11 @@ msgstr "Scegli il tipo di finestra: Casement, Portal o Sliding."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:53
 #: DESKTOP-HETTM96/WindowGen
-msgid "Click the preview to open the gallery, then click a preset to choose it."
-msgstr "Fai clic sull'anteprima per aprire la galleria, poi su un preset per sceglierlo."
+msgid ""
+"Click the preview to open the gallery, then click a preset to choose it."
+msgstr ""
+"Fai clic sull'anteprima per aprire la galleria, poi su un preset per "
+"sceglierlo."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:58
 #: DESKTOP-HETTM96/WindowGen
@@ -101,18 +134,36 @@ msgstr "Premi **Add Window**."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:63
 #: DESKTOP-HETTM96/WindowGen
-msgid "The first window in a file takes a few seconds while the components are loaded; the mouse cursor and the status bar show that Blender is busy. Every window after that is added instantly."
-msgstr "La prima finestra di un file richiede qualche secondo mentre si caricano i componenti; il cursore e la barra di stato indicano che Blender è occupato. Tutte le finestre successive si aggiungono all'istante."
+msgid ""
+"The first window in a file takes a few seconds while the components are "
+"loaded; the mouse cursor and the status bar show that Blender is busy. Every"
+" window after that is added instantly."
+msgstr ""
+"La prima finestra di un file richiede qualche secondo mentre si caricano i "
+"componenti; il cursore e la barra di stato indicano che Blender è occupato. "
+"Tutte le finestre successive si aggiungono all'istante."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:65
 #: DESKTOP-HETTM96/WindowGen
-msgid "The new window is selected and its parameters appear below. Navigate to the :ref:`parameters` section to find out how to customize your window."
-msgstr "La nuova finestra è selezionata e i suoi parametri compaiono sotto. Per personalizzarla, consulta la sezione :ref:`parameters`."
+msgid ""
+"The new window is selected and its parameters appear below. Navigate to the "
+":ref:`parameters` section to find out how to customize your window."
+msgstr ""
+"La nuova finestra è selezionata e i suoi parametri compaiono sotto. Per "
+"personalizzarla, consulta la sezione :ref:`parameters`."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:68
 #: DESKTOP-HETTM96/WindowGen
-msgid "Only the window itself appears in the Outliner. Profiles, hardware and node groups are stored in the file but are not placed in any scene or collection, so they cannot be moved or deleted by accident. You can see them in the Outliner's *Blender File* view."
-msgstr "Nell'Outliner compare solo la finestra. Profili, ferramenta e gruppi di nodi sono salvati nel file ma non si trovano in nessuna scena o collezione, quindi non si possono spostare o eliminare per errore. Puoi vederli nella vista *Blender File* dell'Outliner."
+msgid ""
+"Only the window itself appears in the Outliner. Profiles, hardware and node "
+"groups are stored in the file but are not placed in any scene or collection,"
+" so they cannot be moved or deleted by accident. You can see them in the "
+"Outliner's *Blender File* view."
+msgstr ""
+"Nell'Outliner compare solo la finestra. Profili, ferramenta e gruppi di nodi"
+" sono salvati nel file ma non si trovano in nessuna scena o collezione, "
+"quindi non si possono spostare o eliminare per errore. Puoi vederli nella "
+"vista *Blender File* dell'Outliner."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:73
 #: DESKTOP-HETTM96/WindowGen
@@ -121,8 +172,14 @@ msgstr "Come lavorare con molte finestre"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:75
 #: DESKTOP-HETTM96/WindowGen
-msgid "A facade can hold dozens or hundreds of windows. WindowGen places them in one step and lets you adjust them together, so you never have to repeat the same change window by window."
-msgstr "Una facciata può avere decine o centinaia di finestre. WindowGen le posiziona in un solo passaggio e ti permette di regolarle insieme, così non devi mai ripetere la stessa modifica finestra per finestra."
+msgid ""
+"A facade can hold dozens or hundreds of windows. WindowGen places them in "
+"one step and lets you adjust them together, so you never have to repeat the "
+"same change window by window."
+msgstr ""
+"Una facciata può avere decine o centinaia di finestre. WindowGen le "
+"posiziona in un solo passaggio e ti permette di regolarle insieme, così non "
+"devi mai ripetere la stessa modifica finestra per finestra."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:78
 #: DESKTOP-HETTM96/WindowGen
@@ -136,18 +193,35 @@ msgstr "Imposta *Placement* su **Faces**."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:81
 #: DESKTOP-HETTM96/WindowGen
-msgid "In Edit Mode select all the faces that should become windows. The panel shows how many faces are selected, and the button changes to *Add N Windows*. The faces may belong to several objects that are in Edit Mode together."
-msgstr "In Edit Mode seleziona tutte le facce che devono diventare finestre. Il pannello mostra quante facce sono selezionate e il pulsante diventa *Add N Windows*. Le facce possono appartenere a più oggetti in Edit Mode contemporaneamente."
+msgid ""
+"In Edit Mode select all the faces that should become windows. The panel "
+"shows how many faces are selected, and the button changes to *Add N "
+"Windows*. The faces may belong to several objects that are in Edit Mode "
+"together."
+msgstr ""
+"In Edit Mode seleziona tutte le facce che devono diventare finestre. Il "
+"pannello mostra quante facce sono selezionate e il pulsante diventa *Add N "
+"Windows*. Le facce possono appartenere a più oggetti in Edit Mode "
+"contemporaneamente."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:82
 #: DESKTOP-HETTM96/WindowGen
-msgid "Press **Add N Windows**. Each face gets its own window with the size and the orientation of that face."
-msgstr "Premi **Add N Windows**. Ogni faccia riceve la propria finestra con le sue dimensioni e il suo orientamento."
+msgid ""
+"Press **Add N Windows**. Each face gets its own window with the size and the"
+" orientation of that face."
+msgstr ""
+"Premi **Add N Windows**. Ogni faccia riceve la propria finestra con le sue "
+"dimensioni e il suo orientamento."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:88
 #: DESKTOP-HETTM96/WindowGen
-msgid "Use Face select mode (press **3** in Edit Mode). In Vertex select mode Blender also selects a face that lies between two selected faces."
-msgstr "Usa la modalità di selezione delle facce (premi **3** in Edit Mode). In modalità di selezione dei vertici Blender seleziona anche una faccia che si trova tra due facce selezionate."
+msgid ""
+"Use Face select mode (press **3** in Edit Mode). In Vertex select mode "
+"Blender also selects a face that lies between two selected faces."
+msgstr ""
+"Usa la modalità di selezione delle facce (premi **3** in Edit Mode). In "
+"modalità di selezione dei vertici Blender seleziona anche una faccia che si "
+"trova tra due facce selezionate."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:91
 #: DESKTOP-HETTM96/WindowGen
@@ -156,23 +230,43 @@ msgstr "Varietà con Random Type"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:93
 #: DESKTOP-HETTM96/WindowGen
-msgid "Turn on **Random Type** to give each new window a different type. The category you chose stays the same: a casement facade gets only casement windows, but they are a mix of Single, Fixed Frame, Mullion, Stulp and so on."
-msgstr "Attiva **Random Type** per dare a ogni nuova finestra un tipo diverso. La categoria scelta resta la stessa: una facciata di finestre a battente riceve solo finestre a battente, ma mescolate tra Single, Fixed Frame, Mullion, Stulp e così via."
+msgid ""
+"Turn on **Random Type** to give each new window a different type. The "
+"category you chose stays the same: a casement facade gets only casement "
+"windows, but they are a mix of Single, Fixed Frame, Mullion, Stulp and so "
+"on."
+msgstr ""
+"Attiva **Random Type** per dare a ogni nuova finestra un tipo diverso. La "
+"categoria scelta resta la stessa: una facciata di finestre a battente riceve"
+" solo finestre a battente, ma mescolate tra Single, Fixed Frame, Mullion, "
+"Stulp e così via."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:98
 #: DESKTOP-HETTM96/WindowGen
-msgid "Click the types to choose which ones may be used. All of them are on at first."
-msgstr "Fai clic sui tipi per scegliere quali si possono usare. All'inizio sono tutti attivi."
+msgid ""
+"Click the types to choose which ones may be used. All of them are on at "
+"first."
+msgstr ""
+"Fai clic sui tipi per scegliere quali si possono usare. All'inizio sono "
+"tutti attivi."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:99
 #: DESKTOP-HETTM96/WindowGen
-msgid "**Seed** changes the result. The same seed always gives the same arrangement."
-msgstr "**Seed** cambia il risultato. Lo stesso seed dà sempre la stessa disposizione."
+msgid ""
+"**Variation** changes the result. The same value always gives the same "
+"arrangement."
+msgstr ""
+"**Variation** cambia il risultato. Lo stesso valore dà sempre la stessa "
+"disposizione."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:101
 #: DESKTOP-HETTM96/WindowGen
-msgid "Random Type works with every placement, but it is meant for *Faces* with several faces selected."
-msgstr "Random Type funziona con ogni posizionamento, ma è pensato per *Faces* con più facce selezionate."
+msgid ""
+"Random Type works with every placement, but it is meant for *Faces* with "
+"several faces selected."
+msgstr ""
+"Random Type funziona con ogni posizionamento, ma è pensato per *Faces* con "
+"più facce selezionate."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:104
 #: DESKTOP-HETTM96/WindowGen
@@ -182,17 +276,31 @@ msgstr "Modificare tutte le finestre selezionate insieme"
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:106
 #: DESKTOP-HETTM96/WindowGen
 msgid "Select two or more windows and the **Selected Windows** panel appears."
-msgstr "Seleziona due o più finestre e compare il pannello **Selected Windows**."
+msgstr ""
+"Seleziona due o più finestre e compare il pannello **Selected Windows**."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:111
 #: DESKTOP-HETTM96/WindowGen
-msgid "With **Edit All Selected** turned on, every change you make to the active window is repeated on all the selected windows. The header of the settings shows the name of the active window and how many others follow it, for example *Window Single +3*."
-msgstr "Con **Edit All Selected** attivo, ogni modifica alla finestra attiva viene ripetuta su tutte le finestre selezionate. L'intestazione delle impostazioni mostra il nome della finestra attiva e quante altre la seguono, ad esempio *Window Single +3*."
+msgid ""
+"With **Edit All Selected** turned on, every change you make to the active "
+"window is repeated on all the selected windows. The header of the settings "
+"shows the name of the active window and how many others follow it, for "
+"example *Window Single* with *+3 selected*."
+msgstr ""
+"Con **Edit All Selected** attivo, ogni modifica alla finestra attiva viene "
+"ripetuta su tutte le finestre selezionate. L'intestazione delle impostazioni"
+" mostra il nome della finestra attiva e quante altre la seguono, per esempio"
+" *Window Single* con *+3 selected*."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:116
 #: DESKTOP-HETTM96/WindowGen
-msgid "The windows may be of different types. Each window takes the settings that exist for its type and ignores the rest, so a mixed selection stays valid."
-msgstr "Le finestre possono essere di tipi diversi. Ogni finestra prende le impostazioni previste per il suo tipo e ignora le altre, quindi una selezione mista resta valida."
+msgid ""
+"The windows may be of different types. Each window takes the settings that "
+"exist for its type and ignores the rest, so a mixed selection stays valid."
+msgstr ""
+"Le finestre possono essere di tipi diversi. Ogni finestra prende le "
+"impostazioni previste per il suo tipo e ignora le altre, quindi una "
+"selezione mista resta valida."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:117
 #: DESKTOP-HETTM96/WindowGen
@@ -201,8 +309,12 @@ msgstr "La modifica non cambia mai il tipo di una finestra."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:118
 #: DESKTOP-HETTM96/WindowGen
-msgid "Only the setting you change is passed on. Everything else that differs between the windows stays different."
-msgstr "Viene trasmessa solo l'impostazione che cambi. Tutto il resto che differisce tra le finestre rimane diverso."
+msgid ""
+"Only the setting you change is passed on. Everything else that differs "
+"between the windows stays different."
+msgstr ""
+"Viene trasmessa solo l'impostazione che cambi. Tutto il resto che differisce"
+" tra le finestre rimane diverso."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:119
 #: DESKTOP-HETTM96/WindowGen
@@ -211,13 +323,27 @@ msgstr "Un solo *Undo* annulla la modifica su tutte le finestre."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:121
 #: DESKTOP-HETTM96/WindowGen
-msgid "**Copy Active to Selected** gives every selected window all the settings of the active one in a single step: profile, glazing, lites, handle, materials, opening and options. Size is left alone unless you turn on *Size* in the operator panel that appears in the bottom left corner of the 3D Viewport."
-msgstr "**Copy Active to Selected** trasferisce in un solo passaggio tutte le impostazioni della finestra attiva a tutte quelle selezionate: profilo, vetratura, inglesine, maniglia, materiali, apertura e opzioni. Le dimensioni non cambiano, a meno che tu non attivi *Size* nel pannello dell'operatore che appare in basso a sinistra nel viewport 3D."
+msgid ""
+"**Copy Active to Selected** gives every selected window all the settings of "
+"the active one in a single step: profile, glazing, lites, hardware, "
+"materials, opening, interior, pivot and *Realize Instances*. Size is left "
+"alone unless you turn on *Size* in the operator panel that appears in the "
+"bottom left corner of the 3D Viewport."
+msgstr ""
+"**Copy Active to Selected** dà in un solo passaggio a ogni finestra "
+"selezionata tutte le impostazioni di quella attiva: profilo, vetrata, "
+"inglesine, ferramenta, materiali, apertura, interno, pivot e *Realize "
+"Instances*. La dimensione non cambia, a meno che tu non attivi *Size* nel "
+"pannello dell'operatore che compare in basso a sinistra nel viewport 3D."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:123
 #: DESKTOP-HETTM96/WindowGen
-msgid "Turn **Edit All Selected** off when you want to change only the active window while the others stay selected."
-msgstr "Disattiva **Edit All Selected** quando vuoi modificare solo la finestra attiva mentre le altre restano selezionate."
+msgid ""
+"Turn **Edit All Selected** off when you want to change only the active "
+"window while the others stay selected."
+msgstr ""
+"Disattiva **Edit All Selected** quando vuoi modificare solo la finestra "
+"attiva mentre le altre restano selezionate."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:126
 #: DESKTOP-HETTM96/WindowGen
@@ -226,28 +352,48 @@ msgstr "Variare a caso le finestre selezionate"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:128
 #: DESKTOP-HETTM96/WindowGen
-msgid "*Randomize* adds variety to windows that already exist. Choose what to randomize and press **Randomize Selected**."
-msgstr "*Randomize* aggiunge varietà a finestre già esistenti. Scegli cosa variare e premi **Randomize Selected**."
+msgid ""
+"*Randomize* adds variety to windows that already exist. Choose what to "
+"randomize and press **Randomize Selected**."
+msgstr ""
+"*Randomize* aggiunge varietà a finestre già esistenti. Scegli cosa variare e"
+" premi **Randomize Selected**."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:133
 #: DESKTOP-HETTM96/WindowGen
-msgid "**Window Type**: each window gets a random type from its own category. The types come from the *Random Type* list in the *Add Window* panel. Size, materials and the other settings are kept."
-msgstr "**Window Type**: ogni finestra riceve un tipo casuale della propria categoria. I tipi provengono dall'elenco *Random Type* del pannello *Add Window*. Dimensioni, materiali e le altre impostazioni restano invariati."
+msgid ""
+"**Window Type**: each window gets a random type from its own category. Tick "
+"the types that may be used in the list right below it; with several "
+"categories in the selection, each has its own list. Size, materials and the "
+"other settings are kept."
+msgstr ""
+"**Window Type**: ogni finestra riceve un tipo casuale della propria "
+"categoria. Spunta i tipi ammessi nell'elenco subito sotto; se la selezione "
+"contiene più categorie, ognuna ha il proprio elenco. Dimensione, materiali e"
+" le altre impostazioni restano invariati."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:134
 #: DESKTOP-HETTM96/WindowGen
-msgid "**Opening Side**: swaps the hinge, sash or sliding side where the window type has that choice."
-msgstr "**Opening Side**: inverte il lato delle cerniere, dell'anta o dello scorrimento, se il tipo di finestra lo prevede."
+msgid ""
+"**Opening Side**: swaps the hinge, sash or sliding side where the window "
+"type has that choice."
+msgstr ""
+"**Opening Side**: inverte il lato delle cerniere, dell'anta o dello "
+"scorrimento, se il tipo di finestra lo prevede."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:135
 #: DESKTOP-HETTM96/WindowGen
-msgid "**Opening**: opens the sashes by a random amount, up to *Max Opening*. Fixed frames stay closed."
-msgstr "**Opening**: apre le ante di una quantità casuale, fino a *Max Opening*. I fissi restano chiusi."
+msgid ""
+"**Opening**: opens the sashes by a random amount, up to *Max Opening*. Fixed"
+" frames stay closed."
+msgstr ""
+"**Opening**: apre le ante di una quantità casuale, fino a *Max Opening*. I "
+"fissi restano chiusi."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:136
 #: DESKTOP-HETTM96/WindowGen
-msgid "**Seed**: change it to get another result."
-msgstr "**Seed**: cambialo per ottenere un altro risultato."
+msgid "**Variation**: change it to get another result."
+msgstr "**Variation**: cambia il valore per ottenere un altro risultato."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:139
 #: DESKTOP-HETTM96/WindowGen
@@ -256,23 +402,41 @@ msgstr "Condividere i file"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:141
 #: DESKTOP-HETTM96/WindowGen
-msgid "Windows are **appended**, not linked. A .blend file that contains WindowGen windows is self-contained:"
-msgstr "Le finestre vengono **aggiunte (append)**, non collegate (link). Un file .blend con finestre WindowGen è autonomo:"
+msgid ""
+"Windows are **appended**, not linked. A .blend file that contains WindowGen "
+"windows is self-contained:"
+msgstr ""
+"Le finestre vengono **aggiunte (append)**, non collegate (link). Un file "
+".blend con finestre WindowGen è autonomo:"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:143
 #: DESKTOP-HETTM96/WindowGen
-msgid "it opens on a computer where WindowGen is not installed, and the windows keep working as geometry nodes objects;"
-msgstr "si apre su un computer dove WindowGen non è installato e le finestre continuano a funzionare come oggetti geometry nodes;"
+msgid ""
+"it opens on a computer where WindowGen is not installed, and the windows "
+"keep working as geometry nodes objects;"
+msgstr ""
+"si apre su un computer dove WindowGen non è installato e le finestre "
+"continuano a funzionare come oggetti geometry nodes;"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:144
 #: DESKTOP-HETTM96/WindowGen
-msgid "it does not store the location of the WindowGen library, so nothing has to be relinked when the file is sent to a client, moved to a render farm or opened by a colleague."
-msgstr "non salva il percorso della libreria WindowGen, quindi non c'è nulla da ricollegare quando il file viene inviato a un cliente, spostato su una render farm o aperto da un collega."
+msgid ""
+"it does not store the location of the WindowGen library, so nothing has to "
+"be relinked when the file is sent to a client, moved to a render farm or "
+"opened by a colleague."
+msgstr ""
+"non salva il percorso della libreria WindowGen, quindi non c'è nulla da "
+"ricollegare quando il file viene inviato a un cliente, spostato su una "
+"render farm o aperto da un collega."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:146
 #: DESKTOP-HETTM96/WindowGen
-msgid "WindowGen adds roughly 6 MB to a file, once, no matter how many windows it contains."
-msgstr "WindowGen aggiunge circa 6 MB al file, una sola volta, indipendentemente dal numero di finestre."
+msgid ""
+"WindowGen adds roughly 6 MB to a file, once, no matter how many windows it "
+"contains."
+msgstr ""
+"WindowGen aggiunge circa 6 MB al file, una sola volta, indipendentemente dal"
+" numero di finestre."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:149
 #: DESKTOP-HETTM96/WindowGen
@@ -281,33 +445,59 @@ msgstr "Come aggiungere la libreria di asset di WindowGen a Blender"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:151
 #: DESKTOP-HETTM96/WindowGen
-msgid "The WindowGen Asset Library brings realistic materials to customize the appearance of your windows even further."
-msgstr "La libreria di asset di WindowGen offre materiali realistici per personalizzare ancora di più l'aspetto delle finestre."
+msgid ""
+"The WindowGen Asset Library brings realistic materials to customize the "
+"appearance of your windows even further."
+msgstr ""
+"La libreria di asset di WindowGen offre materiali realistici per "
+"personalizzare ancora di più l'aspetto delle finestre."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:153
 #: DESKTOP-HETTM96/WindowGen
-msgid "Open the *Library* panel in the WindowGen tab and press **Add WindowGen Material Library**."
-msgstr "Apri il pannello *Library* nella scheda WindowGen e premi **Add WindowGen Material Library**."
+msgid ""
+"Open the *Library* panel in the WindowGen tab and press **Add WindowGen "
+"Material Library**."
+msgstr ""
+"Apri il pannello *Library* nella scheda WindowGen e premi **Add WindowGen "
+"Material Library**."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:158
 #: DESKTOP-HETTM96/WindowGen
-msgid "Once the library is added, the panel shows *Material library added*."
-msgstr "Una volta aggiunta la libreria, il pannello mostra *Material library added*."
+msgid ""
+"Once the library is added, the panel shows *Material library added*. The "
+"panel also shows where the components come from and whether the file is up "
+"to date, and has **Reload Previews** for the galleries."
+msgstr ""
+"Una volta aggiunta la libreria, il pannello mostra *Material library added*."
+" Il pannello indica anche da dove provengono i componenti e se il file è "
+"aggiornato, e contiene **Reload Previews** per le gallerie."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:163
 #: DESKTOP-HETTM96/WindowGen
-msgid "Open the Asset Browser and select *WindowGen* in the library list to find the materials."
-msgstr "Apri l'Asset Browser e scegli *WindowGen* nell'elenco delle librerie per trovare i materiali."
+msgid ""
+"Open the Asset Browser and select *WindowGen* in the library list to find "
+"the materials."
+msgstr ""
+"Apri l'Asset Browser e scegli *WindowGen* nell'elenco delle librerie per "
+"trovare i materiali."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:169
 #: DESKTOP-HETTM96/WindowGen
-msgid "For easier search most of the materials have tags: Metal, Plastic, RAL color code, etc."
-msgstr "Per una ricerca più facile, la maggior parte dei materiali ha dei tag: Metal, Plastic, codice colore RAL, ecc."
+msgid ""
+"For easier search most of the materials have tags: Metal, Plastic, RAL color"
+" code, etc."
+msgstr ""
+"Per una ricerca più facile, la maggior parte dei materiali ha dei tag: "
+"Metal, Plastic, codice colore RAL, ecc."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:171
 #: DESKTOP-HETTM96/WindowGen
-msgid "Materials are imported with the *Append* method, so they are copied into your file like the windows are."
-msgstr "I materiali vengono importati con il metodo *Append*, quindi vengono copiati nel file come le finestre."
+msgid ""
+"Materials are imported with the *Append* method, so they are copied into "
+"your file like the windows are."
+msgstr ""
+"I materiali vengono importati con il metodo *Append*, quindi vengono copiati"
+" nel file come le finestre."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:174
 #: DESKTOP-HETTM96/WindowGen
@@ -316,38 +506,73 @@ msgstr "Configurazione per studi: una libreria condivisa"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:176
 #: DESKTOP-HETTM96/WindowGen
-msgid "By default WindowGen uses the library that is bundled with the add-on. A studio can keep one copy on a network share instead, so every workstation uses the same components and materials."
-msgstr "Per impostazione predefinita WindowGen usa la libreria inclusa nell'add-on. Uno studio può invece tenerne una copia su una cartella di rete, così tutte le postazioni usano gli stessi componenti e materiali."
+msgid ""
+"By default WindowGen uses the library that is bundled with the add-on. A "
+"studio can keep one copy on a network share instead, so every workstation "
+"uses the same components and materials."
+msgstr ""
+"Per impostazione predefinita WindowGen usa la libreria inclusa nell'add-on. "
+"Uno studio può invece tenerne una copia su una cartella di rete, così tutte "
+"le postazioni usano gli stessi componenti e materiali."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:178
 #: DESKTOP-HETTM96/WindowGen
-msgid "Copy the contents of the add-on's ``assets`` folder to the share. The folder must contain ``WindowGen.blend``, ``windowgen_library.json`` and the ``materials`` folder."
-msgstr "Copia il contenuto della cartella ``assets`` dell'add-on nella cartella di rete. La cartella deve contenere ``WindowGen.blend``, ``windowgen_library.json`` e la cartella ``materials``."
+msgid ""
+"Copy the contents of the add-on's ``assets`` folder to the share. The folder"
+" must contain ``WindowGen.blend``, ``windowgen_library.json`` and the "
+"``materials`` folder."
+msgstr ""
+"Copia il contenuto della cartella ``assets`` dell'add-on nella cartella di "
+"rete. La cartella deve contenere ``WindowGen.blend``, "
+"``windowgen_library.json`` e la cartella ``materials``."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:180
 #: DESKTOP-HETTM96/WindowGen
-msgid "On each workstation, open *Edit > Preferences > Add-ons > WindowGen* and set **Library Folder** to that share."
-msgstr "Su ogni postazione apri *Edit > Preferences > Add-ons > WindowGen* e imposta **Library Folder** su quella cartella di rete."
+msgid ""
+"On each workstation, open *Edit > Preferences > Add-ons > WindowGen* and set"
+" **Library Folder** to that share."
+msgstr ""
+"Su ogni postazione apri *Edit > Preferences > Add-ons > WindowGen* e imposta"
+" **Library Folder** su quella cartella di rete."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:185
 #: DESKTOP-HETTM96/WindowGen
-msgid "Alternatively, set the environment variable ``WINDOWGEN_LIBRARY`` to the folder. This needs no per-user setup and suits managed deployments. The preference takes priority over the variable."
-msgstr "In alternativa, imposta la variabile d'ambiente ``WINDOWGEN_LIBRARY`` sulla cartella. Non richiede configurazione per utente ed è adatta alle installazioni gestite centralmente. La preferenza ha la priorità sulla variabile."
+msgid ""
+"Alternatively, set the environment variable ``WINDOWGEN_LIBRARY`` to the "
+"folder. This needs no per-user setup and suits managed deployments. The "
+"preference takes priority over the variable."
+msgstr ""
+"In alternativa, imposta la variabile d'ambiente ``WINDOWGEN_LIBRARY`` sulla "
+"cartella. Non richiede configurazione per utente ed è adatta alle "
+"installazioni gestite centralmente. La preferenza ha la priorità sulla "
+"variabile."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:187
 #: DESKTOP-HETTM96/WindowGen
-msgid "Press **Add WindowGen Material Library** once; the asset library then points at the share as well."
-msgstr "Premi una volta **Add WindowGen Material Library**; anche la libreria di asset punterà alla cartella di rete."
+msgid ""
+"Press **Add WindowGen Material Library** once; the asset library then points"
+" at the share as well."
+msgstr ""
+"Premi una volta **Add WindowGen Material Library**; anche la libreria di "
+"asset punterà alla cartella di rete."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:189
 #: DESKTOP-HETTM96/WindowGen
-msgid "If the folder cannot be reached, WindowGen falls back to the bundled library and says so in the preferences."
-msgstr "Se la cartella non è raggiungibile, WindowGen torna alla libreria inclusa e lo segnala nelle preferenze."
+msgid ""
+"If the folder cannot be reached, WindowGen falls back to the bundled library"
+" and says so in the preferences."
+msgstr ""
+"Se la cartella non è raggiungibile, WindowGen torna alla libreria inclusa e "
+"lo segnala nelle preferenze."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:192
 #: DESKTOP-HETTM96/WindowGen
-msgid "Because windows are appended, scenes never contain a path to the library, whether it is local or on the network."
-msgstr "Poiché le finestre vengono aggiunte al file, le scene non contengono mai un percorso verso la libreria, locale o di rete."
+msgid ""
+"Because windows are appended, scenes never contain a path to the library, "
+"whether it is local or on the network."
+msgstr ""
+"Poiché le finestre vengono aggiunte al file, le scene non contengono mai un "
+"percorso verso la libreria, locale o di rete."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:195
 #: DESKTOP-HETTM96/WindowGen
@@ -356,8 +581,15 @@ msgstr "Come aggiornare WindowGen"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:197
 #: DESKTOP-HETTM96/WindowGen
-msgid "When a file contains components from an older WindowGen version, a notice appears at the top of the *Add Window* panel."
-msgstr "Quando un file contiene componenti di una versione precedente di WindowGen, in cima al pannello *Add Window* compare un avviso."
+msgid ""
+"When a file contains components from an older WindowGen version, a notice "
+"appears at the top of the *Add Window* panel. The *Library* panel shows the "
+"same button; when the file is current it says *up to date* instead."
+msgstr ""
+"Quando un file contiene componenti di una versione precedente di WindowGen, "
+"in cima al pannello *Add Window* compare un avviso. Il pannello *Library* "
+"mostra lo stesso pulsante; quando il file è aggiornato indica invece *up to "
+"date*."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:199
 #: DESKTOP-HETTM96/WindowGen
@@ -366,13 +598,25 @@ msgstr "Premi **Update WindowGen in This File**."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:204
 #: DESKTOP-HETTM96/WindowGen
-msgid "All windows are switched to the installed components. Sizes, profiles, handles, materials and every other setting are kept."
-msgstr "Tutte le finestre passano ai componenti installati. Dimensioni, profili, maniglie, materiali e tutte le altre impostazioni restano invariati."
+msgid ""
+"All windows are switched to the installed components. Sizes, profiles, "
+"handles, materials and every other setting are kept."
+msgstr ""
+"Tutte le finestre passano ai componenti installati. Dimensioni, profili, "
+"maniglie, materiali e tutte le altre impostazioni restano invariati."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:209
 #: DESKTOP-HETTM96/WindowGen
-msgid "The same button converts files made with WindowGen 2 and 3: the link to ``WindowGen.blend``, the hidden *WindowGen Components* scene and the library overrides are removed and replaced by data stored in the file. See the :doc:`faq` for details."
-msgstr "Lo stesso pulsante converte i file creati con WindowGen 2 e 3: il collegamento a ``WindowGen.blend``, la scena nascosta *WindowGen Components* e i library override vengono rimossi e sostituiti da dati salvati nel file. Per i dettagli vedi :doc:`faq`."
+msgid ""
+"The same button converts files made with WindowGen 2 and 3: the link to "
+"``WindowGen.blend``, the hidden *WindowGen Components* scene and the library"
+" overrides are removed and replaced by data stored in the file. See the "
+":doc:`faq` for details."
+msgstr ""
+"Lo stesso pulsante converte i file creati con WindowGen 2 e 3: il "
+"collegamento a ``WindowGen.blend``, la scena nascosta *WindowGen Components*"
+" e i library override vengono rimossi e sostituiti da dati salvati nel file."
+" Per i dettagli vedi :doc:`faq`."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:214
 #: DESKTOP-HETTM96/WindowGen
@@ -396,8 +640,13 @@ msgstr "Scegli la posizione di esportazione."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:226
 #: DESKTOP-HETTM96/WindowGen
-msgid "By default WindowGen exports to the folder ``WindowGen_Export``, created next to your .blend file. Enable *Custom Path* to choose another folder."
-msgstr "Per impostazione predefinita WindowGen esporta nella cartella ``WindowGen_Export``, creata accanto al file .blend. Attiva *Custom Path* per scegliere un'altra cartella."
+msgid ""
+"By default WindowGen exports to the folder ``WindowGen_Export``, created "
+"next to your .blend file. Enable *Custom Path* to choose another folder."
+msgstr ""
+"Per impostazione predefinita WindowGen esporta nella cartella "
+"``WindowGen_Export``, creata accanto al file .blend. Attiva *Custom Path* "
+"per scegliere un'altra cartella."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:228
 #: DESKTOP-HETTM96/WindowGen
@@ -411,8 +660,12 @@ msgstr "**Prepare for Export (consigliato per il controllo)**"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:232
 #: DESKTOP-HETTM96/WindowGen
-msgid "Creates an export copy of the window in the *WindowGen Export* collection and leaves the original untouched."
-msgstr "Crea una copia di esportazione della finestra nella collezione *WindowGen Export* e lascia intatto l'originale."
+msgid ""
+"Creates an export copy of the window in the *WindowGen Export* collection "
+"and leaves the original untouched."
+msgstr ""
+"Crea una copia di esportazione della finestra nella collezione *WindowGen "
+"Export* e lascia intatto l'originale."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:237
 #: DESKTOP-HETTM96/WindowGen
@@ -426,28 +679,51 @@ msgstr "il **telaio**;"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:240
 #: DESKTOP-HETTM96/WindowGen
-msgid "each **sash** (``sash1``, ``sash2``, ...). Hinged sashes have their origin on the hinge: rotate around Z to turn and around X to tilt. Sliding sashes, portal sashes and the mosquito screen have their origin at the bottom center;"
-msgstr "ogni **anta** (``sash1``, ``sash2``, ...). Le ante a cerniera hanno l'origine sulla cerniera: ruota attorno a Z per aprire a battente e attorno a X per aprire a ribalta. Le ante scorrevoli, le ante dei portali e la zanzariera hanno l'origine in basso al centro;"
+msgid ""
+"each **sash** (``sash1``, ``sash2``, ...). Hinged sashes have their origin "
+"on the hinge: rotate around Z to turn and around X to tilt. Sliding sashes, "
+"portal sashes and the mosquito screen have their origin at the bottom "
+"center;"
+msgstr ""
+"ogni **anta** (``sash1``, ``sash2``, ...). Le ante a cerniera hanno "
+"l'origine sulla cerniera: ruota attorno a Z per aprire a battente e attorno "
+"a X per aprire a ribalta. Le ante scorrevoli, le ante dei portali e la "
+"zanzariera hanno l'origine in basso al centro;"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:241
 #: DESKTOP-HETTM96/WindowGen
-msgid "each **handle** (``sash1_handle``, ...), parented to its sash, with its origin on the handle axis;"
-msgstr "ogni **maniglia** (``sash1_handle``, ...), imparentata con la propria anta, con l'origine sull'asse della maniglia;"
+msgid ""
+"each **handle** (``sash1_handle``, ...), parented to its sash, with its "
+"origin on the handle axis;"
+msgstr ""
+"ogni **maniglia** (``sash1_handle``, ...), imparentata con la propria anta, "
+"con l'origine sull'asse della maniglia;"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:242
 #: DESKTOP-HETTM96/WindowGen
-msgid "a parent **empty** that carries the position, rotation and scale of the window."
-msgstr "un **empty** padre che porta posizione, rotazione e scala della finestra."
+msgid ""
+"a parent **empty** that carries the position, rotation and scale of the "
+"window."
+msgstr ""
+"un **empty** padre che porta posizione, rotazione e scala della finestra."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:244
 #: DESKTOP-HETTM96/WindowGen
-msgid "Sash-side hinges and hardware belong to the sash, so they move with it."
-msgstr "Le cerniere e la ferramenta lato anta appartengono all'anta e si muovono con essa."
+msgid ""
+"Sash-side hinges and hardware belong to the sash, so they move with it."
+msgstr ""
+"Le cerniere e la ferramenta lato anta appartengono all'anta e si muovono con"
+" essa."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:252
 #: DESKTOP-HETTM96/WindowGen
-msgid "Unused material slots and helper attributes are removed. You can now inspect the parts, adjust them and export them yourself with *File > Export*."
-msgstr "Gli slot materiale inutilizzati e gli attributi ausiliari vengono rimossi. Ora puoi controllare le parti, regolarle ed esportarle tu stesso con *File > Export*."
+msgid ""
+"Unused material slots and helper attributes are removed. You can now inspect"
+" the parts, adjust them and export them yourself with *File > Export*."
+msgstr ""
+"Gli slot materiale inutilizzati e gli attributi ausiliari vengono rimossi. "
+"Ora puoi controllare le parti, regolarle ed esportarle tu stesso con *File >"
+" Export*."
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:254
 #: DESKTOP-HETTM96/WindowGen
@@ -456,6 +732,179 @@ msgstr "**Export Window (esportazione in un clic)**"
 
 #: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:256
 #: DESKTOP-HETTM96/WindowGen
-msgid "Does the same and writes the file immediately in the chosen format and location. Smoothing is applied on export."
-msgstr "Fa lo stesso e scrive subito il file nel formato e nella posizione scelti. La levigatura viene applicata all'esportazione."
+msgid ""
+"Does the same and writes the file immediately in the chosen format and "
+"location. Smoothing is applied on export."
+msgstr ""
+"Fa lo stesso e scrive subito il file nel formato e nella posizione scelti. "
+"La levigatura viene applicata all'esportazione."
 
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:258
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"Windows at low detail are always exported at full detail. The rooms of the "
+"*Interior* are a material effect and are not exported."
+msgstr ""
+"Le finestre a basso dettaglio vengono sempre esportate con il dettaglio "
+"completo. Le stanze di *Interior* sono un effetto del materiale e non "
+"vengono esportate."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:263
+#: DESKTOP-HETTM96/WindowGen
+msgid "Convert to Mesh"
+msgstr "Convert to Mesh"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:265
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"**Convert to Mesh…** at the bottom of the *Export* panel turns the window "
+"into a plain mesh in place. It is red and asks first, because it cannot be "
+"reversed except with *Undo*."
+msgstr ""
+"**Convert to Mesh…** in fondo al pannello *Export* trasforma la finestra in "
+"una semplice mesh sul posto. È rosso e chiede prima conferma, perché si può "
+"annullare solo con *Undo*."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:271
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"After converting, the window is no longer parametric: its WindowGen "
+"settings, level of detail and interior rooms can no longer be changed. Use "
+"it when you need to edit the final geometry by hand. To hand a window over "
+"to another program, use the export above instead; it leaves the original "
+"window untouched."
+msgstr ""
+"Dopo la conversione la finestra non è più parametrica: le sue impostazioni "
+"WindowGen, il livello di dettaglio e le stanze dell'interno non si possono "
+"più modificare. Usalo quando devi modificare a mano la geometria finale. Per"
+" passare una finestra a un altro programma usa invece l'esportazione "
+"descritta sopra, che lascia intatta la finestra originale."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:276
+#: DESKTOP-HETTM96/WindowGen
+msgid "Level of Detail"
+msgstr "Level of Detail"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:278
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"On a large facade most windows are far from the camera, where hinges, locks "
+"and finely rounded profiles cannot be seen but still cost memory and "
+"viewport speed. *Level of Detail* draws those windows more simply, by "
+"itself."
+msgstr ""
+"Su una grande facciata la maggior parte delle finestre è lontana dalla "
+"camera: lì cerniere, chiusure e profili finemente arrotondati non si vedono,"
+" ma costano comunque memoria e velocità del viewport. *Level of Detail* "
+"disegna da solo quelle finestre in modo più semplice."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:283
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"It is on by default. The checkbox in the header turns it off, and the header"
+" shows how many windows are at low detail right now, for example *3 / 48 "
+"low*, even while the panel is folded."
+msgstr ""
+"È attivo per impostazione predefinita. La casella nell'intestazione lo "
+"disattiva, e l'intestazione mostra quante finestre sono a basso dettaglio in"
+" quel momento, per esempio *3 / 48 low*, anche con il pannello chiuso."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:284
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"**Distance**: windows farther than this from the scene camera are drawn at "
+"low detail."
+msgstr ""
+"**Distance**: le finestre più lontane di questo valore dalla camera della "
+"scena vengono disegnate a basso dettaglio."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:285
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"**At Low Detail**: choose what low detail does. **Profile Resolution 1** "
+"saves the most; **Hide Hinges** and **Hide Locks and Strikers** remove the "
+"small parts. Handles always stay."
+msgstr ""
+"**At Low Detail**: scegli cosa fa il basso dettaglio. **Profile Resolution "
+"1** fa risparmiare di più; **Hide Hinges** e **Hide Locks and Strikers** "
+"tolgono le parti piccole. Le maniglie restano sempre."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:286
+#: DESKTOP-HETTM96/WindowGen
+msgid "The last line names the camera the distance is measured from."
+msgstr "L'ultima riga indica la camera da cui si misura la distanza."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:288
+#: DESKTOP-HETTM96/WindowGen
+msgid "How it stays out of your way:"
+msgstr "Come non intralcia il lavoro:"
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:290
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"The windows are updated when the camera stops moving, not while you drag it,"
+" so the viewport stays responsive. Only the windows that cross the distance "
+"are rebuilt."
+msgstr ""
+"Le finestre si aggiornano quando la camera si ferma, non mentre la trascini,"
+" così il viewport resta reattivo. Vengono ricostruite solo le finestre che "
+"superano la distanza."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:291
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"Windows near the limit do not flicker: a window switches to low detail a "
+"little beyond *Distance* and back a little inside it."
+msgstr ""
+"Le finestre vicine al limite non sfarfallano: una finestra passa al basso "
+"dettaglio poco oltre *Distance* e torna indietro poco prima."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:292
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"Every frame of an animation and every render is up to date, also from the "
+"command line."
+msgstr ""
+"Ogni fotogramma di un'animazione e ogni render sono aggiornati, anche dalla "
+"riga di comando."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:293
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"The window's own *Resolution*, *Hinges* and *Locks and Strikers* are never "
+"changed. Bring the camera closer, or turn Level of Detail off, and the "
+"window is exactly as before."
+msgstr ""
+"*Resolution*, *Hinges* e *Locks and Strikers* della finestra non vengono mai"
+" modificati. Avvicina la camera o disattiva Level of Detail, e la finestra "
+"torna esattamente com'era."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:294
+#: DESKTOP-HETTM96/WindowGen
+msgid "Export always uses full detail."
+msgstr "L'esportazione usa sempre il dettaglio completo."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:296
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"To decide per window, use *Detail* in the window's :ref:`performance` panel:"
+" *Full* for hero windows that must always keep every detail, *Low* for "
+"windows that should always be simple."
+msgstr ""
+"Per decidere finestra per finestra, usa *Detail* nel pannello "
+":ref:`performance` della finestra: *Full* per le finestre in primo piano che"
+" devono sempre mantenere tutti i dettagli, *Low* per quelle che devono "
+"restare sempre semplici."
+
+#: (2)/Documentation/windowgen-documentation-4.0/docs/source/working_with_generator.rst:299
+#: DESKTOP-HETTM96/WindowGen
+msgid ""
+"Interior rooms (:ref:`interior`) cost almost no geometry, so they work well "
+"together with low detail on large facades."
+msgstr ""
+"Le stanze dell'interno (:ref:`interior`) non aggiungono quasi geometria, "
+"quindi funzionano bene insieme al basso dettaglio sulle grandi facciate."
+
+#~ msgid "Once the library is added, the panel shows *Material library added*."
+#~ msgstr ""
+#~ "Una volta aggiunta la libreria, il pannello mostra *Material library added*."
